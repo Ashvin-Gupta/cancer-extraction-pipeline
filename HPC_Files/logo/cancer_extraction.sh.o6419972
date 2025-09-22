@@ -1,0 +1,55 @@
+--- Debugging Two-Step (Medcode -> SNOMED -> ICD-10) Mapping ---
+
+Step 1: Getting a sample of raw codes from your sorted events...
+Found 10000 unique raw codes to check.
+
+Step 2: Loading the Medcode->SNOMED and SNOMED->ICD10 maps...
+Loaded 247118 Medcode-to-SNOMED rules.
+Loaded 958204 active SNOMED-to-ICD10 rules.
+
+Step 3: Performing two-step INNER join to find end-to-end matches...
+
+--- DEBUG RESULTS ---
+Initial unique codes to check: 10000
+Codes with a SNOMED mapping: 10000
+Codes that completed the full mapping to ICD-10: 8767
+
+✅ Success! Found 8767 complete matches. The mapping logic is working.
+  -> Of these, 1569 map to a meaningful ICD-10 code (not '#NIS' or '#NC').
+shape: (30, 3)
+┌──────────────────┬───────────────────┬───────────┐
+│ raw_code         ┆ SnomedCTConceptId ┆ mapTarget │
+│ ---              ┆ ---               ┆ ---       │
+│ str              ┆ str               ┆ str       │
+╞══════════════════╪═══════════════════╪═══════════╡
+│ 267620010        ┆ 88733004          ┆ E101      │
+│ 743171000006115  ┆ 66077003          ┆ N191      │
+│ 2256341000000119 ┆ 873691000000104   ┆ X398      │
+│ 876471000006117  ┆ 675151000000107   ┆ W621      │
+│ 184656013        ┆ 112977000         ┆ G238      │
+│ …                ┆ …                 ┆ …         │
+│ 372181000000118  ┆ 231501000000103   ┆ Y205      │
+│ 2588771000000113 ┆ 722757009         ┆ W904      │
+│ 262409011        ┆ 169072007         ┆ U011      │
+│ 4648661000006113 ┆ 172330004         ┆ C323      │
+│ 274055019        ┆ 392250009         ┆ Q263      │
+└──────────────────┴───────────────────┴───────────┘
+Here is a sample of the successful matches:
+shape: (30, 3)
+┌──────────────────┬───────────────────┬───────────┐
+│ raw_code         ┆ SnomedCTConceptId ┆ mapTarget │
+│ ---              ┆ ---               ┆ ---       │
+│ str              ┆ str               ┆ str       │
+╞══════════════════╪═══════════════════╪═══════════╡
+│ 252121017        ┆ 161798008         ┆ #NIS      │
+│ 252120016        ┆ 161798008         ┆ #NIS      │
+│ 256475015        ┆ 164881000         ┆ #NIS      │
+│ 286729018        ┆ 186535001         ┆ #NIS      │
+│ 298871018        ┆ 231872000         ┆ #NIS      │
+│ …                ┆ …                 ┆ …         │
+│ 350701000006116  ┆ 292096006         ┆ #NIS      │
+│ 977371000006118  ┆ 122444009         ┆ #NC       │
+│ 63055014         ┆ 37796009          ┆ #NIS      │
+│ 5892551000006118 ┆ 301350008         ┆ #NIS      │
+│ 760461000006117  ┆ 52368004          ┆ #NIS      │
+└──────────────────┴───────────────────┴───────────┘

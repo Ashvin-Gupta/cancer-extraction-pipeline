@@ -1,0 +1,16 @@
+Variable OMP_NUM_THREADS has been set to 12
+
+Loading python/3.11.7-gcc-12.2.0
+  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
+Traceback (most recent call last):
+  File "/data/home/qc25022/cancer-extraction-pipeline/main.py", line 31, in <module>
+    map_and_save_events('config.yaml')
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_03c_process_events.py", line 40, in map_and_save_events
+    mapped_lf = map_all_codes(events_to_map_lf, config).rename({"final_code": "code"})
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/utils/mapping_setup.py", line 83, in map_all_codes
+    final_code=pl.co_alesce(pl.col("codelist_mapped"), pl.col("icd10_mapped"))
+               ^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/__init__.py", line 468, in __getattr__
+    raise AttributeError(msg)
+AttributeError: module 'polars' has no attribute 'co_alesce'. Did you mean: 'coalesce'?

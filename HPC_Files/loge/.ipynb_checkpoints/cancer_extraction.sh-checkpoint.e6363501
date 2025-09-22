@@ -1,0 +1,13 @@
+Variable OMP_NUM_THREADS has been set to 4
+
+Loading python/3.11.7-gcc-12.2.0
+  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
+Traceback (most recent call last):
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_01_define_cohort.py", line 126, in <module>
+    define_cohort('config.yaml')
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_01_define_cohort.py", line 58, in define_cohort
+    cases = pl.read_stata(PATHS['raw_cancer_data']).lazy() \
+            ^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/__init__.py", line 468, in __getattr__
+    raise AttributeError(msg)
+AttributeError: module 'polars' has no attribute 'read_stata'. Did you mean: 'read_delta'?

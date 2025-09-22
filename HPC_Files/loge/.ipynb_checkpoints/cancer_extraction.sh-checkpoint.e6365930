@@ -1,0 +1,16 @@
+Variable OMP_NUM_THREADS has been set to 4
+
+Loading python/3.11.7-gcc-12.2.0
+  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
+/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_02_build_subject_info.py:63: PerformanceWarning: Determining the column names of a LazyFrame requires resolving its schema, which is a potentially expensive operation. Use `LazyFrame.collect_schema().names()` to get the column names without this warning.
+  file_columns = pl.scan_csv(f, separator='\t', n_rows=0).columns
+/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_02_build_subject_info.py:83: DeprecationWarning: The argument `dtypes` for `scan_csv` is deprecated. It has been renamed to `schema_overrides`.
+  scan = pl.scan_csv(f, separator='\t', dtypes={'medcodeid': pl.Utf8}) \
+Traceback (most recent call last):
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_02_build_subject_info.py", line 143, in <module>
+    build_subject_info('config.yaml')
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_02_build_subject_info.py", line 134, in build_subject_info
+    final_df.write_csv(OUTPUTS['subject_information_file'])
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/dataframe/frame.py", line 2972, in write_csv
+    self._df.write_csv(
+FileNotFoundError: No such file or directory (os error 2): ./output/pancreas_study/subject_information.csv

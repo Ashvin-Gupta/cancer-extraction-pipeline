@@ -1,0 +1,14 @@
+Variable OMP_NUM_THREADS has been set to 12
+
+Loading python/3.11.7-gcc-12.2.0
+  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
+Traceback (most recent call last):
+  File "/data/home/qc25022/cancer-extraction-pipeline/main.py", line 31, in <module>
+    map_and_save_events('config.yaml')
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_03c_process_events.py", line 35, in map_and_save_events
+    mapped_lf = map_all_codes(sorted_events_lf, config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/utils/mapping_setup.py", line 71, in map_all_codes
+    snomed_icd10_map_lf = pl.scan_csv(PATHS['snomed_icd10_map'], separator='\t').lazy() \
+                                      ~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'snomed_icd10_map'

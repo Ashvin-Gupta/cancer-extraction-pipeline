@@ -1,0 +1,11 @@
+Variable OMP_NUM_THREADS has been set to 12
+
+Loading python/3.11.7-gcc-12.2.0
+  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
+Traceback (most recent call last):
+  File "/data/home/qc25022/cancer-extraction-pipeline/main.py", line 34, in <module>
+    debug_mapping('config.yaml')
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/utils/debug_icd10_mapping.py", line 36, in debug_mapping
+    medcode_to_snomed = pl.read_csv(PATHS['medical_code_dict']).select(
+                                    ~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'medical_code_dict'

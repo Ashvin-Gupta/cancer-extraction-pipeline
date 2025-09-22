@@ -1,0 +1,11 @@
+Variable OMP_NUM_THREADS has been set to 12
+
+Loading python/3.11.7-gcc-12.2.0
+  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
+Traceback (most recent call last):
+  File "/data/home/qc25022/cancer-extraction-pipeline/main.py", line 29, in <module>
+    sort_events('config.yaml')
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_03b_sort_events.py", line 74, in sort_events
+    sorted_lazy_df.sink_parquet(
+    ^^^^^^^^^^^^^^
+NameError: name 'sorted_lazy_df' is not defined

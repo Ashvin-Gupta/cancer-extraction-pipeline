@@ -1,0 +1,21 @@
+Variable OMP_NUM_THREADS has been set to 12
+
+Loading python/3.11.7-gcc-12.2.0
+  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
+Traceback (most recent call last):
+  File "/data/home/qc25022/cancer-extraction-pipeline/main.py", line 23, in <module>
+    extract_events('config.yaml')
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_03a_extract_events.py", line 64, in extract_events
+    final_lf.select("subject_id", "time", "code", "numeric_value").sink_parquet(output_dir, compression='snappy')
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/unstable.py", line 58, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/lazyframe/frame.py", line 2684, in sink_parquet
+    target = _to_sink_target(path)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/lazyframe/frame.py", line 165, in _to_sink_target
+    return normalize_filepath(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/various.py", line 233, in normalize_filepath
+    raise IsADirectoryError(msg)
+IsADirectoryError: expected a file path; '/data/scratch/qc25022/liver/intermediate_unsorted' is a directory

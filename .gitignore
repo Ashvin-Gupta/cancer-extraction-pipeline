@@ -1,0 +1,6 @@
+venv/
+
+.pytest_cache/
+__pycahce/
+
+src/resources/snomed_to_ICD.txt

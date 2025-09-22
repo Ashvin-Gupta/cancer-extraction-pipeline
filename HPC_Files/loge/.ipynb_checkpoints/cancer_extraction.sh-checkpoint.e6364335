@@ -1,0 +1,28 @@
+Variable OMP_NUM_THREADS has been set to 4
+
+Loading python/3.11.7-gcc-12.2.0
+  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
+/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_02_build_subject_info.py:125: DeprecationWarning: The argument `dtypes` for `scan_csv` is deprecated. It has been renamed to `schema_overrides`.
+  fallback_obs_lf = pl.scan_csv(f"{PATHS['observation_data_dir']}/*.txt", separator='\t', dtypes={'medcodeid': pl.Utf8}) \
+Traceback (most recent call last):
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_02_build_subject_info.py", line 174, in <module>
+    build_subject_info('config.yaml')
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_02_build_subject_info.py", line 135, in build_subject_info
+    df_obs_sample = fallback_obs_lf.head(5).collect()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/lazyframe/frame.py", line 2206, in collect
+    return wrap_df(ldf.collect(engine, callback))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+polars.exceptions.ComputeError: schema names differ: got consid, expected e_pracid
+
+This error occurred with the following context stack:
+	[1] 'csv scan'
+	[2] 'select'
+	[3] 'filter'
+	[4] 'sort'
+	[5] 'slice'
+	[6] 'sink'
+

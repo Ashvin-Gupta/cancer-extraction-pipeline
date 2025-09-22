@@ -1,0 +1,28 @@
+Step 1: Loading configuration and initial cohort data...
+Step 2: Joining core demographic and cancer information...
+Step 3: Adding practice region information...
+Step 4a: Getting primary ethnicity from HES data...
+Step 4b: Preparing fallback for subjects with missing ethnicity...
+Found 7356 subjects needing fallback ethnicity search.
+Step 4c: Combining primary and fallback ethnicity...
+
+--- DEBUG: Dataframe columns before final ethnicity combination ---
+['subject_id', 'is_case', 'e_pracid', 'gender', 'yob', 'cancerdate', 'site', 'region', 'primary_ethnicity', 'fallback_ethnicity']
+
+--- DEBUG: Dataframe head before final ethnicity combination ---
+shape: (5, 10)
+┌───────────────┬─────────┬──────────┬────────┬───┬───────┬────────┬───────────────┬───────────────┐
+│ subject_id    ┆ is_case ┆ e_pracid ┆ gender ┆ … ┆ site  ┆ region ┆ primary_ethni ┆ fallback_ethn │
+│ ---           ┆ ---     ┆ ---      ┆ ---    ┆   ┆ ---   ┆ ---    ┆ city          ┆ icity         │
+│ i64           ┆ i64     ┆ i64      ┆ cat    ┆   ┆ cat   ┆ i64    ┆ ---           ┆ ---           │
+│               ┆         ┆          ┆        ┆   ┆       ┆        ┆ str           ┆ cat           │
+╞═══════════════╪═════════╪══════════╪════════╪═══╪═══════╪════════╪═══════════════╪═══════════════╡
+│ 1000242250487 ┆ 1       ┆ 50487    ┆ male   ┆ … ┆ liver ┆ 5      ┆ White         ┆ null          │
+│ 1000724250068 ┆ 1       ┆ 50068    ┆ male   ┆ … ┆ liver ┆ 7      ┆ Bl_Afric      ┆ null          │
+│ 1000802150563 ┆ 1       ┆ 50563    ┆ female ┆ … ┆ liver ┆ 3      ┆ Unknown       ┆ White         │
+│ 1000961151109 ┆ 1       ┆ 51109    ┆ male   ┆ … ┆ liver ┆ 3      ┆ White         ┆ null          │
+│ 1000972950560 ┆ 1       ┆ 50560    ┆ male   ┆ … ┆ liver ┆ 2      ┆ White         ┆ null          │
+└───────────────┴─────────┴──────────┴────────┴───┴───────┴────────┴───────────────┴───────────────┘
+------------------------------------------------------------
+Step 5: Creating stratified train/validation/test splits...
+Step 6: Finalizing columns and saving the output file...
