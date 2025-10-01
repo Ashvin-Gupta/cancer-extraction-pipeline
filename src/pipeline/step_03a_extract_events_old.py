@@ -41,6 +41,7 @@ def extract_events(config_path: str):
                     pl.col('obsdate').str.to_date(strict=False).alias('time'),
                     pl.lit("medcodeid//").add(pl.col("medcodeid")).alias("code"),
                     pl.col('value').cast(pl.Float64, strict=False).alias('numeric_value'),
+                    pl.col('numunitid').cast(pl.Int64, strict=False)
                 )
             obs_scans.append(scan)
         except Exception as e:
@@ -63,7 +64,7 @@ def extract_events(config_path: str):
     # output_file_path = output_dir / "data.parquet"
     
     print(f"Writing unsorted intermediate files to: {output_dir}")
-    final_lf.select("subject_id", "time", "code", "numeric_value").sink_parquet(pl.PartitionMaxSize(
+    final_lf.select("subject_id", "time", "code", "numeric_value", "numunitid").sink_parquet(pl.PartitionMaxSize(
         output_dir,
         max_size=100_000,
     ))

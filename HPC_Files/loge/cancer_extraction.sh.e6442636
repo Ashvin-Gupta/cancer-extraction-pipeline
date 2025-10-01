@@ -1,0 +1,1241 @@
+Variable OMP_NUM_THREADS has been set to 12
+
+Loading python/3.11.7-gcc-12.2.0
+  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
+Traceback (most recent call last):
+  File "/data/home/qc25022/cancer-extraction-pipeline/main.py", line 39, in <module>
+    create_rules_template('config.yaml')
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/utils/create_rules_template.py", line 33, in create_rules_template
+    numunit_df = pl.read_csv(
+                 ^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 119, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 119, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 119, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/io/csv/functions.py", line 539, in read_csv
+    df = _read_csv_impl(
+         ^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/io/csv/functions.py", line 687, in _read_csv_impl
+    pydf = PyDataFrame.read_csv(
+           ^^^^^^^^^^^^^^^^^^^^^
+polars.exceptions.ComputeError: could not parse `"
+27616	WAVE
+27617	Monthly/Less
+27618	121/76
+27619	times/3 days
+27620	/when on holiday
+27621	Not done by resp
+27622	weeks post covid
+27623	U/1 month
+27624	pints if beer P/W
+27625	U/week - wine bottle
+27626	º
+27627	4 units 2-4 times mt
+27628	/occ
+27629	60 units
+27630	£ of cannabis-£20/8t
+27631	/pouch every 2 days
+27632	/gday
+27633	g/ day
+27634	HARMONIE VAS
+27635	amount/day
+27636	E8
+27637	U/ momth
+27638	/fornight
+27639	/every 2w
+27640	\meddata\s6000\document\Apollo\2010\JAN\278394.AHF
+27641	\meddata\s6000\document\Apollo\2010\JAN\SCAN7592.A
+27642	112mmHg
+27643	8.2 mmol/L
+27644	2.22 mmol/L
+27645	Pints per day
+27646	\meddata\s6000\document\Apollo\2013\MAR\SCAN6826.T
+27647	\meddata\s6000\document\Apollo\2009\AUG\MERG0187.T
+27648	\meddata\s6000\document\Apollo\2011\SEP\MERG4733.T
+27649	\meddata\s6000\document\Apollo\2012\DEC\SCAN3912.T
+27650	\meddata\s6000\document\Apollo\2013\MAR\MERG9991.T
+27651	\meddata\s6000\document\Apollo\2011\APR\SCAN1802.T
+27652	\meddata\s6000\document\Apollo\2013\JAN\MERG9354.T
+27653	\meddata\s6000\document\Apollo\2011\FEB\SCAN9798.T
+27654	day/s
+27655	\meddata\s6000\document\Apollo\2008\JUL\SCAN6213.T
+27656	\meddata\s6000\document\Apollo\2009\FEB\99556.TIF|
+27657	\meddata\s6000\document\Apollo\2012\OCT\214272.TIF
+27658	\meddata\s6000\document\Apollo\2013\FEB\MERG9712.T
+27659	\meddata\s6000\document\Apollo\2008\JUN\MERG4201.T
+27660	\meddata\s6000\document\Apollo\2009\AUG\114707.TIF
+27661	\meddata\s6000\document\Apollo\2009\JAN\SCAN9289.T
+27662	\meddata\s6000\document\Apollo\2009\JUN\SCAN1870.T
+27663	\meddata\s6000\document\Apollo\2011\APR\SCAN1031.T
+27664	\meddata\s6000\document\Apollo\2013\JAN\MERG9492.T
+27665	\meddata\s6000\document\Apollo\2013\MAR\SCAN6846.T
+27666	days or more
+27667	\meddata\s6000\document\Apollo\2007\NOV\68123.TIF|
+27668	\meddata\s6000\document\Apollo\2008\SEP\SCAN7518.T
+27669	\meddata\s6000\document\Apollo\2011\SEP\MERG3074.T
+27670	\meddata\s6000\document\Apollo\2012\AUG\MERG1091.T
+27671	\meddata\s6000\document\Apollo\2012\NOV\MERG3997.T
+27672	\meddata\s6000\document\Apollo\2013\FEB\MERG6094.T
+27673	\meddata\s6000\document\Apollo\2009\MAY\MERG9220.T
+27674	\meddata\s6000\document\Apollo\2010\MAR\SCAN3692.T
+27675	\meddata\s6000\document\Apollo\2010\FEB\SCAN1860.T
+27676	\meddata\s6000\document\Apollo\2010\JUN\MERG4511.T
+27677	\meddata\s6000\document\Apollo\2012\MAY\204555.TIF
+27678	\meddata\s6000\document\Apollo\2013\FEB\SCAN5670.T
+27679	\meddata\s6000\document\Apollo\2008\SEP\SCAN6987.T
+27680	\meddata\s6000\document\Apollo\2009\APR\SCAN1054.T
+27681	\meddata\s6000\document\Apollo\2010\JUN\SCAN5482.T
+27682	\meddata\s6000\document\Apollo\2010\NOV\SCAN8210.T
+27683	\meddata\s6000\document\Apollo\2011\DEC\SCAN0064.T
+27684	\meddata\s6000\document\Apollo\2013\FEB\MERG9694.T
+27685	\meddata\s6000\document\Apollo\2008\JUN\83382.TIF|
+27686	\meddata\s6000\document\Apollo\2009\OCT\117234.TIF
+27687	\meddata\s6000\document\Apollo\2010\NOV\SCAN8525.T
+27688	\meddata\s6000\document\Apollo\2012\MAY\MERG6879.T
+27689	\meddata\s6000\document\Apollo\2013\JAN\SCAN1555.T
+27690	\meddata\s6000\document\Apollo\2008\APR\MERG4065.T
+27691	\meddata\s6000\document\Apollo\2008\JUN\MERG4737.T
+27692	\meddata\s6000\document\Apollo\2012\AUG\210656.TIF
+27693	\meddata\s6000\document\Apollo\2012\DEC\MERG4719.T
+27694	\meddata\s6000\document\Apollo\2012\MAR\197934.TIF
+27695	\meddata\s6000\document\Apollo\2012\MAY\203145.TIF
+27696	\meddata\s6000\document\Apollo\2013\JAN\SCAN4499.T
+27697	\meddata\s6000\document\Apollo\2008\DEC\SCAN8901.T
+27698	\meddata\s6000\document\Apollo\2009\APR\MERG9385.T
+27699	\meddata\s6000\document\Apollo\2012\JUL\SCAN8685.T
+27700	\meddata\s6000\document\Apollo\2013\FEB\MERG9534.T
+27701	\meddata\s6000\document\Apollo\2012\AUG\MERG7984.T
+27702	\meddata\s6000\document\Apollo\2012\DEC\SCAN3416.T
+27703	\meddata\s6000\document\Apollo\2012\OCT\214719.TIF
+27704	\meddata\s6000\document\Apollo\2009\MAR\100788.TIF
+27705	\meddata\s6000\document\Apollo\2011\MAR\SCAN7836.T
+27706	\meddata\s6000\document\Apollo\2011\NOV\SCAN8208.T
+27707	\meddata\s6000\document\Apollo\2012\SEP\MERG1308.T
+27708	\meddata\s6000\document\Apollo\2013\MAR\MERG0195.T
+27709	\meddata\s6000\document\Apollo\2009\JUN\SCAN9284.T
+27710	\meddata\s6000\document\Apollo\2009\MAY\MERG8818.T
+27711	\meddata\s6000\document\Apollo\2011\JAN\MERG3564.T
+27712	\meddata\s6000\document\Apollo\2013\APR\SCAN2900.T
+27713	\meddata\s6000\document\Apollo\2013\FEB\MERG9846.T
+27714	\meddata\s6000\document\Apollo\2013\MAR\SCAN7085.T
+27715	\meddata\s6000\document\Apollo\2008\APR\76624.TIF|
+27716	\meddata\s6000\document\Apollo\2012\MAR\199285.TIF
+27717	\meddata\s6000\document\Apollo\2012\NOV\SCAN0956.T
+27718	\meddata\s6000\document\Apollo\2013\FEB\SCAN2193.T
+27719	\meddata\s6000\document\Apollo\2008\MAR\MERG3681.T
+27720	\meddata\s6000\document\Apollo\2009\APR\SCAN1008.T
+27721	\meddata\s6000\document\Apollo\2009\MAR\101161.TIF
+27722	\meddata\s6000\document\Apollo\2012\AUG\210233.TIF
+27723	\meddata\s6000\document\Apollo\2013\APR\SCAN2696.T
+27724	\meddata\s6000\document\Apollo\2009\MAY\108383.TIF
+27725	\meddata\s6000\document\Apollo\2012\APR\SCAN7569.T
+27726	\meddata\s6000\document\Apollo\2013\FEB\309768.TIF
+27727	kt
+27728	\meddata\s6000\document\Apollo\2011\NOV\MERG5202.T
+27729	\meddata\s6000\document\Apollo\2012\DEC\MERG8913.T
+27730	\meddata\s6000\document\Apollo\2012\DEC\SCAN3599.T
+27731	\meddata\s6000\document\Apollo\2013\APR\MERG7804.T
+27732	\meddata\s6000\document\Apollo\2011\MAY\MERG3994.T
+27733	\meddata\s6000\document\Apollo\2012\DEC\MERG9096.T
+27734	\meddata\s6000\document\Apollo\2012\OCT\300582.TIF
+27735	\meddata\s6000\document\Apollo\2011\JUN\MERG0905.T
+27736	/puff per week e-cig
+27737	\meddata\s6000\document\Apollo\2010\7\Document 180
+27738	113beats/min
+27739	2/da
+27740	10 / 15 daily
+27741	times/afternoon
+27742	mcg/kg/g
+27743	mg/100mi
+27744	U/ Aday
+27745	ug Hb/g Faecal
+27746	ng m/l
+27747	Ug/g, null
+27748	U/ every other week
+27749	1.15
+27750	mgmol/L
+27751	µg/mg
+27752	Smoked 1 Last Christ
+27753	fL     (
+27754	macrogram/l
+27755	\meddata\s6000\document\Apollo\2011\FEB\352070.TIF
+27756	5g /week
+27757	/2023
+27758	2023
+27759	(   7
+27760	1 in the last 2month
+27761	(  15
+27762	yd
+27763	/gpd
+27764	/every 6 years
+27765	/day (Infrequent)
+27766	/monthl
+27767	22/25
+27768	2-3/7
+27769	wine most nights
+27770	pmol//L
+27771	/6monthy
+27772	h  iu/L
+27773	/week (Vape)
+27774	occational
+27775	rolls/ p.day
+27776	/28 (0=normal)
+27777	30 days
+27778	IRAS Project Number
+27779	e/o day
+27780	U/Audit - C (3)
+27781	/month.
+27782	29+1
+27783	100 beats/min
+27784	U/3 times a month
+27785	> x ml/L
+27786	U/2
+27787	every 3/4 days
+27788	x106/L
+27789	dfiuhiu
+27790	139/81
+27791	/other day
+27792	0/ week
+27793	1/2 a year
+27794	1/2 year
+27795	every mins
+27796	? times/day
+27797	10*6 cells/mL
+27798	13.6gm%
+27799	lakhs/cu mm
+27800	gms%
+27801	week ends
+27802	"about" x %
+27803	x10^9/l(47.9%)
+27804	x10^9/l(39.6%)
+27805	µmols/l
+27806	2uw
+27807	x10^9/l(14.3%)
+27808	x10^9/l(17.7%)
+27809	x10^9/l(23.6%)
+27810	x10^9/l(30.9%)
+27811	x10^9/l(31.4%)
+27812	x10^9/l(57.3%)
+27813	x10^9/l(62.3%)
+27814	x10^9/l(62.5%)
+27815	x10^9/l(68.1%)
+27816	x10^9/l(75.9%)
+27817	x10^9/l(28.7%)
+27818	x10^9/l(34.8%)
+27819	x10^9/l(38.6%)
+27820	x10^9/l(45.2%)
+27821	x10^9/l(47.3%)
+27822	x10^9/l(63.1%)
+27823	x10^9/l(75.5%)
+27824	x10^9/l(79.8%)
+27825	x10^9/l(11.5%)
+27826	x10^9/l(16.3%)
+27827	x10^9/l(19.1%)
+27828	x10^9/l(36.1%)
+27829	x10^9/l(43.1%)
+27830	x10^9/l(67.5%)
+27831	x10^9/l(69.9%)
+27832	x10^9/l(73.0%)
+27833	x10^9/l(76.7%)
+27834	umol/vol
+27835	x10^9/l(16.2%)
+27836	x10^9/l(27.6%)
+27837	x10^9/l(34.2%)
+27838	x10^9/l(44.9%)
+27839	x10^9/l(69.5%)
+27840	x10^9/l(71.2%)
+27841	x10^9/l(14.5%)
+27842	x10^9/l(21.6%)
+27843	x10^9/l(24.2%)
+27844	x10^9/l(32.1%)
+27845	x10^9/l(35.7%)
+27846	x10^9/l(37.6%)
+27847	x10^9/l(41.1%)
+27848	x10^9/l(43.5%)
+27849	x10^9/l(45.1%)
+27850	x10^9/l(51.5%)
+27851	x10^9/l(77.2%)
+27852	x10^9/l(79.7%)
+27853	x10^9/l(80.5%)
+27854	x10^9/l(86.6%)
+27855	times/ 6 week
+27856	x10^9/l(13.3%)
+27857	x10^9/l(13.8%)
+27858	x10^9/l(14.4%)
+27859	x10^9/l(71.6%)
+27860	PH=2
+27861	x10^9/l(12.8%)
+27862	x10^9/l(26.5%)
+27863	x10^9/l(41.6%)
+27864	x10^9/l(42.9%)
+27865	x10^9/l(44.2%)
+27866	x10^9/l(56.0%)
+27867	x10^9/l(59.8%)
+27868	x10^9/l(67.7%)
+27869	x10^9/l(20.1%)
+27870	x10^9/l(25.0%)
+27871	x10^9/l(43.3%)
+27872	x10^9/l(52.6%)
+27873	x10^9/l(54.0%)
+27874	x10^9/l(76.6%)
+27875	x10^9/l(80.4%)
+27876	x10^9/l(82.2%)
+27877	x10^9/l(16.6%)
+27878	x10^9/l(17.5%)
+27879	x10^9/l(19.6%)
+27880	x10^9/l(19.7%)
+27881	x10^9/l(49.1%)
+27882	x10^9/l(66.1%)
+27883	x10^9/l(80.1%)
+27884	x10^9/l(81.5%)
+27885	x10^9/l(10.0%)
+27886	x10^9/l(22.2%)
+27887	x10^9/l(40.5%)
+27888	x10^9/l(40.8%)
+27889	x10^9/l(59.0%)
+27890	x10^9/l(67.4%)
+27891	x10^9/l(70.0%)
+27892	x10^9/l(74.1%)
+27893	x10^9/l(75.7%)
+27894	x10^9/l(79.3%)
+27895	x10^9/l(15.8%)
+27896	x10^9/l(69.2%)
+27897	x10^9/l(72.8%)
+27898	x10^9/l(76.9%)
+27899	x10^9/l(79.6%)
+27900	x10^9/l(27.3%)
+27901	x10^9/l(32.5%)
+27902	x10^9/l(42.4%)
+27903	x10^9/l(51.7%)
+27904	x10^9/l(62.6%)
+27905	x10^9/l(68.6%)
+27906	x10^9/l(73.7%)
+27907	x10^9/l(73.8%)
+27908	x10^9/l(14.0%)
+27909	x10^9/l(14.2%)
+27910	x10^9/l(20.4%)
+27911	x10^9/l(23.7%)
+27912	x10^9/l(42.3%)
+27913	x10^9/l(67.8%)
+27914	x10^9/l(67.9%)
+27915	x10^9/l(72.1%)
+27916	x10^9/l(82.6%)
+27917	x10^9/l(16.0%)
+27918	x10^9/l(24.9%)
+27919	x10^9/l(39.9%)
+27920	x10^9/l(44.7%)
+27921	x10^9/l(45.9%)
+27922	x10^9/l(58.5%)
+27923	x10^9/l(61.4%)
+27924	x10^9/l(73.9%)
+27925	x10^9/l(77.8%)
+27926	x10^9/l(38.5%)
+27927	x10^9/l(44.4%)
+27928	x10^9/l(52.2%)
+27929	x10^9/l(54.5%)
+27930	x10^9/l(75.2%)
+27931	x10^9/l(78.3%)
+27932	x10^9/l(78.6%)
+27933	x10^9/l(15.1%)
+27934	x10^9/l(43.9%)
+27935	x10^9/l(46.2%)
+27936	x10^9/l(51.8%)
+27937	x10^9/l(70.1%)
+27938	x10^9/l(71.1%)
+27939	x10^9/l(82.3%)
+27940	nomocytic
+27941	U/3  month
+27942	times/3 week
+27943	ug Hn/g
+27944	million/c.mm
+27945	/c.mm
+27946	be
+27947	lacs/c.mm
+27948	varies a lot
+27949	bowls/week
+27950	west
+27951	yeats
+27952	dasys
+27953	=days]
+27954	g/wek
+27955	g tobacco a week
+27956	ugHb/b
+27957	mM/M(A)
+27958	unit/L(H)
+27959	mmiu/L
+27960	times/ 3 Months
+27961	U/4 times per week
+27962	/unit
+27963	monthes
+27964	perentage
+27965	<4
+27966	203 TIMES A WEEK
+27967	(*)
+27968	hour week
+27969	of canabis g/day
+27970	times/every 2-3w
+27971	U/every two months
+27972	four/weeks
+27973	grams / a week
+27974	3g per week
+27975	1 bottle weekly
+27976	ciders daily
+27977	months??
+27978	/11/2021
+27979	2.2/week
+27980	cannabis joints/day
+27981	per day with weed
+27982	>1/m
+27983	%  (16.12.13)
+27984	/ weekends
+27985	/2-3 month
+27986	/1in three months
+27987	/day , Not every day
+27988	/two week time
+27989	ouces/month
+27990	/gmweek
+27991	pipe smoked
+27992	1 wwek
+27993	60/min
+27994	U/4weeks
+27995	g/4 weeks
+27996	10/9 l(3.00%)
+27997	10/9 l(.429%)
+27998	*mmol/L(0.6-1.0)
+27999	pmol/L(9-24)
+28000	*mU/L(0.5-4.7)
+28001	mmol/L(0.6-1.0)
+28002	bnp
+28003	U/ month.
+28004	10*2  FL
+28005	predicted %
+28006	unstated
+28007	U/week  n/a
+28008	- 6 /day
+28009	to 10 U/week
+28010	-3 U/week
+28011	/20 daily
+28012	U/week approx
+28013	- 80 /day
+28014	-25 /day
+28015	two times/ 7weeks
+28016	m"2` as dtype `str` at column 'Description' (column number 2)
+
+The current offset in the file is 6 bytes.
+
+You might want to try:
+- increasing `infer_schema_length` (e.g. `infer_schema_length=10000`),
+- specifying correct dtype with the `schema_overrides` argument
+- setting `ignore_errors` to `True`,
+- adding `"
+27616	WAVE
+27617	Monthly/Less
+27618	121/76
+27619	times/3 days
+27620	/when on holiday
+27621	Not done by resp
+27622	weeks post covid
+27623	U/1 month
+27624	pints if beer P/W
+27625	U/week - wine bottle
+27626	º
+27627	4 units 2-4 times mt
+27628	/occ
+27629	60 units
+27630	£ of cannabis-£20/8t
+27631	/pouch every 2 days
+27632	/gday
+27633	g/ day
+27634	HARMONIE VAS
+27635	amount/day
+27636	E8
+27637	U/ momth
+27638	/fornight
+27639	/every 2w
+27640	\meddata\s6000\document\Apollo\2010\JAN\278394.AHF
+27641	\meddata\s6000\document\Apollo\2010\JAN\SCAN7592.A
+27642	112mmHg
+27643	8.2 mmol/L
+27644	2.22 mmol/L
+27645	Pints per day
+27646	\meddata\s6000\document\Apollo\2013\MAR\SCAN6826.T
+27647	\meddata\s6000\document\Apollo\2009\AUG\MERG0187.T
+27648	\meddata\s6000\document\Apollo\2011\SEP\MERG4733.T
+27649	\meddata\s6000\document\Apollo\2012\DEC\SCAN3912.T
+27650	\meddata\s6000\document\Apollo\2013\MAR\MERG9991.T
+27651	\meddata\s6000\document\Apollo\2011\APR\SCAN1802.T
+27652	\meddata\s6000\document\Apollo\2013\JAN\MERG9354.T
+27653	\meddata\s6000\document\Apollo\2011\FEB\SCAN9798.T
+27654	day/s
+27655	\meddata\s6000\document\Apollo\2008\JUL\SCAN6213.T
+27656	\meddata\s6000\document\Apollo\2009\FEB\99556.TIF|
+27657	\meddata\s6000\document\Apollo\2012\OCT\214272.TIF
+27658	\meddata\s6000\document\Apollo\2013\FEB\MERG9712.T
+27659	\meddata\s6000\document\Apollo\2008\JUN\MERG4201.T
+27660	\meddata\s6000\document\Apollo\2009\AUG\114707.TIF
+27661	\meddata\s6000\document\Apollo\2009\JAN\SCAN9289.T
+27662	\meddata\s6000\document\Apollo\2009\JUN\SCAN1870.T
+27663	\meddata\s6000\document\Apollo\2011\APR\SCAN1031.T
+27664	\meddata\s6000\document\Apollo\2013\JAN\MERG9492.T
+27665	\meddata\s6000\document\Apollo\2013\MAR\SCAN6846.T
+27666	days or more
+27667	\meddata\s6000\document\Apollo\2007\NOV\68123.TIF|
+27668	\meddata\s6000\document\Apollo\2008\SEP\SCAN7518.T
+27669	\meddata\s6000\document\Apollo\2011\SEP\MERG3074.T
+27670	\meddata\s6000\document\Apollo\2012\AUG\MERG1091.T
+27671	\meddata\s6000\document\Apollo\2012\NOV\MERG3997.T
+27672	\meddata\s6000\document\Apollo\2013\FEB\MERG6094.T
+27673	\meddata\s6000\document\Apollo\2009\MAY\MERG9220.T
+27674	\meddata\s6000\document\Apollo\2010\MAR\SCAN3692.T
+27675	\meddata\s6000\document\Apollo\2010\FEB\SCAN1860.T
+27676	\meddata\s6000\document\Apollo\2010\JUN\MERG4511.T
+27677	\meddata\s6000\document\Apollo\2012\MAY\204555.TIF
+27678	\meddata\s6000\document\Apollo\2013\FEB\SCAN5670.T
+27679	\meddata\s6000\document\Apollo\2008\SEP\SCAN6987.T
+27680	\meddata\s6000\document\Apollo\2009\APR\SCAN1054.T
+27681	\meddata\s6000\document\Apollo\2010\JUN\SCAN5482.T
+27682	\meddata\s6000\document\Apollo\2010\NOV\SCAN8210.T
+27683	\meddata\s6000\document\Apollo\2011\DEC\SCAN0064.T
+27684	\meddata\s6000\document\Apollo\2013\FEB\MERG9694.T
+27685	\meddata\s6000\document\Apollo\2008\JUN\83382.TIF|
+27686	\meddata\s6000\document\Apollo\2009\OCT\117234.TIF
+27687	\meddata\s6000\document\Apollo\2010\NOV\SCAN8525.T
+27688	\meddata\s6000\document\Apollo\2012\MAY\MERG6879.T
+27689	\meddata\s6000\document\Apollo\2013\JAN\SCAN1555.T
+27690	\meddata\s6000\document\Apollo\2008\APR\MERG4065.T
+27691	\meddata\s6000\document\Apollo\2008\JUN\MERG4737.T
+27692	\meddata\s6000\document\Apollo\2012\AUG\210656.TIF
+27693	\meddata\s6000\document\Apollo\2012\DEC\MERG4719.T
+27694	\meddata\s6000\document\Apollo\2012\MAR\197934.TIF
+27695	\meddata\s6000\document\Apollo\2012\MAY\203145.TIF
+27696	\meddata\s6000\document\Apollo\2013\JAN\SCAN4499.T
+27697	\meddata\s6000\document\Apollo\2008\DEC\SCAN8901.T
+27698	\meddata\s6000\document\Apollo\2009\APR\MERG9385.T
+27699	\meddata\s6000\document\Apollo\2012\JUL\SCAN8685.T
+27700	\meddata\s6000\document\Apollo\2013\FEB\MERG9534.T
+27701	\meddata\s6000\document\Apollo\2012\AUG\MERG7984.T
+27702	\meddata\s6000\document\Apollo\2012\DEC\SCAN3416.T
+27703	\meddata\s6000\document\Apollo\2012\OCT\214719.TIF
+27704	\meddata\s6000\document\Apollo\2009\MAR\100788.TIF
+27705	\meddata\s6000\document\Apollo\2011\MAR\SCAN7836.T
+27706	\meddata\s6000\document\Apollo\2011\NOV\SCAN8208.T
+27707	\meddata\s6000\document\Apollo\2012\SEP\MERG1308.T
+27708	\meddata\s6000\document\Apollo\2013\MAR\MERG0195.T
+27709	\meddata\s6000\document\Apollo\2009\JUN\SCAN9284.T
+27710	\meddata\s6000\document\Apollo\2009\MAY\MERG8818.T
+27711	\meddata\s6000\document\Apollo\2011\JAN\MERG3564.T
+27712	\meddata\s6000\document\Apollo\2013\APR\SCAN2900.T
+27713	\meddata\s6000\document\Apollo\2013\FEB\MERG9846.T
+27714	\meddata\s6000\document\Apollo\2013\MAR\SCAN7085.T
+27715	\meddata\s6000\document\Apollo\2008\APR\76624.TIF|
+27716	\meddata\s6000\document\Apollo\2012\MAR\199285.TIF
+27717	\meddata\s6000\document\Apollo\2012\NOV\SCAN0956.T
+27718	\meddata\s6000\document\Apollo\2013\FEB\SCAN2193.T
+27719	\meddata\s6000\document\Apollo\2008\MAR\MERG3681.T
+27720	\meddata\s6000\document\Apollo\2009\APR\SCAN1008.T
+27721	\meddata\s6000\document\Apollo\2009\MAR\101161.TIF
+27722	\meddata\s6000\document\Apollo\2012\AUG\210233.TIF
+27723	\meddata\s6000\document\Apollo\2013\APR\SCAN2696.T
+27724	\meddata\s6000\document\Apollo\2009\MAY\108383.TIF
+27725	\meddata\s6000\document\Apollo\2012\APR\SCAN7569.T
+27726	\meddata\s6000\document\Apollo\2013\FEB\309768.TIF
+27727	kt
+27728	\meddata\s6000\document\Apollo\2011\NOV\MERG5202.T
+27729	\meddata\s6000\document\Apollo\2012\DEC\MERG8913.T
+27730	\meddata\s6000\document\Apollo\2012\DEC\SCAN3599.T
+27731	\meddata\s6000\document\Apollo\2013\APR\MERG7804.T
+27732	\meddata\s6000\document\Apollo\2011\MAY\MERG3994.T
+27733	\meddata\s6000\document\Apollo\2012\DEC\MERG9096.T
+27734	\meddata\s6000\document\Apollo\2012\OCT\300582.TIF
+27735	\meddata\s6000\document\Apollo\2011\JUN\MERG0905.T
+27736	/puff per week e-cig
+27737	\meddata\s6000\document\Apollo\2010\7\Document 180
+27738	113beats/min
+27739	2/da
+27740	10 / 15 daily
+27741	times/afternoon
+27742	mcg/kg/g
+27743	mg/100mi
+27744	U/ Aday
+27745	ug Hb/g Faecal
+27746	ng m/l
+27747	Ug/g, null
+27748	U/ every other week
+27749	1.15
+27750	mgmol/L
+27751	µg/mg
+27752	Smoked 1 Last Christ
+27753	fL     (
+27754	macrogram/l
+27755	\meddata\s6000\document\Apollo\2011\FEB\352070.TIF
+27756	5g /week
+27757	/2023
+27758	2023
+27759	(   7
+27760	1 in the last 2month
+27761	(  15
+27762	yd
+27763	/gpd
+27764	/every 6 years
+27765	/day (Infrequent)
+27766	/monthl
+27767	22/25
+27768	2-3/7
+27769	wine most nights
+27770	pmol//L
+27771	/6monthy
+27772	h  iu/L
+27773	/week (Vape)
+27774	occational
+27775	rolls/ p.day
+27776	/28 (0=normal)
+27777	30 days
+27778	IRAS Project Number
+27779	e/o day
+27780	U/Audit - C (3)
+27781	/month.
+27782	29+1
+27783	100 beats/min
+27784	U/3 times a month
+27785	> x ml/L
+27786	U/2
+27787	every 3/4 days
+27788	x106/L
+27789	dfiuhiu
+27790	139/81
+27791	/other day
+27792	0/ week
+27793	1/2 a year
+27794	1/2 year
+27795	every mins
+27796	? times/day
+27797	10*6 cells/mL
+27798	13.6gm%
+27799	lakhs/cu mm
+27800	gms%
+27801	week ends
+27802	"about" x %
+27803	x10^9/l(47.9%)
+27804	x10^9/l(39.6%)
+27805	µmols/l
+27806	2uw
+27807	x10^9/l(14.3%)
+27808	x10^9/l(17.7%)
+27809	x10^9/l(23.6%)
+27810	x10^9/l(30.9%)
+27811	x10^9/l(31.4%)
+27812	x10^9/l(57.3%)
+27813	x10^9/l(62.3%)
+27814	x10^9/l(62.5%)
+27815	x10^9/l(68.1%)
+27816	x10^9/l(75.9%)
+27817	x10^9/l(28.7%)
+27818	x10^9/l(34.8%)
+27819	x10^9/l(38.6%)
+27820	x10^9/l(45.2%)
+27821	x10^9/l(47.3%)
+27822	x10^9/l(63.1%)
+27823	x10^9/l(75.5%)
+27824	x10^9/l(79.8%)
+27825	x10^9/l(11.5%)
+27826	x10^9/l(16.3%)
+27827	x10^9/l(19.1%)
+27828	x10^9/l(36.1%)
+27829	x10^9/l(43.1%)
+27830	x10^9/l(67.5%)
+27831	x10^9/l(69.9%)
+27832	x10^9/l(73.0%)
+27833	x10^9/l(76.7%)
+27834	umol/vol
+27835	x10^9/l(16.2%)
+27836	x10^9/l(27.6%)
+27837	x10^9/l(34.2%)
+27838	x10^9/l(44.9%)
+27839	x10^9/l(69.5%)
+27840	x10^9/l(71.2%)
+27841	x10^9/l(14.5%)
+27842	x10^9/l(21.6%)
+27843	x10^9/l(24.2%)
+27844	x10^9/l(32.1%)
+27845	x10^9/l(35.7%)
+27846	x10^9/l(37.6%)
+27847	x10^9/l(41.1%)
+27848	x10^9/l(43.5%)
+27849	x10^9/l(45.1%)
+27850	x10^9/l(51.5%)
+27851	x10^9/l(77.2%)
+27852	x10^9/l(79.7%)
+27853	x10^9/l(80.5%)
+27854	x10^9/l(86.6%)
+27855	times/ 6 week
+27856	x10^9/l(13.3%)
+27857	x10^9/l(13.8%)
+27858	x10^9/l(14.4%)
+27859	x10^9/l(71.6%)
+27860	PH=2
+27861	x10^9/l(12.8%)
+27862	x10^9/l(26.5%)
+27863	x10^9/l(41.6%)
+27864	x10^9/l(42.9%)
+27865	x10^9/l(44.2%)
+27866	x10^9/l(56.0%)
+27867	x10^9/l(59.8%)
+27868	x10^9/l(67.7%)
+27869	x10^9/l(20.1%)
+27870	x10^9/l(25.0%)
+27871	x10^9/l(43.3%)
+27872	x10^9/l(52.6%)
+27873	x10^9/l(54.0%)
+27874	x10^9/l(76.6%)
+27875	x10^9/l(80.4%)
+27876	x10^9/l(82.2%)
+27877	x10^9/l(16.6%)
+27878	x10^9/l(17.5%)
+27879	x10^9/l(19.6%)
+27880	x10^9/l(19.7%)
+27881	x10^9/l(49.1%)
+27882	x10^9/l(66.1%)
+27883	x10^9/l(80.1%)
+27884	x10^9/l(81.5%)
+27885	x10^9/l(10.0%)
+27886	x10^9/l(22.2%)
+27887	x10^9/l(40.5%)
+27888	x10^9/l(40.8%)
+27889	x10^9/l(59.0%)
+27890	x10^9/l(67.4%)
+27891	x10^9/l(70.0%)
+27892	x10^9/l(74.1%)
+27893	x10^9/l(75.7%)
+27894	x10^9/l(79.3%)
+27895	x10^9/l(15.8%)
+27896	x10^9/l(69.2%)
+27897	x10^9/l(72.8%)
+27898	x10^9/l(76.9%)
+27899	x10^9/l(79.6%)
+27900	x10^9/l(27.3%)
+27901	x10^9/l(32.5%)
+27902	x10^9/l(42.4%)
+27903	x10^9/l(51.7%)
+27904	x10^9/l(62.6%)
+27905	x10^9/l(68.6%)
+27906	x10^9/l(73.7%)
+27907	x10^9/l(73.8%)
+27908	x10^9/l(14.0%)
+27909	x10^9/l(14.2%)
+27910	x10^9/l(20.4%)
+27911	x10^9/l(23.7%)
+27912	x10^9/l(42.3%)
+27913	x10^9/l(67.8%)
+27914	x10^9/l(67.9%)
+27915	x10^9/l(72.1%)
+27916	x10^9/l(82.6%)
+27917	x10^9/l(16.0%)
+27918	x10^9/l(24.9%)
+27919	x10^9/l(39.9%)
+27920	x10^9/l(44.7%)
+27921	x10^9/l(45.9%)
+27922	x10^9/l(58.5%)
+27923	x10^9/l(61.4%)
+27924	x10^9/l(73.9%)
+27925	x10^9/l(77.8%)
+27926	x10^9/l(38.5%)
+27927	x10^9/l(44.4%)
+27928	x10^9/l(52.2%)
+27929	x10^9/l(54.5%)
+27930	x10^9/l(75.2%)
+27931	x10^9/l(78.3%)
+27932	x10^9/l(78.6%)
+27933	x10^9/l(15.1%)
+27934	x10^9/l(43.9%)
+27935	x10^9/l(46.2%)
+27936	x10^9/l(51.8%)
+27937	x10^9/l(70.1%)
+27938	x10^9/l(71.1%)
+27939	x10^9/l(82.3%)
+27940	nomocytic
+27941	U/3  month
+27942	times/3 week
+27943	ug Hn/g
+27944	million/c.mm
+27945	/c.mm
+27946	be
+27947	lacs/c.mm
+27948	varies a lot
+27949	bowls/week
+27950	west
+27951	yeats
+27952	dasys
+27953	=days]
+27954	g/wek
+27955	g tobacco a week
+27956	ugHb/b
+27957	mM/M(A)
+27958	unit/L(H)
+27959	mmiu/L
+27960	times/ 3 Months
+27961	U/4 times per week
+27962	/unit
+27963	monthes
+27964	perentage
+27965	<4
+27966	203 TIMES A WEEK
+27967	(*)
+27968	hour week
+27969	of canabis g/day
+27970	times/every 2-3w
+27971	U/every two months
+27972	four/weeks
+27973	grams / a week
+27974	3g per week
+27975	1 bottle weekly
+27976	ciders daily
+27977	months??
+27978	/11/2021
+27979	2.2/week
+27980	cannabis joints/day
+27981	per day with weed
+27982	>1/m
+27983	%  (16.12.13)
+27984	/ weekends
+27985	/2-3 month
+27986	/1in three months
+27987	/day , Not every day
+27988	/two week time
+27989	ouces/month
+27990	/gmweek
+27991	pipe smoked
+27992	1 wwek
+27993	60/min
+27994	U/4weeks
+27995	g/4 weeks
+27996	10/9 l(3.00%)
+27997	10/9 l(.429%)
+27998	*mmol/L(0.6-1.0)
+27999	pmol/L(9-24)
+28000	*mU/L(0.5-4.7)
+28001	mmol/L(0.6-1.0)
+28002	bnp
+28003	U/ month.
+28004	10*2  FL
+28005	predicted %
+28006	unstated
+28007	U/week  n/a
+28008	- 6 /day
+28009	to 10 U/week
+28010	-3 U/week
+28011	/20 daily
+28012	U/week approx
+28013	- 80 /day
+28014	-25 /day
+28015	two times/ 7weeks
+28016	m"2` to the `null_values` list.
+
+Original error: ```invalid csv file
+
+Field `"
+27616	WAVE
+27617	Monthly/Less
+27618	121/76
+27619	times/3 days
+27620	/when on holiday
+27621	Not done by resp
+27622	weeks post covid
+27623	U/1 month
+27624	pints if beer P/W
+27625	U/week - wine bottle
+27626	º
+27627	4 units 2-4 times mt
+27628	/occ
+27629	60 units
+27630	£ of cannabis-£20/8t
+27631	/pouch every 2 days
+27632	/gday
+27633	g/ day
+27634	HARMONIE VAS
+27635	amount/day
+27636	E8
+27637	U/ momth
+27638	/fornight
+27639	/every 2w
+27640	\meddata\s6000\document\Apollo\2010\JAN\278394.AHF
+27641	\meddata\s6000\document\Apollo\2010\JAN\SCAN7592.A
+27642	112mmHg
+27643	8.2 mmol/L
+27644	2.22 mmol/L
+27645	Pints per day
+27646	\meddata\s6000\document\Apollo\2013\MAR\SCAN6826.T
+27647	\meddata\s6000\document\Apollo\2009\AUG\MERG0187.T
+27648	\meddata\s6000\document\Apollo\2011\SEP\MERG4733.T
+27649	\meddata\s6000\document\Apollo\2012\DEC\SCAN3912.T
+27650	\meddata\s6000\document\Apollo\2013\MAR\MERG9991.T
+27651	\meddata\s6000\document\Apollo\2011\APR\SCAN1802.T
+27652	\meddata\s6000\document\Apollo\2013\JAN\MERG9354.T
+27653	\meddata\s6000\document\Apollo\2011\FEB\SCAN9798.T
+27654	day/s
+27655	\meddata\s6000\document\Apollo\2008\JUL\SCAN6213.T
+27656	\meddata\s6000\document\Apollo\2009\FEB\99556.TIF|
+27657	\meddata\s6000\document\Apollo\2012\OCT\214272.TIF
+27658	\meddata\s6000\document\Apollo\2013\FEB\MERG9712.T
+27659	\meddata\s6000\document\Apollo\2008\JUN\MERG4201.T
+27660	\meddata\s6000\document\Apollo\2009\AUG\114707.TIF
+27661	\meddata\s6000\document\Apollo\2009\JAN\SCAN9289.T
+27662	\meddata\s6000\document\Apollo\2009\JUN\SCAN1870.T
+27663	\meddata\s6000\document\Apollo\2011\APR\SCAN1031.T
+27664	\meddata\s6000\document\Apollo\2013\JAN\MERG9492.T
+27665	\meddata\s6000\document\Apollo\2013\MAR\SCAN6846.T
+27666	days or more
+27667	\meddata\s6000\document\Apollo\2007\NOV\68123.TIF|
+27668	\meddata\s6000\document\Apollo\2008\SEP\SCAN7518.T
+27669	\meddata\s6000\document\Apollo\2011\SEP\MERG3074.T
+27670	\meddata\s6000\document\Apollo\2012\AUG\MERG1091.T
+27671	\meddata\s6000\document\Apollo\2012\NOV\MERG3997.T
+27672	\meddata\s6000\document\Apollo\2013\FEB\MERG6094.T
+27673	\meddata\s6000\document\Apollo\2009\MAY\MERG9220.T
+27674	\meddata\s6000\document\Apollo\2010\MAR\SCAN3692.T
+27675	\meddata\s6000\document\Apollo\2010\FEB\SCAN1860.T
+27676	\meddata\s6000\document\Apollo\2010\JUN\MERG4511.T
+27677	\meddata\s6000\document\Apollo\2012\MAY\204555.TIF
+27678	\meddata\s6000\document\Apollo\2013\FEB\SCAN5670.T
+27679	\meddata\s6000\document\Apollo\2008\SEP\SCAN6987.T
+27680	\meddata\s6000\document\Apollo\2009\APR\SCAN1054.T
+27681	\meddata\s6000\document\Apollo\2010\JUN\SCAN5482.T
+27682	\meddata\s6000\document\Apollo\2010\NOV\SCAN8210.T
+27683	\meddata\s6000\document\Apollo\2011\DEC\SCAN0064.T
+27684	\meddata\s6000\document\Apollo\2013\FEB\MERG9694.T
+27685	\meddata\s6000\document\Apollo\2008\JUN\83382.TIF|
+27686	\meddata\s6000\document\Apollo\2009\OCT\117234.TIF
+27687	\meddata\s6000\document\Apollo\2010\NOV\SCAN8525.T
+27688	\meddata\s6000\document\Apollo\2012\MAY\MERG6879.T
+27689	\meddata\s6000\document\Apollo\2013\JAN\SCAN1555.T
+27690	\meddata\s6000\document\Apollo\2008\APR\MERG4065.T
+27691	\meddata\s6000\document\Apollo\2008\JUN\MERG4737.T
+27692	\meddata\s6000\document\Apollo\2012\AUG\210656.TIF
+27693	\meddata\s6000\document\Apollo\2012\DEC\MERG4719.T
+27694	\meddata\s6000\document\Apollo\2012\MAR\197934.TIF
+27695	\meddata\s6000\document\Apollo\2012\MAY\203145.TIF
+27696	\meddata\s6000\document\Apollo\2013\JAN\SCAN4499.T
+27697	\meddata\s6000\document\Apollo\2008\DEC\SCAN8901.T
+27698	\meddata\s6000\document\Apollo\2009\APR\MERG9385.T
+27699	\meddata\s6000\document\Apollo\2012\JUL\SCAN8685.T
+27700	\meddata\s6000\document\Apollo\2013\FEB\MERG9534.T
+27701	\meddata\s6000\document\Apollo\2012\AUG\MERG7984.T
+27702	\meddata\s6000\document\Apollo\2012\DEC\SCAN3416.T
+27703	\meddata\s6000\document\Apollo\2012\OCT\214719.TIF
+27704	\meddata\s6000\document\Apollo\2009\MAR\100788.TIF
+27705	\meddata\s6000\document\Apollo\2011\MAR\SCAN7836.T
+27706	\meddata\s6000\document\Apollo\2011\NOV\SCAN8208.T
+27707	\meddata\s6000\document\Apollo\2012\SEP\MERG1308.T
+27708	\meddata\s6000\document\Apollo\2013\MAR\MERG0195.T
+27709	\meddata\s6000\document\Apollo\2009\JUN\SCAN9284.T
+27710	\meddata\s6000\document\Apollo\2009\MAY\MERG8818.T
+27711	\meddata\s6000\document\Apollo\2011\JAN\MERG3564.T
+27712	\meddata\s6000\document\Apollo\2013\APR\SCAN2900.T
+27713	\meddata\s6000\document\Apollo\2013\FEB\MERG9846.T
+27714	\meddata\s6000\document\Apollo\2013\MAR\SCAN7085.T
+27715	\meddata\s6000\document\Apollo\2008\APR\76624.TIF|
+27716	\meddata\s6000\document\Apollo\2012\MAR\199285.TIF
+27717	\meddata\s6000\document\Apollo\2012\NOV\SCAN0956.T
+27718	\meddata\s6000\document\Apollo\2013\FEB\SCAN2193.T
+27719	\meddata\s6000\document\Apollo\2008\MAR\MERG3681.T
+27720	\meddata\s6000\document\Apollo\2009\APR\SCAN1008.T
+27721	\meddata\s6000\document\Apollo\2009\MAR\101161.TIF
+27722	\meddata\s6000\document\Apollo\2012\AUG\210233.TIF
+27723	\meddata\s6000\document\Apollo\2013\APR\SCAN2696.T
+27724	\meddata\s6000\document\Apollo\2009\MAY\108383.TIF
+27725	\meddata\s6000\document\Apollo\2012\APR\SCAN7569.T
+27726	\meddata\s6000\document\Apollo\2013\FEB\309768.TIF
+27727	kt
+27728	\meddata\s6000\document\Apollo\2011\NOV\MERG5202.T
+27729	\meddata\s6000\document\Apollo\2012\DEC\MERG8913.T
+27730	\meddata\s6000\document\Apollo\2012\DEC\SCAN3599.T
+27731	\meddata\s6000\document\Apollo\2013\APR\MERG7804.T
+27732	\meddata\s6000\document\Apollo\2011\MAY\MERG3994.T
+27733	\meddata\s6000\document\Apollo\2012\DEC\MERG9096.T
+27734	\meddata\s6000\document\Apollo\2012\OCT\300582.TIF
+27735	\meddata\s6000\document\Apollo\2011\JUN\MERG0905.T
+27736	/puff per week e-cig
+27737	\meddata\s6000\document\Apollo\2010\7\Document 180
+27738	113beats/min
+27739	2/da
+27740	10 / 15 daily
+27741	times/afternoon
+27742	mcg/kg/g
+27743	mg/100mi
+27744	U/ Aday
+27745	ug Hb/g Faecal
+27746	ng m/l
+27747	Ug/g, null
+27748	U/ every other week
+27749	1.15
+27750	mgmol/L
+27751	µg/mg
+27752	Smoked 1 Last Christ
+27753	fL     (
+27754	macrogram/l
+27755	\meddata\s6000\document\Apollo\2011\FEB\352070.TIF
+27756	5g /week
+27757	/2023
+27758	2023
+27759	(   7
+27760	1 in the last 2month
+27761	(  15
+27762	yd
+27763	/gpd
+27764	/every 6 years
+27765	/day (Infrequent)
+27766	/monthl
+27767	22/25
+27768	2-3/7
+27769	wine most nights
+27770	pmol//L
+27771	/6monthy
+27772	h  iu/L
+27773	/week (Vape)
+27774	occational
+27775	rolls/ p.day
+27776	/28 (0=normal)
+27777	30 days
+27778	IRAS Project Number
+27779	e/o day
+27780	U/Audit - C (3)
+27781	/month.
+27782	29+1
+27783	100 beats/min
+27784	U/3 times a month
+27785	> x ml/L
+27786	U/2
+27787	every 3/4 days
+27788	x106/L
+27789	dfiuhiu
+27790	139/81
+27791	/other day
+27792	0/ week
+27793	1/2 a year
+27794	1/2 year
+27795	every mins
+27796	? times/day
+27797	10*6 cells/mL
+27798	13.6gm%
+27799	lakhs/cu mm
+27800	gms%
+27801	week ends
+27802	"about" x %
+27803	x10^9/l(47.9%)
+27804	x10^9/l(39.6%)
+27805	µmols/l
+27806	2uw
+27807	x10^9/l(14.3%)
+27808	x10^9/l(17.7%)
+27809	x10^9/l(23.6%)
+27810	x10^9/l(30.9%)
+27811	x10^9/l(31.4%)
+27812	x10^9/l(57.3%)
+27813	x10^9/l(62.3%)
+27814	x10^9/l(62.5%)
+27815	x10^9/l(68.1%)
+27816	x10^9/l(75.9%)
+27817	x10^9/l(28.7%)
+27818	x10^9/l(34.8%)
+27819	x10^9/l(38.6%)
+27820	x10^9/l(45.2%)
+27821	x10^9/l(47.3%)
+27822	x10^9/l(63.1%)
+27823	x10^9/l(75.5%)
+27824	x10^9/l(79.8%)
+27825	x10^9/l(11.5%)
+27826	x10^9/l(16.3%)
+27827	x10^9/l(19.1%)
+27828	x10^9/l(36.1%)
+27829	x10^9/l(43.1%)
+27830	x10^9/l(67.5%)
+27831	x10^9/l(69.9%)
+27832	x10^9/l(73.0%)
+27833	x10^9/l(76.7%)
+27834	umol/vol
+27835	x10^9/l(16.2%)
+27836	x10^9/l(27.6%)
+27837	x10^9/l(34.2%)
+27838	x10^9/l(44.9%)
+27839	x10^9/l(69.5%)
+27840	x10^9/l(71.2%)
+27841	x10^9/l(14.5%)
+27842	x10^9/l(21.6%)
+27843	x10^9/l(24.2%)
+27844	x10^9/l(32.1%)
+27845	x10^9/l(35.7%)
+27846	x10^9/l(37.6%)
+27847	x10^9/l(41.1%)
+27848	x10^9/l(43.5%)
+27849	x10^9/l(45.1%)
+27850	x10^9/l(51.5%)
+27851	x10^9/l(77.2%)
+27852	x10^9/l(79.7%)
+27853	x10^9/l(80.5%)
+27854	x10^9/l(86.6%)
+27855	times/ 6 week
+27856	x10^9/l(13.3%)
+27857	x10^9/l(13.8%)
+27858	x10^9/l(14.4%)
+27859	x10^9/l(71.6%)
+27860	PH=2
+27861	x10^9/l(12.8%)
+27862	x10^9/l(26.5%)
+27863	x10^9/l(41.6%)
+27864	x10^9/l(42.9%)
+27865	x10^9/l(44.2%)
+27866	x10^9/l(56.0%)
+27867	x10^9/l(59.8%)
+27868	x10^9/l(67.7%)
+27869	x10^9/l(20.1%)
+27870	x10^9/l(25.0%)
+27871	x10^9/l(43.3%)
+27872	x10^9/l(52.6%)
+27873	x10^9/l(54.0%)
+27874	x10^9/l(76.6%)
+27875	x10^9/l(80.4%)
+27876	x10^9/l(82.2%)
+27877	x10^9/l(16.6%)
+27878	x10^9/l(17.5%)
+27879	x10^9/l(19.6%)
+27880	x10^9/l(19.7%)
+27881	x10^9/l(49.1%)
+27882	x10^9/l(66.1%)
+27883	x10^9/l(80.1%)
+27884	x10^9/l(81.5%)
+27885	x10^9/l(10.0%)
+27886	x10^9/l(22.2%)
+27887	x10^9/l(40.5%)
+27888	x10^9/l(40.8%)
+27889	x10^9/l(59.0%)
+27890	x10^9/l(67.4%)
+27891	x10^9/l(70.0%)
+27892	x10^9/l(74.1%)
+27893	x10^9/l(75.7%)
+27894	x10^9/l(79.3%)
+27895	x10^9/l(15.8%)
+27896	x10^9/l(69.2%)
+27897	x10^9/l(72.8%)
+27898	x10^9/l(76.9%)
+27899	x10^9/l(79.6%)
+27900	x10^9/l(27.3%)
+27901	x10^9/l(32.5%)
+27902	x10^9/l(42.4%)
+27903	x10^9/l(51.7%)
+27904	x10^9/l(62.6%)
+27905	x10^9/l(68.6%)
+27906	x10^9/l(73.7%)
+27907	x10^9/l(73.8%)
+27908	x10^9/l(14.0%)
+27909	x10^9/l(14.2%)
+27910	x10^9/l(20.4%)
+27911	x10^9/l(23.7%)
+27912	x10^9/l(42.3%)
+27913	x10^9/l(67.8%)
+27914	x10^9/l(67.9%)
+27915	x10^9/l(72.1%)
+27916	x10^9/l(82.6%)
+27917	x10^9/l(16.0%)
+27918	x10^9/l(24.9%)
+27919	x10^9/l(39.9%)
+27920	x10^9/l(44.7%)
+27921	x10^9/l(45.9%)
+27922	x10^9/l(58.5%)
+27923	x10^9/l(61.4%)
+27924	x10^9/l(73.9%)
+27925	x10^9/l(77.8%)
+27926	x10^9/l(38.5%)
+27927	x10^9/l(44.4%)
+27928	x10^9/l(52.2%)
+27929	x10^9/l(54.5%)
+27930	x10^9/l(75.2%)
+27931	x10^9/l(78.3%)
+27932	x10^9/l(78.6%)
+27933	x10^9/l(15.1%)
+27934	x10^9/l(43.9%)
+27935	x10^9/l(46.2%)
+27936	x10^9/l(51.8%)
+27937	x10^9/l(70.1%)
+27938	x10^9/l(71.1%)
+27939	x10^9/l(82.3%)
+27940	nomocytic
+27941	U/3  month
+27942	times/3 week
+27943	ug Hn/g
+27944	million/c.mm
+27945	/c.mm
+27946	be
+27947	lacs/c.mm
+27948	varies a lot
+27949	bowls/week
+27950	west
+27951	yeats
+27952	dasys
+27953	=days]
+27954	g/wek
+27955	g tobacco a week
+27956	ugHb/b
+27957	mM/M(A)
+27958	unit/L(H)
+27959	mmiu/L
+27960	times/ 3 Months
+27961	U/4 times per week
+27962	/unit
+27963	monthes
+27964	perentage
+27965	<4
+27966	203 TIMES A WEEK
+27967	(*)
+27968	hour week
+27969	of canabis g/day
+27970	times/every 2-3w
+27971	U/every two months
+27972	four/weeks
+27973	grams / a week
+27974	3g per week
+27975	1 bottle weekly
+27976	ciders daily
+27977	months??
+27978	/11/2021
+27979	2.2/week
+27980	cannabis joints/day
+27981	per day with weed
+27982	>1/m
+27983	%  (16.12.13)
+27984	/ weekends
+27985	/2-3 month
+27986	/1in three months
+27987	/day , Not every day
+27988	/two week time
+27989	ouces/month
+27990	/gmweek
+27991	pipe smoked
+27992	1 wwek
+27993	60/min
+27994	U/4weeks
+27995	g/4 weeks
+27996	10/9 l(3.00%)
+27997	10/9 l(.429%)
+27998	*mmol/L(0.6-1.0)
+27999	pmol/L(9-24)
+28000	*mU/L(0.5-4.7)
+28001	mmol/L(0.6-1.0)
+28002	bnp
+28003	U/ month.
+28004	10*2  FL
+28005	predicted %
+28006	unstated
+28007	U/week  n/a
+28008	- 6 /day
+28009	to 10 U/week
+28010	-3 U/week
+28011	/20 daily
+28012	U/week approx
+28013	- 80 /day
+28014	-25 /day
+28015	two times/ 7weeks
+28016	m"2` is not properly escaped.```

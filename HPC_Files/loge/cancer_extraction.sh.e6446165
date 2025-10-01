@@ -1,0 +1,36 @@
+Variable OMP_NUM_THREADS has been set to 12
+
+Loading python/3.11.7-gcc-12.2.0
+  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
+Traceback (most recent call last):
+  File "/data/home/qc25022/cancer-extraction-pipeline/main.py", line 42, in <module>
+    clean_events('config.yaml')
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_05a_clean_events.py", line 28, in clean_events
+    original_cols = pl.read_csv(PATHS['cleaning_rules_final'], n_rows=0).columns
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 119, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 119, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 119, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/io/csv/functions.py", line 539, in read_csv
+    df = _read_csv_impl(
+         ^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/io/csv/functions.py", line 687, in _read_csv_impl
+    pydf = PyDataFrame.read_csv(
+           ^^^^^^^^^^^^^^^^^^^^^
+polars.exceptions.ComputeError: could not parse `0.09146` as dtype `i64` at column 'ConversionFactor' (column number 7)
+
+The current offset in the file is 164 bytes.
+
+You might want to try:
+- increasing `infer_schema_length` (e.g. `infer_schema_length=10000`),
+- specifying correct dtype with the `schema_overrides` argument
+- setting `ignore_errors` to `True`,
+- adding `0.09146` to the `null_values` list.
+
+Original error: ```remaining bytes non-empty```

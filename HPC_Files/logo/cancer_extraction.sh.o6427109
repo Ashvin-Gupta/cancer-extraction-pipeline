@@ -1,0 +1,20 @@
+--- Running Final Stage: Map & Save Events ---
+Step 1: Loading configuration and pre-sorted events...
+Step 2: Isolating BIRTH events and preparing other events for mapping...
+Step 3: Mapping all non-BIRTH event codes...
+Mapping raw codes using multi-level fallback strategy...
+Could not read headers from /data/home/qc25022/cancer-extraction-pipeline/src/resources/cleaned_code_lists8.csv: could not parse `"['D410000', 'D410011', 'D410100', 'D410200', 'D410300', 'D410400', 'D410.00', 'D410z00']"` as dtype `str` at column 'ReadcodeList' (column number 5)
+
+The current offset in the file is 107 bytes.
+
+You might want to try:
+- increasing `infer_schema_length` (e.g. `infer_schema_length=10000`),
+- specifying correct dtype with the `schema_overrides` argument
+- setting `ignore_errors` to `True`,
+- adding `"['D410000', 'D410011', 'D410100', 'D410200', 'D410300', 'D410400', 'D410.00', 'D410z00']"` to the `null_values` list.
+
+Original error: ```invalid csv file
+
+Field `"['D410000', 'D410011', 'D410100', 'D410200', 'D410300', 'D410400', 'D410.00', 'D410z00']"` is not properly escaped.```
+Step 3: Deduplicating lifestyle events (keeping first instance of each term)...
+Step 4: Adding split information and collecting events...

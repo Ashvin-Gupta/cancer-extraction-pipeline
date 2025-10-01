@@ -1,0 +1,11 @@
+--- Inspecting the first 3 lines of: /data/home/qc25022/cancer-extraction-pipeline/src/resources/cleaned_code_lists8.csv ---
+
+Line 1: MedicalTerm,medcodes,prodcodeids,medcodes2,ReadcodeList
+  -> Parsed as 5 columns: ['MedicalTerm', 'medcodes', 'prodcodeids', 'medcodes2', 'ReadcodeList']
+
+Line 2: 
+  -> Parsed as 0 columns: []
+
+Line 3: secondary_polycythaemia,,,"[494050018, 486571018, 483065013, 294491014, 294492019, 1216509016, 294495017]","['D410000', 'D410011', 'D410100', 'D410200', 'D410300', 'D410400', 'D410.00', 'D410z00']"
+  -> Parsed as 5 columns: ['secondary_polycythaemia', '', '', '[494050018, 486571018, 483065013, 294491014, 294492019, 1216509016, 294495017]', "['D410000', 'D410011', 'D410100', 'D410200', 'D410300', 'D410400', 'D410.00', 'D410z00']"]
+

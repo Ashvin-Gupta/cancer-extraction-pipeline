@@ -1,6 +1,9 @@
 venv/
+env/
 
 .pytest_cache/
 __pycahce/
+.ipynb_checkpoints/
 
+HPC_FILES/
 src/resources/snomed_to_ICD.txt

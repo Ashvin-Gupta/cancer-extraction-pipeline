@@ -14,6 +14,9 @@ module load python
 source /data/home/qc25022/cancer-extraction-pipeline/env/bin/activate
 
 # python -u src/pipeline/step_01_define_cohort.py
-python -u main.py --stage 3c
+python -u main.py --stage 5
+#python -u src/utils/analyse_mappings.py
+
+
 
 

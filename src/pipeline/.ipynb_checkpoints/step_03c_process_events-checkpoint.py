@@ -51,7 +51,7 @@ def map_and_save_events(config_path: str):
 
     # Add a temporary column to identify the specific lifestyle term
     events_with_shortcode_lf = combined_events_lf.with_columns(
-        _short_code=pl.col('code').str.extract(r"//(.*?//)", 1)
+        _short_code=pl.col('code').str.extract(r"//(.*?//)", 1).fill_null("")
     )
 
     # Partition the data into lifestyle and other events
@@ -84,7 +84,8 @@ def map_and_save_events(config_path: str):
         # Keyword arguments after
         time=pl.col('cancerdate').str.to_datetime().cast(pl.Date),
         code=pl.format(f"MEDICAL//{CANCER_TYPE}_cancer//"),
-        numeric_value=pl.lit(None, dtype=pl.Float64)
+        numeric_value=pl.lit(None, dtype=pl.Float64),
+        numunitid=pl.lit(None, dtype=pl.Int64)
     )
     
     # Reorder columns to match before concatenating
@@ -136,8 +137,10 @@ def map_and_save_events(config_path: str):
                 pl.col("subject_id"),
                 pl.col("time").cast(pl.Datetime(time_unit="us")),
                 pl.col("code"),
-                pl.col("numeric_value").cast(pl.Float32).alias("value"),
-                pl.lit(None, dtype=pl.Utf8).alias("text_value")
+                # pl.col("numeric_value").cast(pl.Float32).alias("value"),
+                pl.col("numeric_value").cast(pl.Float32),
+                pl.lit(None, dtype=pl.Utf8).alias("text_value"),
+                pl.col("numunitid").cast(pl.Int64)
             )
             output_path = os.path.join(output_dir, f"shard_{shard_number}.parquet")
             print(f"  -> Saving shard {shard_number} with {len(subject_id_chunk)} subjects to {output_path}")

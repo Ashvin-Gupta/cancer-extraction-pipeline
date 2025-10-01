@@ -1,7 +1,0 @@
-Variable OMP_NUM_THREADS has been set to 4
-
-Loading python/3.11.7-gcc-12.2.0
-  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
-  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_02_build_subject_info.py", line 68
-    .drop_nulls(subset=['e_pracid']) \
-IndentationError: unexpected indent

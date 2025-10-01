@@ -1,9 +1,0 @@
-Variable OMP_NUM_THREADS has been set to 12
-
-Loading python/3.11.7-gcc-12.2.0
-  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
-/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_03_create_event_streams.py:51: PerformanceWarning: Determining the column names of a LazyFrame requires resolving its schema, which is a potentially expensive operation. Use `LazyFrame.collect_schema().names()` to get the column names without this warning.
-  file_columns = pl.scan_csv(f, separator='\t', n_rows=0).columns
-/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_03_create_event_streams.py:81: PerformanceWarning: Determining the column names of a LazyFrame requires resolving its schema, which is a potentially expensive operation. Use `LazyFrame.collect_schema().names()` to get the column names without this warning.
-  file_columns = pl.scan_csv(f, separator='\t', n_rows=0).columns
-/opt/sge_spool/8.6.12b/vhm4/job_scripts/6378211: line 18: 2172973 Killed                  python -u main.py --stage 3

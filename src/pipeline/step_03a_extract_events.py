@@ -23,6 +23,7 @@ def extract_events(config_path: str):
         "obsdate": pl.String,      
         "medcodeid": pl.String,
         "value": pl.Float64,
+        "numunitid": pl.Int64,
     }
     observations_df = pl.concat(
         [
@@ -44,7 +45,7 @@ def extract_events(config_path: str):
         code=pl.lit("medcodeid//") + pl.col("medcodeid"),
         numeric_value=pl.col("value"),
         # duration=pl.lit(None, dtype=pl.Float64),
-    ).select(["e_patid", "time", "code", "numeric_value"])
+    ).select(["e_patid", "time", "code", "numeric_value", "numunitid"])
     
     subject_filter_df = subjects_df.select(
         "e_patid",

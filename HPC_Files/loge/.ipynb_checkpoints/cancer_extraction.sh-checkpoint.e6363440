@@ -1,5 +1,0 @@
-Variable OMP_NUM_THREADS has been set to 4
-
-Loading python/3.11.7-gcc-12.2.0
-  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
-/opt/sge_spool/8.6.12b/ddy96/job_scripts/6363440: line 14: /data/home/qc25022/cancer-extraction-pipieline/env/bin/activate: No such file or directory

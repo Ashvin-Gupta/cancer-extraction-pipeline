@@ -1,0 +1,46 @@
+Variable OMP_NUM_THREADS has been set to 12
+
+Loading python/3.11.7-gcc-12.2.0
+  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
+Traceback (most recent call last):
+  File "/data/home/qc25022/cancer-extraction-pipeline/main.py", line 32, in <module>
+    sort_events('config.yaml')
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_03b_sort_events.py", line 75, in sort_events
+    sorted_lf.sink_parquet(
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/unstable.py", line 58, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/lazyframe/frame.py", line 2706, in sink_parquet
+    lf.collect(engine=engine)
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/lazyframe/frame.py", line 2206, in collect
+    return wrap_df(ldf.collect(engine, callback))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+polars.exceptions.InvalidOperationError: 'union'/'concat' inputs should all have the same schema,got
+Schema:
+name: subject_id, field: Int64
+name: time, field: Date
+name: code, field: String
+name: numeric_value, field: Float64
+name: numunitid, field: Int64
+ and 
+Schema:
+name: subject_id, field: Int64
+name: time, field: Date
+name: code, field: String
+name: numeric_value, field: Float64
+name: numunitid, field: Float64
+
+
+Resolved plan until failure:
+
+	---> FAILED HERE RESOLVING 'sink' <---
+simple π 5/6 ["subject_id", "time", "code", ... 2 other columns]
+   WITH_COLUMNS:
+   [col("yob").dt.datetime([dyn int: 1, dyn int: 1, dyn int: 0, dyn int: 0, dyn int: 0, dyn int: 0, "raise"]).strict_cast(Date).alias("time"), "MEDS_BIRTH".alias("code"), null.strict_cast(Float64).alias("numeric_value"), null.strict_cast(Float64).alias("numunitid")] 
+    SELECT [col("subject_id"), col("yob")]
+    FROM
+      Csv SCAN [./output/liver_study/subject_information.csv]
+      PROJECT */10 COLUMNS

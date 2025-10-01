@@ -1,0 +1,110 @@
+Variable OMP_NUM_THREADS has been set to 8
+
+Loading python/3.11.7-gcc-12.2.0
+  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
+Traceback (most recent call last):
+  File "/data/home/qc25022/cancer-extraction-pipeline/main.py", line 34, in <module>
+    map_and_save_events('config.yaml')
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_03c_process_events.py", line 73, in map_and_save_events
+    final_df = final_cleaned_lf.join(subjects_lf, on="subject_id", how="inner").collect()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 93, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/lazyframe/frame.py", line 2206, in collect
+    return wrap_df(ldf.collect(engine, callback))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+polars.exceptions.InvalidOperationError: 'union'/'concat' inputs should all have the same schema,got
+Schema:
+name: subject_id, field: Int64
+name: time, field: Date
+name: code, field: String
+name: numeric_value, field: Float64
+ and 
+Schema:
+name: subject_id, field: Int64
+name: time, field: Date
+name: code, field: String
+name: numeric_value, field: Float64
+name: mapped_term, field: String
+
+
+Resolved plan until failure:
+
+	---> FAILED HERE RESOLVING 'sink' <---
+SELECT [col("subject_id"), col("time"), col("code"), col("numeric_value"), col("mapped_term")]
+FROM
+  simple π 6/11 ["subject_id", "time", "code", ... 3 other columns]
+     WITH_COLUMNS:
+     ["MEDICAL//".str.concat_horizontal([col("final_term"), "//", col("raw_code")]).alias("code")] 
+       WITH_COLUMNS:
+       [when(col("mapped_term").is_not_null()).then(col("mapped_term")).otherwise(when(col("read_code").is_not_null()).then(col("read_code").str.slice([dyn int: 0, dyn int: 3]).str.concat_horizontal(["..00"])).otherwise(null.strict_cast(String))).alias("final_term")] 
+         WITH_COLUMNS:
+         [col("map1_term").coalesce([col("map3_term"), col("map4_term")]).alias("mapped_term")] 
+          LEFT JOIN:
+          LEFT PLAN ON: [col("raw_code")]
+            LEFT JOIN:
+            LEFT PLAN ON: [col("read_code")]
+              LEFT JOIN:
+              LEFT PLAN ON: [col("raw_code")]
+                LEFT JOIN:
+                LEFT PLAN ON: [col("raw_code")]
+                   WITH_COLUMNS:
+                   [col("code").str.extract(["//(.*)$"]).alias("raw_code")] 
+                    FILTER [(col("code")) != ("MEDS_BIRTH")]
+                    FROM
+                      Parquet SCAN [/data/scratch/qc25022/liver/intermediate_sorted/0.parquet, ... 626 other sources]
+                      PROJECT */4 COLUMNS
+                RIGHT PLAN ON: [col("raw_code")]
+                  UNIQUE[maintain_order: false, keep_strategy: First] BY Some(["raw_code"])
+                    RENAME
+                      FILTER col("code").is_not_null()
+                      FROM
+                        FILTER [(col("code")) != ("")]
+                        FROM
+                           WITH_COLUMNS:
+                           [col("code").str.strip_chars([" '"[]"])] 
+                            EXPLODE
+                              SELECT [col("MedicalTerm"), col("medcodes").str.split([","]).alias("code")]
+                              FROM
+                                DF ["MedicalTerm", "medcodes", "prodcodeids", "medcodes2", ...]; PROJECT */5 COLUMNS
+                END LEFT JOIN
+              RIGHT PLAN ON: [col("raw_code")]
+                UNIQUE[maintain_order: false, keep_strategy: First] BY Some(["raw_code"])
+                  FILTER col("raw_code").is_not_null()
+                  FROM
+                    FILTER col("read_code").is_not_null()
+                    FROM
+                      SELECT [col("MedCodeId").strict_cast(String).alias("raw_code"), col("CleansedReadCode").alias("read_code")]
+                      FROM
+                        Csv SCAN [/data/home/qc25022/PancreaticCancer/OutputFiles/MedicalDict.csv]
+                        PROJECT */9 COLUMNS
+              END LEFT JOIN
+            RIGHT PLAN ON: [col("read_code")]
+              UNIQUE[maintain_order: false, keep_strategy: First] BY Some(["read_code"])
+                RENAME
+                  FILTER col("code").is_not_null()
+                  FROM
+                    FILTER [(col("code")) != ("")]
+                    FROM
+                       WITH_COLUMNS:
+                       [col("code").str.strip_chars([" '"[]"])] 
+                        EXPLODE
+                          SELECT [col("MedicalTerm"), col("ReadcodeList").str.split([","]).alias("code")]
+                          FROM
+                            DF ["MedicalTerm", "medcodes", "prodcodeids", "medcodes2", ...]; PROJECT */5 COLUMNS
+            END LEFT JOIN
+          RIGHT PLAN ON: [col("raw_code")]
+            UNIQUE[maintain_order: false, keep_strategy: First] BY Some(["raw_code"])
+              RENAME
+                FILTER col("code").is_not_null()
+                FROM
+                  FILTER [(col("code")) != ("")]
+                  FROM
+                     WITH_COLUMNS:
+                     [col("code").str.strip_chars([" '"[]"])] 
+                      EXPLODE
+                        SELECT [col("MedicalTerm"), col("medcodes2").str.split([","]).alias("code")]
+                        FROM
+                          DF ["MedicalTerm", "medcodes", "prodcodeids", "medcodes2", ...]; PROJECT */5 COLUMNS
+          END LEFT JOIN

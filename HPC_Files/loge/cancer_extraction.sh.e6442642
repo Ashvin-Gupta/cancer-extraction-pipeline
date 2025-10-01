@@ -1,0 +1,14 @@
+Variable OMP_NUM_THREADS has been set to 12
+
+Loading python/3.11.7-gcc-12.2.0
+  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
+Traceback (most recent call last):
+  File "/data/home/qc25022/cancer-extraction-pipeline/main.py", line 39, in <module>
+    create_rules_template('config.yaml')
+  File "/data/home/qc25022/cancer-extraction-pipeline/src/utils/create_rules_template.py", line 50, in create_rules_template
+    template_df = lab_profile_df.join(numunit_df, on_left="numunitid", on_right="UnitID", how="left")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 119, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataFrame.join() got an unexpected keyword argument 'on_left'

@@ -1,6 +1,0 @@
---- Debugging Two-Step (Medcode -> SNOMED -> ICD-10) Mapping ---
-
-Step 1: Getting a sample of raw codes from your sorted events...
-Found 10000 unique raw codes to check.
-
-Step 2: Loading the Medcode->SNOMED and SNOMED->ICD10 maps...

@@ -37,7 +37,8 @@ def sort_events(config_path: str):
     ).with_columns(
         time=pl.date(pl.col("yob"), 1, 1),
         code=pl.lit("MEDS_BIRTH"),
-        numeric_value=pl.lit(None, dtype=pl.Float64)
+        numeric_value=pl.lit(None, dtype=pl.Float64),
+        numunitid=pl.lit(None, dtype=pl.Int64)
     ).drop("yob")
 
     # --- 3. Combine All Events ---

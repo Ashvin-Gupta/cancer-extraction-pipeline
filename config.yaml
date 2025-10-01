@@ -54,9 +54,9 @@ paths:
   cleaned_codelists: '/data/home/qc25022/cancer-extraction-pipeline/src/resources/cleaned_code_lists8.csv'
   medical_dictionary: '/data/home/qc25022/PancreaticCancer/OutputFiles/MedicalDict.csv'
   product_dictionary: '/data/home/qc25022/PancreaticCancer/OutputFiles/ProdDict.csv'
+  numunit_lookup: '/data/WIPH-CanDetect/documentation/lookups/aurum/NumUnit.txt'
 
-  # Snomed to ICD10 map
-  snomed_icd10_map: '/data/home/qc25022/cancer-extraction-pipeline/src/resources/snomed_to_ICD.txt'
+  cleaning_rules_final: '/data/home/qc25022/cancer-extraction-pipeline/src/resources/cleaning_rules_final.csv'
 
 
   
@@ -76,3 +76,9 @@ outputs:
 
   # The final directory where patient-level Parquet files will be saved
   event_stream_dir: '/data/scratch/qc25022/liver/event_streams/'
+
+  profile_measurement: './output/liver_study/profile_measurements.csv'
+  cleaning_rules_template: './output/liver_study/cleaning_rules_template.csv'
+  
+
+  final_cleaned_dir: '/data/scratch/qc25022/liver/final_cleaned_events/'

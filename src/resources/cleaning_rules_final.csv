@@ -1,0 +1,1043 @@
+IdentifierType,Identifier,UnitID,UnitName,mean,TargetUnit,ConversionFactor,ValidMin,ValidMax,count,min,max,quantile_10,quantile_90,ConversionBias
+MedicalTerm,ALP,276,u/L,95.749886,u/L,1,20,180,279661,0,45906,54,138,0
+MedicalTerm,ALP,154,iu/L,97.65855,u/L,1,20,180,264345,0,3998,54,149,0
+MedicalTerm,ALP,153,IU,88.790695,u/L,1,20,180,430,37,761,57,123,0
+MedicalTerm,ALP,49,[iU]/L,90.02857,u/L,1,20,180,350,33,507,52,128,0
+MedicalTerm,ALP,44,/uL,84.09226,u/L,1,20,180,336,39,438,55,105,0
+MedicalTerm,ALP,953,units/l,118.60435,u/L,1,20,180,230,42,578,63,162,0
+MedicalTerm,ALP,852,iu/L(37C),198.72891,u/L,1,20,180,166,81,1318,124,233,0
+MedicalTerm,ALP,218,mmol/L,111.65171,u/L,1,20,180,94,0.93,1700,1.15,191,0
+MedicalTerm,ALP,923,Unknown,87.19222,u/L,1,20,180,90,1.06,291,61,121,0
+MedicalTerm,ALP,405,UNKNOWN UNITS,87.683334,u/L,1,20,180,60,34,258,51,136,0
+MedicalTerm,ALP,1155,(Unknown),79.18965,u/L,1,20,180,58,48,148,56,105,0
+MedicalTerm,ALP,277,U/mL,70.065216,u/L,1,20,180,46,43,105,52,102,0
+MedicalTerm,ALP,2411,Units/litre,75.4375,u/L,1,20,180,32,7,156,49,115,0
+MedicalTerm,ALP,1223,umol,77.375,u/L,1,20,180,32,48,141,57,98,0
+MedicalTerm,ALP,1307,IU/L 37C,270.4643,u/L,1,20,180,28,85,567,126,458,0
+MedicalTerm,ALP,1268,lu/l,91.38095,u/L,1,20,180,21,64,144,67,118,0
+MedicalTerm,ALP,320,KA/dL,178,u/L,1,20,180,7,8,782,55,172,0
+MedicalTerm,ALP,4548,U/L@37,112,u/L,1,20,180,7,69,140,69,136,0
+MedicalTerm,ALP,151,i.u./l,166.2,u/L,1,20,180,5,76,258,76,258,0
+MedicalTerm,ALP,521,R,103.6,u/L,1,20,180,5,50,193,50,193,0
+MedicalTerm,ALP,338,y,70.5,u/L,1,20,180,4,56,96,56,96,0
+MedicalTerm,ALP,4479,IUL,53.75,u/L,1,20,180,4,50,59,50,59,0
+MedicalTerm,ALP,11134,IU 37 C,47,u/L,1,20,180,3,41,52,41,52,0
+MedicalTerm,ALP,1386,[iU],52,u/L,1,20,180,1,52,52,52,52,0
+MedicalTerm,ALP,283,ug/L,81,u/L,1,20,180,1,81,81,81,81,0
+MedicalTerm,ALP,200,ml,90,u/L,1,20,180,1,90,90,90,90,0
+MedicalTerm,ALP,3519,Serum alk. phos. raised,0,u/L,1,20,180,1,0,0,0,0,0
+MedicalTerm,ALP,285,umol/L,74,u/L,1,20,180,1,74,74,74,74,0
+MedicalTerm,ALP,60,{U}/L,84,u/L,1,20,180,1,84,84,84,84,0
+MedicalTerm,ALP,2051,IU/1,73,u/L,1,20,180,1,73,73,73,73,0
+MedicalTerm,ALT,276,u/L,28.492912,u/L,1,0.1,120,253407,0,7812,12,47,0
+MedicalTerm,ALT,154,iu/L,29.812134,u/L,1,0.1,120,227252,0,2123,12,49,0
+MedicalTerm,ALT,852,iu/L(37C),33.57283,u/L,1,0.1,120,714,5,2722,13,49,0
+MedicalTerm,ALT,44,/uL,23.954838,u/L,1,0.1,120,310,6,562,11,31,0
+MedicalTerm,ALT,153,IU,33.800674,u/L,1,0.1,120,296,6,159,15,61,0
+MedicalTerm,ALT,49,[iU]/L,38.303135,u/L,1,0.1,120,287,10,375,14,66,0
+MedicalTerm,ALT,953,units/l,43.628906,u/L,1,0.1,120,256,1,306,14,86,0
+MedicalTerm,ALT,923,Unknown,29.023077,u/L,1,0.1,120,130,6,166,12,49,0
+MedicalTerm,ALT,2209,ALT/SGPT serum level,20.647058,u/L,1,0.1,120,51,0,197,0,36,0
+MedicalTerm,ALT,277,U/mL,29.530613,u/L,1,0.1,120,49,14,84,17,51,0
+MedicalTerm,ALT,1155,(Unknown),30.416666,u/L,1,0.1,120,48,9,97,13,58,0
+MedicalTerm,ALT,1223,umol,24.78125,u/L,1,0.1,120,32,10,59,15,44,0
+MedicalTerm,ALT,1307,IU/L 37C,22.875,u/L,1,0.1,120,32,6,68,11,28,0
+MedicalTerm,ALT,1268,lu/l,33.827587,u/L,1,0.1,120,29,13,86,19,45,0
+MedicalTerm,ALT,405,UNKNOWN UNITS,25.565218,u/L,1,0.1,120,23,16,52,16,35,0
+MedicalTerm,ALT,151,i.u./l,43.46154,u/L,1,0.1,120,13,8,100,18,67,0
+MedicalTerm,ALT,218,mmol/L,27.25,u/L,1,0.1,120,12,0,72,11,46,0
+MedicalTerm,ALT,4479,IUL,51.25,u/L,1,0.1,120,4,44,66,44,66,0
+MedicalTerm,ALT,3922,i.u/l,195,u/L,1,0.1,120,3,15,515,15,515,0
+MedicalTerm,ALT,285,umol/L,24.666666,u/L,1,0.1,120,3,10,48,10,48,0
+MedicalTerm,ALT,4303,ui/l,20.666666,u/L,1,0.1,120,3,17,23,17,23,0
+MedicalTerm,ALT,4548,U/L@37,18,u/L,1,0.1,120,2,12,24,12,24,0
+MedicalTerm,ALT,5877,ALT - blood level,0,u/L,1,0.1,120,1,0,0,0,0,0
+MedicalTerm,ALT,283,ug/L,28,u/L,1,0.1,120,1,28,28,28,28,0
+MedicalTerm,ALT,531,U,71,u/L,1,0.1,120,1,71,71,71,71,0
+MedicalTerm,AST,154,iu/L,31.110739,iu/L,1,5,120,51461,0,1594,17,48,0
+MedicalTerm,AST,276,u/L,31.551773,iu/L,1,5,120,26596,0,1494,17,48,0
+MedicalTerm,AST,3546,AST - aspartate transam.(SGOT),5.1354165,iu/L,1,5,120,96,0,36,0,23,0
+MedicalTerm,AST,49,[iU]/L,33.059525,iu/L,1,5,120,84,14,167,17,68,0
+MedicalTerm,AST,153,IU,41.01923,iu/L,1,5,120,52,15,133,18,90,0
+MedicalTerm,AST,1155,(Unknown),27.875,iu/L,1,5,120,40,15,61,19,44,0
+MedicalTerm,AST,151,i.u./l,23.444445,iu/L,1,5,120,9,15,40,15,28,0
+MedicalTerm,AST,953,units/l,28,iu/L,1,5,120,7,22,41,24,30,0
+MedicalTerm,AST,218,mmol/L,37.5,iu/L,1,5,120,6,18,86,21,86,0
+MedicalTerm,AST,923,Unknown,17.2,iu/L,1,5,120,5,14,27,14,27,0
+MedicalTerm,AST,521,R,51,iu/L,1,5,120,5,18,125,18,125,0
+MedicalTerm,AST,852,iu/L(37C),53.25,iu/L,1,5,120,4,20,123,20,123,0
+MedicalTerm,AST,11134,IU 37 C,24.666666,iu/L,1,5,120,3,23,27,23,27,0
+MedicalTerm,AST,2411,Units/litre,19.666666,iu/L,1,5,120,3,17,23,17,23,0
+MedicalTerm,AST,9539,IUL/L,35.5,iu/L,1,5,120,2,20,51,20,51,0
+MedicalTerm,AST,405,UNKNOWN UNITS,22.5,iu/L,1,5,120,2,20,25,20,25,0
+MedicalTerm,AST,1873,IU/I,21,iu/L,1,5,120,2,21,21,21,21,0
+MedicalTerm,AST,4479,IUL,25,iu/L,1,5,120,2,25,25,25,25,0
+MedicalTerm,AST,1386,[iU],29,iu/L,1,5,120,1,29,29,29,29,0
+MedicalTerm,CA125,159,ku/L,37.307236,ku/L,1,1,80,1808,0,8823,6,36,0
+MedicalTerm,CA125,277,U/mL,35.067078,ku/L,1,1,80,969,1.4,5954,6,30,0
+MedicalTerm,CA125,155,iu/ml,73.84186,ku/L,1,1,80,504,2,13254,6,34.3,0
+MedicalTerm,CA125,371,kiu/L,36.657608,ku/L,1,1,80,92,2,622,6,46,0
+MedicalTerm,CA125,218,mmol/L,26.303999,ku/L,1,1,80,25,4.6,150,5.8,83,0
+MedicalTerm,CA125,288,units,9.914286,ku/L,1,1,80,7,5,16,5,14,0
+MedicalTerm,CA125,283,ug/L,4.9666667,ku/L,1,1,80,3,1,12,1,12,0
+MedicalTerm,CA125,276,u/L,9.333333,ku/L,1,1,80,3,6,14,6,14,0
+MedicalTerm,CA125,154,iu/L,10.133334,ku/L,1,1,80,3,3.3,15.1,3.3,15.1,0
+MedicalTerm,CA125,405,UNKNOWN UNITS,17.066668,ku/L,1,1,80,3,11,22.6,11,22.6,0
+MedicalTerm,CA125,1199,/mL,7.6,ku/L,1,1,80,2,4.2,11,4.2,11,0
+MedicalTerm,CA125,50,[iU]/mL,11.2,ku/L,1,1,80,1,11.2,11.2,11.2,11.2,0
+MedicalTerm,CA125,229,mu/L,6,ku/L,1,1,80,1,6,6,6,6,0
+MedicalTerm,CA125,153,IU,20,ku/L,1,1,80,1,20,20,20,20,0
+MedicalTerm,CA125,1,%,22.3,ku/L,1,1,80,1,22.3,22.3,22.3,22.3,0
+MedicalTerm,CRP,183,mg/L,15.13845,mg/L,1,0.001,100,105772,-5,897,1,36,0
+MedicalTerm,CRP,260,ratio,30.079231,mg/L,1,0.001,100,547,0,332,2,74,0
+MedicalTerm,CRP,186,mg/mmol,5.757143,mg/L,1,0.001,100,35,1,30.5,1,15,0
+MedicalTerm,CRP,832,ug/ml,6.3333335,mg/L,1,0.001,100,30,0,58,1,9,0
+MedicalTerm,CRP,218,mmol/L,15.1904745,mg/L,1,0.001,100,21,2.7,65,3.1,36,0
+MedicalTerm,CRP,3535,Plasma C reactive protein,6.6363635,mg/L,1,0.001,100,11,0,73,0,0,0
+MedicalTerm,CRP,986,Not given,6.5,mg/L,1,0.001,100,10,3,15,3,13,0
+MedicalTerm,CRP,1155,(Unknown),17.225,mg/L,1,0.001,100,8,4,38,5,29.5,0
+MedicalTerm,CRP,405,UNKNOWN UNITS,19,mg/L,1,0.001,100,4,3,37,3,37,0
+MedicalTerm,CRP,285,umol/L,6.05,mg/L,1,0.001,100,4,1.2,13,1.2,13,0
+MedicalTerm,CRP,2931,mg/Le,21,mg/L,1,0.001,100,3,4,48,4,48,0
+MedicalTerm,CRP,138,g/dL,10.4,mg/L,1,0.001,100,1,10.4,10.4,10.4,10.4,0
+MedicalTerm,CRP,288,units,133,mg/L,1,0.001,100,1,133,133,133,133,0
+MedicalTerm,CRP,154,iu/L,8,mg/L,1,0.001,100,1,8,8,8,8,0
+MedicalTerm,CRP,283,ug/L,16.7,mg/L,1,0.001,100,1,16.7,16.7,16.7,16.7,0
+MedicalTerm,CRP,178,mg,2,mg/L,1,0.001,100,1,2,2,2,2,0
+MedicalTerm,CRP,232,ng/L,9,mg/L,1,0.001,100,1,9,9,9,9,0
+MedicalTerm,CRP,199,mIU/L,0.01,mg/L,1,0.001,100,1,0.01,0.01,0.01,0.01,0
+MedicalTerm,CRP,4807,mg//l,26,mg/L,1,0.001,100,1,26,26,26,26,0
+MedicalTerm,CRP,182,MG/DL,0.4,mg/L,1,0.001,100,1,0.4,0.4,0.4,0.4,0
+MedicalTerm,ESR,211,mm/h,20.116394,mm/h,1,0.1,60,77409,0,601,2,46,0
+MedicalTerm,ESR,214,mm/hr,19.57034,mm/h,1,0.1,60,17476,0,150,2,44,0
+MedicalTerm,ESR,209,mm,22.964554,mm/h,1,0.1,60,5332,0,130,4,52,0
+MedicalTerm,ESR,213,mm/hour,20.408054,mm/h,1,0.1,60,4576,0,140,2,49,0
+MedicalTerm,ESR,615,mm/1 hr,17.73524,mm/h,1,0.1,60,1643,0,119,0,40,0
+MedicalTerm,ESR,1035,mm1st hr,17.63463,mm/h,1,0.1,60,1363,1,140,2,39,0
+MedicalTerm,ESR,1313,mm in 1Hr,22.327559,mm/h,1,0.1,60,1212,1,137,4,46,0
+MedicalTerm,ESR,366,mm/1Hr,17.00579,mm/h,1,0.1,60,518,1,121,4,39,0
+MedicalTerm,ESR,963,mm/1stHr,19.84585,mm/h,1,0.1,60,506,2,126,2,46,0
+MedicalTerm,ESR,1233,mm/1st Hour,20.126583,mm/h,1,0.1,60,316,2,122,4,46,0
+MedicalTerm,ESR,1178,MM 1stHR,17.700964,mm/h,1,0.1,60,311,1,79,5,39,0
+MedicalTerm,ESR,854,mm in 1 hr,21.291803,mm/h,1,0.1,60,305,1,128,5,44,0
+MedicalTerm,ESR,405,UNKNOWN UNITS,15.6029415,mm/h,1,0.1,60,204,1,91,3,37,0
+MedicalTerm,ESR,1498,/hour,19.666666,mm/h,1,0.1,60,183,2,132,5,37,0
+MedicalTerm,ESR,363,MM /HR,18.576271,mm/h,1,0.1,60,118,2,76,5,45,0
+MedicalTerm,ESR,951,mm/1st Hr,19.38835,mm/h,1,0.1,60,103,1,86,4,41,0
+MedicalTerm,ESR,1058,mm 1st h,21.3,mm/h,1,0.1,60,100,1,106,2,57,0
+MedicalTerm,ESR,1154,mm in 1 hour,29.01389,mm/h,1,0.1,60,72,2,121,5,72,0
+MedicalTerm,ESR,393,mm/1 Hour,22.818182,mm/h,1,0.1,60,66,1,85,7,45,0
+MedicalTerm,ESR,910,mm 1st Hr,22.085106,mm/h,1,0.1,60,47,2,120,3,51,0
+MedicalTerm,ESR,923,Unknown,27.682926,mm/h,1,0.1,60,41,3,90,8,41,0
+MedicalTerm,ESR,795,mms/hr,20.15,mm/h,1,0.1,60,40,2,90,2,65,0
+MedicalTerm,ESR,1011,mm/hr.,10.714286,mm/h,1,0.1,60,35,2,42,2,27,0
+MedicalTerm,ESR,1155,(Unknown),16.5625,mm/h,1,0.1,60,32,2,36,5,30,0
+MedicalTerm,ESR,5741,mm/1st Hr.,13.538462,mm/h,1,0.1,60,13,2,27,4,22,0
+MedicalTerm,ESR,2139,mm per hour,12.3,mm/h,1,0.1,60,10,2,28,3,22,0
+MedicalTerm,ESR,1391,MM 1stH,12.1,mm/h,1,0.1,60,10,1,31,1,26,0
+MedicalTerm,ESR,1,%,14.222222,mm/h,1,0.1,60,9,2,45,5,28,0
+MedicalTerm,ESR,153,IU,5.111111,mm/h,1,0.1,60,9,2,10,2,7,0
+MedicalTerm,ESR,2577,150,34.42857,mm/h,1,0.1,60,7,5,99,10,68,0
+MedicalTerm,ESR,260,ratio,24.166666,mm/h,1,0.1,60,6,9,57,13,57,0
+MedicalTerm,ESR,63,0,29.666666,mm/h,1,0.1,60,6,14,42,16,42,0
+MedicalTerm,ESR,1088,mm fall in 1 hour,11.4,mm/h,1,0.1,60,5,2,44,2,44,0
+MedicalTerm,ESR,1892,mm(WEST),17.5,mm/h,1,0.1,60,4,4,47,4,47,0
+MedicalTerm,ESR,64,1,9.666667,mm/h,1,0.1,60,3,2,19,2,19,0
+MedicalTerm,ESR,13715,"mm/hr ,",29.5,mm/h,1,0.1,60,2,7,52,7,52,0
+MedicalTerm,ESR,218,mmol/L,22.5,mm/h,1,0.1,60,2,7,38,7,38,0
+MedicalTerm,ESR,4561,MMH,7.5,mm/h,1,0.1,60,2,6,9,6,9,0
+MedicalTerm,ESR,41,/min,14,mm/h,1,0.1,60,2,5,23,5,23,0
+MedicalTerm,ESR,1254,mm/1hr(WES),6,mm/h,1,0.1,60,2,4,8,4,8,0
+MedicalTerm,ESR,4038,mm in 1h,11,mm/h,1,0.1,60,1,11,11,11,11,0
+MedicalTerm,ESR,5900,ESR normal,0,mm/h,1,0.1,60,1,0,0,0,0,0
+MedicalTerm,ESR,138,g/dL,10.4,mm/h,1,0.1,60,1,10.4,10.4,10.4,10.4,0
+MedicalTerm,ESR,4153,Erythrocyte sedimentation rate,5,mm/h,1,0.1,60,1,5,5,5,5,0
+MedicalTerm,ESR,866,/h,16,mm/h,1,0.1,60,1,16,16,16,16,0
+MedicalTerm,GGT,276,u/L,84.856674,u/L,1,5,400,102997,0,25746,15,173,0
+MedicalTerm,GGT,154,iu/L,95.16312,u/L,1,5,400,65985,0,5835,16,212,0
+MedicalTerm,GGT,151,i.u./l,128.91086,u/L,1,5,400,1299,0,2942,16,291,0
+MedicalTerm,GGT,153,IU,68.23733,u/L,1,5,400,434,8,1453,17,119,0
+MedicalTerm,GGT,44,/uL,46.303032,u/L,1,5,400,264,9,865,15,82,0
+MedicalTerm,GGT,49,[iU]/L,84.2381,u/L,1,5,400,84,7,627,16,225,0
+MedicalTerm,GGT,1870,H IU/L,186.91837,u/L,1,5,400,49,11,2706,20,374,0
+MedicalTerm,GGT,1155,(Unknown),32.07317,u/L,1,5,400,41,6,136,12,52,0
+MedicalTerm,GGT,155,iu/ml,60.22222,u/L,1,5,400,36,9,893,14,101,0
+MedicalTerm,GGT,1223,umol,65.96875,u/L,1,5,400,32,17,268,25,174,0
+MedicalTerm,GGT,405,UNKNOWN UNITS,111.833336,u/L,1,5,400,18,15,288,29,193,0
+MedicalTerm,GGT,531,U,82.875,u/L,1,5,400,16,23,320,40,185,0
+MedicalTerm,GGT,852,iu/L(37C),180.57143,u/L,1,5,400,14,12,1083,14,389,0
+MedicalTerm,GGT,953,units/l,146.14285,u/L,1,5,400,14,13,351,25,252,0
+MedicalTerm,GGT,1268,lu/l,36.923077,u/L,1,5,400,13,15,56,24,56,0
+MedicalTerm,GGT,2051,IU/1,24.09091,u/L,1,5,400,11,13,67,14,47,0
+MedicalTerm,GGT,285,umol/L,28.5,u/L,1,5,400,10,10,58,19,51,0
+MedicalTerm,GGT,923,Unknown,49.75,u/L,1,5,400,8,10,98,30,86,0
+MedicalTerm,GGT,521,R,44,u/L,1,5,400,6,13,84,21,84,0
+MedicalTerm,GGT,2346,risk,309.4,u/L,1,5,400,5,66,918,66,918,0
+MedicalTerm,GGT,11134,IU 37 C,21.333334,u/L,1,5,400,3,12,27,12,27,0
+MedicalTerm,GGT,999,uL,41.333332,u/L,1,5,400,3,20,52,20,52,0
+MedicalTerm,GGT,277,U/mL,64.5,u/L,1,5,400,2,63,66,63,66,0
+MedicalTerm,GGT,218,mmol/L,63.5,u/L,1,5,400,2,45,82,45,82,0
+MedicalTerm,GGT,283,ug/L,47,u/L,1,5,400,1,47,47,47,47,0
+MedicalTerm,GGT,1307,IU/L 37C,45,u/L,1,5,400,1,45,45,45,45,0
+MedicalTerm,GGT,1386,[iU],12,u/L,1,5,400,1,12,12,12,12,0
+MedicalTerm,GGT,9679,Gamma GT,75,u/L,1,5,400,1,75,75,75,75,0
+MedicalTerm,HbA1c,220,mmol/mol,49.66913,%,0.09146,2,20,166114,-8,60000,36,69,2.152
+MedicalTerm,HbA1c,1,%,7.548621,%,1,2,20,80281,0,609,5.7,9.4,0
+MedicalTerm,HbA1c,246,per cent,7.76545,%,1,2,20,4147,0.067,107,5.8,9.7,0
+MedicalTerm,HbA1c,879,IFCCmmol/mol,47.237495,%,0.09146,2,20,2939,20,136,36,64,2.152
+MedicalTerm,HbA1c,892,mmol/molHb,49.35869,%,0.09146,2,20,2481,19,153,37,68,2.152
+MedicalTerm,HbA1c,1043,% total Hb,7.032247,%,1,2,20,1541,3.6,15,5.6,8.9,0
+MedicalTerm,HbA1c,849,%Hb,6.946047,%,1,2,20,1277,4.5,15.4,5.6,8.4,0
+MedicalTerm,HbA1c,1396,% Tot.Hb,7.3186207,%,1,2,20,783,4,12.8,5.9,9.4,0
+MedicalTerm,HbA1c,916,mmol/mol HbA0,51.754475,%,0.09146,2,20,782,29,134,37,70,2.152
+MedicalTerm,HbA1c,154,iu/L,7.4312286,%,1,2,20,770,3.3,15.7,5.6,9.4,0
+MedicalTerm,HbA1c,912,DCCT %,7.115118,%,1,2,20,708,4.9,16.5,5.7,9.2,0
+MedicalTerm,HbA1c,1031,mM/M,48.53148,%,0.09146,2,20,683,27,138,36,67,2.152
+MedicalTerm,HbA1c,1675,mmol/mol Hb,55.18868,%,0.09146,2,20,636,22,130,40,72,2.152
+MedicalTerm,HbA1c,355,% of Hb,7.050528,%,1,2,20,473,4.1,13.9,5.5,9.1,0
+MedicalTerm,HbA1c,1192,% HB.,7.0538254,%,1,2,20,405,4.7,15.4,5.6,8.8,0
+MedicalTerm,HbA1c,2,% HB,7.301536,%,1,2,20,390,4.4,15.4,5.7,9.1,0
+MedicalTerm,HbA1c,897,HbA1c,8.697755,%,1,2,20,370,0,61,5.4,9.6,0
+MedicalTerm,HbA1c,1677,HbA1c level,8.153634,%,1,2,20,220,0,70,6.1,9.7,0
+MedicalTerm,HbA1c,405,UNKNOWN UNITS,7.229443,%,1,2,20,197,3.5,15.2,5.7,9,0
+MedicalTerm,HbA1c,1594,% of total,6.7289357,%,1,2,20,197,4.1,12.7,4.8,9.1,0
+MedicalTerm,HbA1c,2758,% (DCCT),7.529825,%,1,2,20,171,4.8,13.1,5.9,9.7,0
+MedicalTerm,HbA1c,288,units,8.325702,%,1,2,20,135,5,58,5.8,8.5,0
+MedicalTerm,HbA1c,860,% total haemoglobin,7.3008065,%,1,2,20,124,5.1,10.5,5.8,8.8,0
+MedicalTerm,HbA1c,218,mmol/L,20.603092,%,1,2,20,97,4.5,106.6,5.7,60,0
+MedicalTerm,HbA1c,1844,%Tot.,7.612903,%,1,2,20,93,4.4,13.2,5.4,10.7,0
+MedicalTerm,HbA1c,2161,% Haemoglobin A,7.8090925,%,1,2,20,88,4.9,12.7,6,10.7,0
+MedicalTerm,HbA1c,77,10*9/L,0.006321839,%,1,2,20,87,0,0.21,0,0,0
+MedicalTerm,HbA1c,2824,mmol/mmHb,55.305557,%,0.09146,2,20,72,30,111,38,75,2.152
+MedicalTerm,HbA1c,1282,percent,7.8000007,%,1,2,20,67,5.4,12.5,6.5,9.3,0
+MedicalTerm,HbA1c,917,mmol/m,55.57627,%,0.09146,2,20,59,30,115,37,75,2.152
+MedicalTerm,HbA1c,332,mmol,49.984318,%,1,2,20,51,5.7,106,24,77,0
+MedicalTerm,HbA1c,219,mmol/mmol,51.77959,%,0.09146,2,20,49,33,112,39,72,2.152
+MedicalTerm,HbA1c,1697,Hb. A1C 7-10% - borderline,0.97560966,%,1,2,20,41,0,9.5,0,7,0
+MedicalTerm,HbA1c,733,Hb. A1C < 7% - good control,0.95142853,%,1,2,20,35,0,7,0,6.7,0
+MedicalTerm,HbA1c,3111,(bsa),6.8458333,%,1,2,20,24,5.8,8.8,6,7.5,0
+MedicalTerm,HbA1c,1155,(Unknown),7.354545,%,1,2,20,22,6,12.6,6.2,8.7,0
+MedicalTerm,HbA1c,923,Unknown,7.357895,%,1,2,20,19,6.1,10.1,6.4,8.4,0
+MedicalTerm,HbA1c,3554,Hb. A1C > 10% - bad control,0,%,1,2,20,14,0,0,0,0,0
+MedicalTerm,HbA1c,959,umol/mol,49.666668,%,0.09146,2,20,12,33,70,34,64,2.152
+MedicalTerm,HbA1c,2990,DCCT%,7.6666675,%,1,2,20,12,5.4,10.2,5.8,9.6,0
+MedicalTerm,HbA1c,1595,mmmol/l,7.9,%,1,2,20,10,6.9,8.7,7.4,8.2,0
+MedicalTerm,HbA1c,186,mg/mmol,21.719997,%,1,2,20,10,0.4,45,0.9,43,0
+MedicalTerm,HbA1c,334,/L,7.5555553,%,1,2,20,9,6.3,8.4,7.1,8.4,0
+MedicalTerm,HbA1c,2290,frac. of total,9.625001,%,1,2,20,8,8.2,12.7,8.7,10.8,0
+MedicalTerm,HbA1c,1570,% of total Hb,10.05,%,1,2,20,8,7.8,13.6,8,11.4,0
+MedicalTerm,HbA1c,2985,mmol/ml,46.0875,%,0.09146,2,20,8,8,68,11.7,65,2.152
+MedicalTerm,HbA1c,22120,,7.071429,%,1,2,20,7,6.5,8,7,7,0
+MedicalTerm,HbA1c,64,1,7.8571424,%,1,2,20,7,6.1,12.9,6.2,9.1,0
+MedicalTerm,HbA1c,235,nmol/L,34.916668,%,0.09146,2,20,6,8.2,63,10.4,63,2.152
+MedicalTerm,HbA1c,1047,-,56.2,%,1,2,20,5,41,78,41,78,0
+MedicalTerm,HbA1c,6210,mmol/mol HbAo,57.5,%,1,2,20,4,39,76,39,76,0
+MedicalTerm,HbA1c,139,g/L,113.25,%,1,2,20,4,93,147,93,147,0
+MedicalTerm,HbA1c,603,h,19.324999,%,1,2,20,4,5.8,57,5.8,57,0
+MedicalTerm,HbA1c,1905,% HbA0,5.8666663,%,1,2,20,3,5.3,6.2,5.3,6.2,0
+MedicalTerm,HbA1c,3411,%(DCCT),5.933333,%,1,2,20,3,5.5,6.2,5.5,6.2,0
+MedicalTerm,HbA1c,138,g/dL,45.433334,%,0.09146,2,20,3,17.3,61,17.3,61,2.152
+MedicalTerm,HbA1c,6427,% Haemoglobin,7.6000004,%,1,2,20,2,7.4,7.8,7.4,7.8,0
+MedicalTerm,HbA1c,1613,mmo1/1,8.1,%,1,2,20,2,7.8,8.4,7.8,8.4,0
+MedicalTerm,HbA1c,847,mmol/1,66.5,%,0.09146,2,20,2,50,83,50,83,2.152
+MedicalTerm,HbA1c,153,IU,6.9,%,1,2,20,2,5.9,7.9,5.9,7.9,0
+MedicalTerm,HbA1c,3773,percentage,7.5,%,1,2,20,2,6.4,8.6,6.4,8.6,0
+MedicalTerm,HbA1c,3795,unit%,6.7,%,1,2,20,1,6.7,6.7,6.7,6.7,0
+MedicalTerm,HbA1c,9973,mml/mol,49,%,1,2,20,1,49,49,49,49,0
+MedicalTerm,HbA1c,8734,Glycosylated Hb,0,%,1,2,20,1,0,0,0,0,0
+MedicalTerm,HbA1c,3037,HbA1 - diabetic control,0,%,1,2,20,1,0,0,0,0,0
+MedicalTerm,HbA1c,3523,HbA1c level (DCCT aligned),0,%,1,2,20,1,0,0,0,0,0
+MedicalTerm,HbA1c,2321,mmols/mol,54,%,1,2,20,1,54,54,54,54,0
+MedicalTerm,HbA1c,1748,%HbA1c,7.6,%,1,2,20,1,7.6,7.6,7.6,7.6,0
+MedicalTerm,HbA1c,49,[iU]/L,8.8,%,1,2,20,1,8.8,8.8,8.8,8.8,0
+MedicalTerm,HbA1c,11001,IFCC mmol/mol,38,%,1,2,20,1,38,38,38,38,0
+MedicalTerm,HbA1c,6557,HbA1 > 10% - bad control,0,%,1,2,20,1,0,0,0,0,0
+MedicalTerm,HbA1c,63,0,7.9,%,1,2,20,1,7.9,7.9,7.9,7.9,0
+MedicalTerm,Hemoglobin,139,g/L,132.53569,g/dL,0.1,5,30,276655,0,321,109,154,0
+MedicalTerm,Hemoglobin,138,g/dL,16.306234,g/dL,0.1,5,30,247100,0,460884,11.4,15.7,0
+MedicalTerm,Hemoglobin,1339,gms/dl,15.7998085,g/dL,0.1,5,30,524,4,162,12,16.1,0
+MedicalTerm,Hemoglobin,656,g/dL.,13.56528,g/dL,0.1,5,30,265,5.7,17.4,11.3,15.8,0
+MedicalTerm,Hemoglobin,1155,(Unknown),13.971014,g/dL,0.1,5,30,69,10.2,17.1,11.6,15.7,0
+MedicalTerm,Hemoglobin,840,gm/dl,12.361291,g/dL,0.1,5,30,31,7.6,16.1,9.8,15.1,0
+MedicalTerm,Hemoglobin,923,Unknown,13.985185,g/dL,0.1,5,30,27,12,16.8,12.7,15.2,0
+MedicalTerm,Hemoglobin,220,mmol/mol,63.31579,g/dL,0.1,5,30,19,37,96,41,87,0
+MedicalTerm,Hemoglobin,1,%,10.566667,g/dL,0.1,5,30,12,1.8,14.4,5.2,13.2,0
+MedicalTerm,Hemoglobin,321,x 10*9/L,14.485715,g/dL,0.1,5,30,7,12.5,16.5,13.3,15.3,0
+MedicalTerm,Hemoglobin,484,Hb estimation,0,g/dL,0.1,5,30,7,0,0,0,0,0
+MedicalTerm,Hemoglobin,986,Not given,12.950001,g/dL,0.1,5,30,2,12.1,13.8,12.1,13.8,0
+MedicalTerm,Hemoglobin,246,per cent,4.55,g/dL,0.1,5,30,2,0,9.1,0,9.1,0
+MedicalTerm,Hemoglobin,162,l/l,0.396,g/dL,0.1,5,30,2,0.385,0.407,0.385,0.407,0
+MedicalTerm,Hemoglobin,3570,Haemoglobin low,0,g/dL,0.1,5,30,2,0,0,0,0,0
+MedicalTerm,Hemoglobin,3697,Haemoglobin normal,0,g/dL,0.1,5,30,2,0,0,0,0,0
+MedicalTerm,Hemoglobin,6035,Haemoglobin requested,0,g/dL,0.1,5,30,1,0,0,0,0,0
+MedicalTerm,Hemoglobin,134,fL,98,g/dL,0.1,5,30,1,98,98,98,98,0
+MedicalTerm,Hemoglobin,2600,g/li,132,g/dL,0.1,5,30,1,132,132,132,132,0
+MedicalTerm,Hemoglobin,51,_,10.1,g/dL,0.1,5,30,1,10.1,10.1,10.1,10.1,0
+MedicalTerm,Hemoglobin,283,ug/L,11,g/dL,0.1,5,30,1,11,11,11,11,0
+MedicalTerm,Hemoglobin,160,l,108,g/dL,0.1,5,30,1,108,108,108,108,0
+MedicalTerm,Hemoglobin,6,*10^9/l,16.1,g/dL,0.1,5,30,1,16.1,16.1,16.1,16.1,0
+MedicalTerm,Hemoglobin,413,x10^12,3.64,g/dL,0.1,5,30,1,3.64,3.64,3.64,3.64,0
+MedicalTerm,MCH,250,pg,30.307709,pg,1,10,80,480589,0,342,27.5,33,0
+MedicalTerm,MCH,251,pg/cell,30.763386,pg,1,10,80,2686,11,39.8,28.4,33.3,0
+MedicalTerm,MCH,138,g/dL,31.062534,pg,1,10,80,1968,18.4,44.9,28.3,33.7,0
+MedicalTerm,MCH,360,pg/cl,30.474634,pg,1,10,80,1366,3.7,38.5,27.6,33,0
+MedicalTerm,MCH,196,micromicgrams,30.07094,pg,1,10,80,1012,16.6,85,26.6,32.7,0
+MedicalTerm,MCH,405,UNKNOWN UNITS,30.652271,pg,1,10,80,350,24,36,27.9,33.1,0
+MedicalTerm,MCH,923,Unknown,30.61619,pg,1,10,80,105,18,34.6,28.1,32.9,0
+MedicalTerm,MCH,1295,pg.,30.016129,pg,1,10,80,62,25.7,35.3,26.9,32.7,0
+MedicalTerm,MCH,1155,(Unknown),28.698076,pg,1,10,80,52,24.1,33.1,25,31.4,0
+MedicalTerm,MCH,252,pg/l,30.422497,pg,1,10,80,40,23.3,34.8,27.6,33,0
+MedicalTerm,MCH,139,g/L,90.075,pg,1,10,80,36,26.2,350,28.2,330,0
+MedicalTerm,MCH,134,fL,68.61428,pg,1,10,80,7,9.3,101.4,10.1,100,0
+MedicalTerm,MCH,1795,micrograms,26.64,pg,1,10,80,5,20.1,31.4,20.1,31.4,0
+MedicalTerm,MCH,404,pg/dL,31.650002,pg,1,10,80,4,29.9,34,29.9,34,0
+MedicalTerm,MCH,307,x10^9/l,31.2,pg,1,10,80,2,29.6,32.8,29.6,32.8,0
+MedicalTerm,MCH,986,Not given,30,pg,1,10,80,2,29.7,30.3,29.7,30.3,0
+MedicalTerm,MCH,218,mmol/L,33.5,pg,1,10,80,2,33,34,33,34,0
+MedicalTerm,MVC,134,fL,91.563614,fL,1,50,130,507882,0,9130.4,84.3,99,0
+MedicalTerm,MVC,198,microns,89.88105,fL,1,50,130,2454,0,135.5,82.5,98,0
+MedicalTerm,MVC,957,f/L,92.71849,fL,1,50,130,1637,64,133,85,101,0
+MedicalTerm,MVC,364,femto L,91.924736,fL,1,50,130,1342,55,112,86,98,0
+MedicalTerm,MVC,1329,fl.,88.80477,fL,1,50,130,105,73.4,99.8,81.7,93.9,0
+MedicalTerm,MVC,1155,(Unknown),91.04284,fL,1,50,130,63,83.5,103.2,85.7,97.3,0
+MedicalTerm,MVC,986,Not given,88.32728,fL,1,50,130,33,74.2,92.8,83.8,92,0
+MedicalTerm,MVC,1,%,48.877777,fL,1,50,130,18,2.4,95.8,3.3,90.9,0
+MedicalTerm,MVC,923,Unknown,91.16364,fL,1,50,130,11,76.4,96.6,90.2,93.9,0
+MedicalTerm,MVC,405,UNKNOWN UNITS,90.63636,fL,1,50,130,11,79,106,80,101,0
+MedicalTerm,MVC,1214,f1,89.028564,fL,1,50,130,7,86.8,93.4,86.8,91.1,0
+MedicalTerm,MVC,77,10*9/L,8.9,fL,1,50,130,2,8.2,9.6,8.2,9.6,0
+MedicalTerm,MVC,656,g/dL.,35.1,fL,1,50,130,1,35.1,35.1,35.1,35.1,0
+MedicalTerm,MVC,3450,MCV - low,0,fL,1,50,130,1,0,0,0,0,0
+MedicalTerm,MVC,3558,MCV - raised,0,fL,1,50,130,1,0,0,0,0,0
+MedicalTerm,MVC,155,iu/ml,0.5,fL,1,50,130,1,0.5,0.5,0.5,0.5,0
+MedicalTerm,MVC,1949,fg,86,fL,1,50,130,1,86,86,86,86,0
+MedicalTerm,TIBC,283,ug/L,153.11383,ug/L,1,0.2,600,67995,0,21767,17,342,0
+MedicalTerm,TIBC,233,ng/mL,144.04263,ug/L,1,0.2,600,8270,0,8140,15,321,0
+MedicalTerm,TIBC,285,umol/L,56.02298,ug/L,1,0.2,600,3349,2,485,39,74,0
+MedicalTerm,TIBC,193,microg/L,173.8231,ug/L,1,0.2,600,1252,2.2,3169.9,17.2,396.5,0
+MedicalTerm,TIBC,1,%,26.582964,ug/L,1,0.2,600,651,0.1,100,8,47,0
+MedicalTerm,TIBC,1141,ng/ml.,86.55118,ug/L,1,0.2,600,127,6,1420,9,164,0
+MedicalTerm,TIBC,218,mmol/L,51.15333,ug/L,1,0.2,600,45,2,187,18,80,0
+MedicalTerm,TIBC,139,g/L,114.05882,ug/L,1,0.2,600,34,6,402,11,317,0
+MedicalTerm,TIBC,183,mg/L,105.431244,ug/L,1,0.2,600,32,5,460.7,21.4,284.4,0
+MedicalTerm,TIBC,197,micromol/L,63.591305,ug/L,1,0.2,600,23,11,92,46.5,84,0
+MedicalTerm,TIBC,348,MicroU/L,144.55215,ug/L,1,0.2,600,23,9.3,489,23.9,291.6,0
+MedicalTerm,TIBC,246,per cent,29.278574,ug/L,1,0.2,600,14,7,86,8.6,55,0
+MedicalTerm,TIBC,1625,MICROGRAM/L,31.076923,ug/L,1,0.2,600,13,5,75,6,57,0
+MedicalTerm,TIBC,666,mcg/l,76.87,ug/L,1,0.2,600,10,5.7,337,8,219,0
+MedicalTerm,TIBC,22105,µg/L,352.74445,ug/L,1,0.2,600,9,16,921,16.7,560,0
+MedicalTerm,TIBC,832,ug/ml,220.11665,ug/L,1,0.2,600,6,33,578.5,53,578.5,0
+MedicalTerm,TIBC,1104,microgrms/l,265,ug/L,1,0.2,600,6,3,978,33,978,0
+MedicalTerm,TIBC,22102,æg/l,364.25,ug/L,1,0.2,600,4,2,491,2,491,0
+MedicalTerm,TIBC,6471,microgm/l,88,ug/L,1,0.2,600,3,48,133,48,133,0
+MedicalTerm,TIBC,405,UNKNOWN UNITS,71.56667,ug/L,1,0.2,600,3,13.1,132.6,13.1,132.6,0
+MedicalTerm,TIBC,1155,(Unknown),51,ug/L,1,0.2,600,3,36,59,36,59,0
+MedicalTerm,TIBC,2826,micg/l,401.5,ug/L,1,0.2,600,2,397,406,397,406,0
+MedicalTerm,TIBC,1998,ug/1,138,ug/L,1,0.2,600,1,138,138,138,138,0
+MedicalTerm,TIBC,4178,microm/L,52.4,ug/L,1,0.2,600,1,52.4,52.4,52.4,52.4,0
+MedicalTerm,TIBC,232,ng/L,36,ug/L,1,0.2,600,1,36,36,36,36,0
+MedicalTerm,TIBC,1199,/mL,45,ug/L,1,0.2,600,1,45,45,45,45,0
+MedicalTerm,TIBC,235,nmol/L,53,ug/L,1,0.2,600,1,53,53,53,53,0
+MedicalTerm,TIBC,11477,(15-330),32,ug/L,1,0.2,600,1,32,32,32,32,0
+MedicalTerm,TIBC,986,Not given,50,ug/L,1,0.2,600,1,50,50,50,50,0
+MedicalTerm,TIBC,264,secs,11.3,ug/L,1,0.2,600,1,11.3,11.3,11.3,11.3,0
+MedicalTerm,TIBC,939,MCG/ML,24,ug/L,1,0.2,600,1,24,24,24,24,0
+MedicalTerm,TIBC,160,l,4.8,ug/L,1,0.2,600,1,4.8,4.8,4.8,4.8,0
+MedicalTerm,WCC,77,10*9/L,7.277843,10*9/L,1,0.2,20,379413,0,508,4.8,10.06,0
+MedicalTerm,WCC,307,x10^9/l,7.9728613,10*9/L,1,0.2,20,23152,0,15000,4.7,10,0
+MedicalTerm,WCC,305,x10*9/L,7.200102,10*9/L,1,0.2,20,21402,1.3,183,4.7,10.1,0
+MedicalTerm,WCC,82,10^9/l,8.671227,10*9/L,1,0.2,20,18284,0,12900,4.7,9.74,0
+MedicalTerm,WCC,1,%,28.590586,10*9/L,1,0.2,20,13918,0,86.7,17,40.5,0
+MedicalTerm,WCC,69,10 9/L,7.4096055,10*9/L,1,0.2,20,5079,1.75,108.02,5.1,9.95,0
+MedicalTerm,WCC,321,x 10*9/L,7.30476,10*9/L,1,0.2,20,4698,1.9,33.4,4.8,10.1,0
+MedicalTerm,WCC,6,*10^9/l,7.5521545,10*9/L,1,0.2,20,3952,0,155,4.6,10.61,0
+MedicalTerm,WCC,76,10*9 cells/L,17.587618,10*9/L,1,0.2,20,3851,0,27000,4.5,13.2,0
+MedicalTerm,WCC,884,x10\S\9l,6.868805,10*9/L,1,0.2,20,3838,1.5,21.7,4.5,9.4,0
+MedicalTerm,WCC,431,x10^9,7.3742647,10*9/L,1,0.2,20,3468,1.6,100,4.8,10.4,0
+MedicalTerm,WCC,323,10^9,7.2928367,10*9/L,1,0.2,20,1916,2.21,273,4.65,10.2,0
+MedicalTerm,WCC,585,x 10^9/l,6.7804174,10*9/L,1,0.2,20,1093,0.5,18.9,4.36,9.6,0
+MedicalTerm,WCC,1250,10**9/L,7.0672407,10*9/L,1,0.2,20,1047,2.6,21.6,4.5,10.1,0
+MedicalTerm,WCC,1224,10*3/uL,7.756098,10*9/L,1,0.2,20,968,2.6,18.1,5,11,0
+MedicalTerm,WCC,862,10*9,7.118532,10*9/L,1,0.2,20,938,2.6,21.5,4.8,9.98,0
+MedicalTerm,WCC,433,x10e9/l,7.4438076,10*9/L,1,0.2,20,646,2.4,29.6,5.2,10,0
+MedicalTerm,WCC,79,10/9L,6.722821,10*9/L,1,0.2,20,631,2.3,24.02,4.45,9.3,0
+MedicalTerm,WCC,1243,x10^9l,6.6750126,10*9/L,1,0.2,20,383,3.1,15.9,4.5,9.2,0
+MedicalTerm,WCC,1354,x109/l,7.8267055,10*9/L,1,0.2,20,334,3.5,16.3,4.8,11.2,0
+MedicalTerm,WCC,1113,x 109/l,7.3005533,10*9/L,1,0.2,20,289,2.69,22.6,4.96,9.64,0
+MedicalTerm,WCC,75,10*6/L,254.67805,10*9/L,1,0.2,20,255,1,13299,5,410,0
+MedicalTerm,WCC,821,X10*9,6.8703213,10*9/L,1,0.2,20,250,2.47,13.2,4.5,9.27,0
+MedicalTerm,WCC,246,per cent,29.214724,10*9/L,1,0.2,20,224,7.8,73.2,19,39,0
+MedicalTerm,WCC,334,/L,7.9229274,10*9/L,1,0.2,20,205,3.1,52,5.1,10.2,0
+MedicalTerm,WCC,416,10^3/uL,7.309735,10*9/L,1,0.2,20,188,3.7,13.4,4.9,10.6,0
+MedicalTerm,WCC,160,l,6.818085,10*9/L,1,0.2,20,188,1,13.7,4.8,9,0
+MedicalTerm,WCC,1640,X 10 9/L,7.3840113,10*9/L,1,0.2,20,172,1.8,42.5,3.4,10.09,0
+MedicalTerm,WCC,392,x10 9/,7.2853518,10*9/L,1,0.2,20,170,2.25,14.3,4.98,9.7,0
+MedicalTerm,WCC,1045,10/9 l,6.9550314,10*9/L,1,0.2,20,165,2.4,22.2,4.3,9.7,0
+MedicalTerm,WCC,74,10*12/L,6.8915505,10*9/L,1,0.2,20,142,2.9,16,4.6,9,0
+MedicalTerm,WCC,1681,X 10-9/l,7.553812,10*9/L,1,0.2,20,139,3.9,12.7,4.9,9.9,0
+MedicalTerm,WCC,44,/uL,878.0147,10*9/L,1,0.2,20,136,0,15865,3,1796,0
+MedicalTerm,WCC,391,x10^6/L,1861.5581,10*9/L,1,0.2,20,129,1,72395,5,4816,0
+MedicalTerm,WCC,1094,% WBC,26.00945,10*9/L,0.1,0.2,20,127,0,49.6,16.8,36,0
+MedicalTerm,WCC,368,x10,7.3776717,10*9/L,1,0.2,20,103,3.8,11.7,5,10.2,0
+MedicalTerm,WCC,933,*10 9/l,6.8050523,10*9/L,1,0.2,20,99,2.8,13.7,5.2,9,0
+MedicalTerm,WCC,303,x10'9/l,6.6396546,10*9/L,1,0.2,20,87,3.4,11,4.3,8.6,0
+MedicalTerm,WCC,1147,x1O^9,7.6328945,10*9/L,1,0.2,20,76,4.6,15.4,5.5,10.8,0
+MedicalTerm,WCC,1034,x10 9/l,7.3585343,10*9/L,1,0.2,20,75,4,17.3,4.7,10.9,0
+MedicalTerm,WCC,1256,10*9/mL,7.04861,10*9/L,1,0.2,20,72,4.2,12.6,5.1,9.6,0
+MedicalTerm,WCC,923,Unknown,6.732676,10*9/L,1,0.2,20,71,0.9,12.9,4.3,9.4,0
+MedicalTerm,WCC,1155,(Unknown),7.866061,10*9/L,1,0.2,20,66,3.9,30,4.8,11.2,0
+MedicalTerm,WCC,1133,x10**9/l,6.96,10*9/L,1,0.2,20,65,3.9,14.1,4.7,9,0
+MedicalTerm,WCC,7048,x 10?'9/l,6.8042855,10*9/L,1,0.2,20,63,2.4,13.2,3.3,9.8,0
+MedicalTerm,WCC,254,pH,6.03718,10*9/L,1,0.2,20,39,0.88,12.9,1.86,8.3,0
+MedicalTerm,WCC,1581,x10/9 l,6.664866,10*9/L,1,0.2,20,37,3.6,10.4,4.8,9,0
+MedicalTerm,WCC,915,* 10^9/l,7.4225807,10*9/L,1,0.2,20,31,4,12.1,5,11,0
+MedicalTerm,WCC,826,10*3/L,6.6272426,10*9/L,1,0.2,20,29,3.2,11.7,4.9,8.4,0
+MedicalTerm,WCC,6580,x10 9/1,7.3342314,10*9/L,1,0.2,20,26,3.5,15.3,4.4,9.5,0
+MedicalTerm,WCC,218,mmol/L,7,10*9/L,1,0.2,20,24,3.7,10.1,5.3,8.8,0
+MedicalTerm,WCC,1084,mm3,345.83334,10*9/L,1,0.2,20,24,10,1000,15,1000,0
+MedicalTerm,WCC,2799,10*9/,8.099998,10*9/L,1,0.2,20,22,4.8,14.2,6.4,10.3,0
+MedicalTerm,WCC,1194,10/9/l,7.3272724,10*9/L,1,0.2,20,22,4.8,12.2,5.7,9.6,0
+MedicalTerm,WCC,1626,10e9/l,8.455,10*9/L,1,0.2,20,20,2.4,72,2.6,9.1,0
+MedicalTerm,WCC,209,mm,120.5,10*9/L,1,0.2,20,20,10,1000,10,200,0
+MedicalTerm,WCC,1072,x10*6/L,687.8947,10*9/L,1,0.2,20,19,1,10099,3,415,0
+MedicalTerm,WCC,347,10*-2,10.8052635,10*9/L,1,0.2,20,19,5.02,24.99,5.26,20.33,0
+MedicalTerm,WCC,421,.,8.594445,10*9/L,1,0.2,20,18,5,15,5.2,11.6,0
+MedicalTerm,WCC,67,10,7.725293,10*9/L,1,0.2,20,17,4.6,14.6,5.2,11.5,0
+MedicalTerm,WCC,407,10*3/mL,7.8333325,10*9/L,1,0.2,20,12,4.1,11.7,5.1,9.6,0
+MedicalTerm,WCC,2699,WBC/mm3,6.790909,10*9/L,1,0.2,20,11,3.8,14.1,3.8,11.1,0
+MedicalTerm,WCC,1271,x10\S\9/L,7.9909086,10*9/L,1,0.2,20,11,5,12.8,5.2,11,0
+MedicalTerm,WCC,895,/mm*3,24.11111,10*9/L,1,0.2,20,9,0,100,1,100,0
+MedicalTerm,WCC,934,WBC/mL,20,10*9/L,1,0.2,20,9,10,100,10,10,0
+MedicalTerm,WCC,2429,H x10*9/L,6.9799995,10*9/L,1,0.2,20,5,4.7,8.4,4.7,8.4,0
+MedicalTerm,WCC,1949,fg,7.15,10*9/L,1,0.2,20,4,5.1,10.2,5.1,10.2,0
+MedicalTerm,WCC,64,1,5.5,10*9/L,1,0.2,20,4,4.6,6.1,4.6,6.1,0
+MedicalTerm,WCC,986,Not given,7.133333,10*9/L,1,0.2,20,3,1,13.3,1,13.3,0
+MedicalTerm,WCC,1422,10^6/L,115,10*9/L,1,0.2,20,2,30,200,30,200,0
+MedicalTerm,WCC,2994,*10^9/1,12.2,10*9/L,1,0.2,20,2,12.2,12.2,12.2,12.2,0
+MedicalTerm,WCC,1915,x 10^9,7.5499997,10*9/L,1,0.2,20,2,5.7,9.4,5.7,9.4,0
+MedicalTerm,WCC,283,ug/L,0.75,10*9/L,1,0.2,20,2,0.3,1.2,0.3,1.2,0
+MedicalTerm,WCC,229,mu/L,7,10*9/L,1,0.2,20,1,7,7,7,7,0
+MedicalTerm,WCC,1204,109/l,0.6,10*9/L,1,0.2,20,1,0.6,0.6,0.6,0.6,0
+MedicalTerm,WCC,6594,x *10^9/1,8.7,10*9/L,1,0.2,20,1,8.7,8.7,8.7,8.7,0
+MedicalTerm,WCC,65,01-Jan,7.9,10*9/L,1,0.2,20,1,7.9,7.9,7.9,7.9,0
+MedicalTerm,WCC,1196,(ph),6.1,10*9/L,1,0.2,20,1,6.1,6.1,6.1,6.1,0
+MedicalTerm,WCC,531,U,11.9,10*9/L,1,0.2,20,1,11.9,11.9,11.9,11.9,0
+MedicalTerm,WCC,1131,10\S\9/L,11.9,10*9/L,1,0.2,20,1,11.9,11.9,11.9,11.9,0
+MedicalTerm,WCC,4217,1000million/l,6.3,10*9/L,1,0.2,20,1,6.3,6.3,6.3,6.3,0
+MedicalTerm,WCC,3376,#M ( )/L,8.9,10*9/L,1,0.2,20,1,8.9,8.9,8.9,8.9,0
+MedicalTerm,WCC,2421,/cmm,8,10*9/L,1,0.2,20,1,8,8,8,8,0
+MedicalTerm,WCC,1943,x10/l,7.7,10*9/L,1,0.2,20,1,7.7,7.7,7.7,7.7,0
+MedicalTerm,albumin_serum,139,g/L,41.009995,g/L,1,5,90,546235,0,474,35.6,46,0
+MedicalTerm,albumin_serum,1155,(Unknown),43.473682,g/L,1,5,90,57,35,50,41,46,0
+MedicalTerm,albumin_serum,183,mg/L,33.692307,g/L,1,5,90,39,0,153,4,47,0
+MedicalTerm,albumin_serum,138,g/dL,40.07143,g/L,1,5,90,14,25,48,27,45,0
+MedicalTerm,albumin_serum,218,mmol/L,33.435715,g/L,1,5,90,7,2.45,49,2.6,48,0
+MedicalTerm,albumin_serum,3861,GL,38,g/L,1,5,90,4,36,41,36,41,0
+MedicalTerm,albumin_serum,923,Unknown,45.333332,g/L,1,5,90,3,44,47,44,47,0
+MedicalTerm,albumin_serum,1,%,57.966663,g/L,1,5,90,3,56.2,60.2,56.2,60.2,0
+MedicalTerm,albumin_serum,160,l,3666666500,g/L,1,5,90,3,0,9000000000,0,9000000000,0
+MedicalTerm,albumin_serum,233,ng/mL,12.1,g/L,1,5,90,1,12.1,12.1,12.1,12.1,0
+MedicalTerm,amylase,276,u/L,71.13279,u/L,1,5,180,3208,5,1680,32,115,0
+MedicalTerm,amylase,154,iu/L,75.73421,u/L,1,5,180,2675,10,5782,32,116,0
+MedicalTerm,amylase,318,u/dl,166.55556,u/L,1,5,180,27,17,2902,32,94,0
+MedicalTerm,amylase,151,i.u./l,53.57143,u/L,1,5,180,14,13,93,24,70,0
+MedicalTerm,amylase,44,/uL,66.8,u/L,1,5,180,5,23,85,23,85,0
+MedicalTerm,amylase,49,[iU]/L,90.5,u/L,1,5,180,4,49,128,49,128,0
+MedicalTerm,amylase,953,units/l,865.6667,u/L,1,5,180,3,59,2330,59,2330,0
+MedicalTerm,amylase,405,UNKNOWN UNITS,62,u/L,1,5,180,3,49,70,49,70,0
+MedicalTerm,amylase,923,Unknown,54.333332,u/L,1,5,180,3,37,72,37,72,0
+MedicalTerm,amylase,153,IU,101,u/L,1,5,180,2,31,171,31,171,0
+MedicalTerm,amylase,1683,S'GYI U/DL,105,u/L,1,5,180,2,81,129,81,129,0
+MedicalTerm,amylase,1155,(Unknown),45,u/L,1,5,180,1,45,45,45,45,0
+MedicalTerm,amylase,277,U/mL,63,u/L,1,5,180,1,63,63,63,63,0
+MedicalTerm,amylase,1268,lu/l,86,u/L,1,5,180,1,86,86,86,86,0
+MedicalTerm,amylase,1873,IU/I,68,u/L,1,5,180,1,68,68,68,68,0
+MedicalTerm,anti_ttg,277,U/mL,4.4534864,U/mL,1,0.001,12,2449,0,2798.7,0.2,2,0
+MedicalTerm,anti_ttg,159,ku/L,3.7969687,U/mL,1,0.001,12,396,0.1,250,0.5,2.1,0
+MedicalTerm,anti_ttg,1285,CU,20.021326,U/mL,1,0.001,12,333,1.9,4965.5,1.9,4,0
+MedicalTerm,anti_ttg,155,iu/ml,5.407076,U/mL,1,0.001,12,146,0.2,200,0.7,7,0
+MedicalTerm,anti_ttg,229,mu/L,2.125,U/mL,1,0.001,12,8,1,3,2,3,0
+MedicalTerm,anti_ttg,185,mg/ml,10.683333,U/mL,1,0.001,12,6,0.4,55,1.2,55,0
+MedicalTerm,anti_ttg,531,U,0.92,U/mL,1,0.001,12,6,0.6,1.02,0.9,1.02,0
+MedicalTerm,anti_ttg,405,UNKNOWN UNITS,1.1500001,U/mL,1,0.001,12,4,1,1.2,1,1.2,0
+MedicalTerm,anti_ttg,276,u/L,1,U/mL,1,0.001,12,3,0,1.5,0,1.5,0
+MedicalTerm,anti_ttg,153,IU,5.8999996,U/mL,1,0.001,12,2,1.9,9.9,1.9,9.9,0
+MedicalTerm,anti_ttg,288,units,0.3,U/mL,1,0.001,12,1,0.3,0.3,0.3,0.3,0
+MedicalTerm,anti_ttg,673,/cu.mm,1.9,U/mL,1,0.001,12,1,1.9,1.9,1.9,1.9,0
+MedicalTerm,anti_ttg,1954,(cfU),1.9,U/mL,1,0.001,12,1,1.9,1.9,1.9,1.9,0
+MedicalTerm,anti_ttg,1459,(bdsk u),0.2,U/mL,1,0.001,12,1,0.2,0.2,0.2,0.2,0
+MedicalTerm,bilirubin,285,umol/L,31.221228,umol/L,1,0.001,50,524054,0,10000000,5,19,0
+MedicalTerm,bilirubin,176,MCMOL/L,13.5867605,umol/L,1,0.001,50,2472,0,600,6,21,0
+MedicalTerm,bilirubin,197,micromol/L,13.43734,umol/L,1,0.001,50,1947,3,245,7,21,0
+MedicalTerm,bilirubin,816,mol/L,12.90196,umol/L,1,0.001,50,1122,1,49,7,19,0
+MedicalTerm,bilirubin,218,mmol/L,11.746289,umol/L,1,0.001,50,741,2,124,6,19,0
+MedicalTerm,bilirubin,1155,(Unknown),11.206897,umol/L,1,0.001,50,58,3,30,6,15,0
+MedicalTerm,bilirubin,1532,uM/l,11,umol/L,1,0.001,50,50,4,27,6,16,0
+MedicalTerm,bilirubin,22106,µmol/L,11.020833,umol/L,1,0.001,50,48,3,26,7,18,0
+MedicalTerm,bilirubin,182,MG/DL,14.680851,umol/L,1,0.001,50,47,4,116,7,17,0
+MedicalTerm,bilirubin,815,BILIRUBIN,10.617022,umol/L,1,0.001,50,47,2,45,6,13,0
+MedicalTerm,bilirubin,22103,æmol/l,13.259259,umol/L,1,0.001,50,27,3,34,6,28,0
+MedicalTerm,bilirubin,848,aemol/l,10.807693,umol/L,1,0.001,50,26,5,21,7,16,0
+MedicalTerm,bilirubin,2394,mcmol/litre,11.958333,umol/L,1,0.001,50,24,5,31,7,20,0
+MedicalTerm,bilirubin,44,/uL,14.227273,umol/L,1,0.001,50,22,9,21,9,20,0
+MedicalTerm,bilirubin,154,iu/L,78.125,umol/L,0.1,0.001,50,16,18,149,52,148,0
+MedicalTerm,bilirubin,2245,Âµmol/L,12.125,umol/L,1,0.001,50,16,4,23,5,22,0
+MedicalTerm,bilirubin,9082,u mol/l,13.642858,umol/L,1,0.001,50,14,5,24,7,24,0
+MedicalTerm,bilirubin,173,m,12.636364,umol/L,1,0.001,50,11,9,16,10,15,0
+MedicalTerm,bilirubin,923,Unknown,8.666667,umol/L,1,0.001,50,6,5,13,7,13,0
+MedicalTerm,bilirubin,521,R,15.4,umol/L,1,0.001,50,5,10,27,10,27,0
+MedicalTerm,bilirubin,1,%,10.8,umol/L,1,0.001,50,5,8,15,8,15,0
+MedicalTerm,bilirubin,4470,UMOLL,8.75,umol/L,1,0.001,50,4,8,10,8,10,0
+MedicalTerm,bilirubin,348,MicroU/L,12.25,umol/L,1,0.001,50,4,3,17,3,17,0
+MedicalTerm,bilirubin,276,u/L,16.666666,umol/L,1,0.001,50,3,10,29,10,29,0
+MedicalTerm,bilirubin,191,micmol/l,100,umol/L,1,0.001,50,2,17,183,17,183,0
+MedicalTerm,bilirubin,1223,umol,12,umol/L,1,0.001,50,1,12,12,12,12,0
+MedicalTerm,bilirubin,1865,ummol/L,4,umol/L,1,0.001,50,1,4,4,4,4,0
+MedicalTerm,bilirubin,1545,fmol/l,5,umol/L,1,0.001,50,1,5,5,5,5,0
+MedicalTerm,bmi,157,kg/m2,274.72897,kg/m2,1,10,50,163768,-2.76,800000,21.9,36.2,0
+MedicalTerm,bmi,22101,Kg/m²,29.326117,kg/m3,1,10,50,5032,0,3663.698,22.2,35.526,0
+MedicalTerm,bmi,657,Kg/mÂ²,28.502308,kg/m4,1,10,50,1749,0,50.873,22,34.8,0
+MedicalTerm,bmi,108,Body Mass Index,26.690338,kg/m5,1,10,50,1225,0,56.5,21.6,33.2,0
+MedicalTerm,bmi,568,BMI,27.61667,kg/m6,1,10,50,921,16.1,51.3,21,35.3,0
+MedicalTerm,bmi,288,units,28.109283,kg/m7,1,10,50,806,15.4,51.274,22.843,33.493,0
+MedicalTerm,bmi,1,%,28.592539,kg/m8,1,10,50,643,16.2,61.7,22.6,34.7,0
+MedicalTerm,bmi,156,kg,78.70595,kg/m9,1,10,50,606,0,155.6,50,106,0
+MedicalTerm,bmi,359,Kg/m?,28.619799,kg/m10,1,10,50,332,17.1,248.437,21.8,33.802,0
+MedicalTerm,bmi,822,18.5-24.9,29.270157,kg/m11,1,10,50,258,18.6,51.1,24,35.4,0
+MedicalTerm,bmi,1309,K/M2,29.212645,kg/m12,1,10,50,228,5.4,42.1,21.4,37,0
+MedicalTerm,bmi,218,mmol/L,33.03055,kg/m13,1,10,50,167,18,54.3,27,36.2,0
+MedicalTerm,bmi,1200,kg/m/m,29.474325,kg/m14,1,10,50,153,4.86,44.44,22.72,38.38,0
+MedicalTerm,bmi,122,cm,160.57335,kg/m15,0.1,10,50,126,0,195,152.4,182,0
+MedicalTerm,bmi,6289,per metre square,31.588888,kg/m16,1,10,50,54,25.6,38.7,27.4,37.5,0
+MedicalTerm,bmi,907,kg/m^2,27.417349,kg/m17,1,10,50,49,19.6,43.23,22.1,33.06,0
+MedicalTerm,bmi,1856,BMI 25-29 - overweight,0,kg/m18,1,10,50,28,0,0,0,0,0
+MedicalTerm,bmi,432,metres,1.719318,kg/m19,1,10,50,22,1.47,1.88,1.6,1.829,0
+MedicalTerm,bmi,3466,O/E - weight > 20% over ideal,3.3809524,kg/m20,1,10,50,21,0,71,0,0,0
+MedicalTerm,bmi,2217,wt/ht2,26.723526,kg/m21,1,10,50,17,21,35.8,23.8,29,0
+MedicalTerm,bmi,173,m,1.7418749,kg/m22,1,10,50,16,1.6,1.85,1.6,1.85,0
+MedicalTerm,bmi,3444,O/E - weight 10-20% over ideal,11.538462,kg/m23,1,10,50,13,0,78,0,72,0
+MedicalTerm,bmi,1438,kg/m*m,27.527275,kg/m24,1,10,50,11,21.1,35.3,23.7,33.6,0
+MedicalTerm,bmi,1859,Body mass index 30+ - obesity,0,kg/m25,1,10,50,11,0,0,0,0,0
+MedicalTerm,bmi,1633,kg/square m,43.25,kg/m26,1,10,50,8,39.8,47.3,41.1,45.1,0
+MedicalTerm,bmi,2358,O/E - weight NOS,0,kg/m27,1,10,50,7,0,0,0,0,0
+MedicalTerm,bmi,3737,18.5.-24.9,21.433334,kg/m28,1,10,50,3,19.7,24.9,19.7,24.9,0
+MedicalTerm,bmi,2938,No UOM assigned,30.933334,kg/m29,1,10,50,3,28.9,35,28.9,35,0
+MedicalTerm,bmi,827,Kgs,45.5,kg/m30,1,10,50,2,34,57,34,57,0
+MedicalTerm,bmi,1788,/kg(body wt),26.715,kg/m31,1,10,50,2,26.62,26.81,26.62,26.81,0
+MedicalTerm,bmi,5198,231,31.2,kg/m32,1,10,50,1,31.2,31.2,31.2,31.2,0
+MedicalTerm,bmi,5623,132,31.3,kg/m33,1,10,50,1,31.3,31.3,31.3,31.3,0
+MedicalTerm,bmi,5322,458,23.9,kg/m34,1,10,50,1,23.9,23.9,23.9,23.9,0
+MedicalTerm,bmi,5260,1509,42,kg/m35,1,10,50,1,42,42,42,42,0
+MedicalTerm,bmi,4701,252,28.3,kg/m36,1,10,50,1,28.3,28.3,28.3,28.3,0
+MedicalTerm,bmi,5176,502,31.2,kg/m37,1,10,50,1,31.2,31.2,31.2,31.2,0
+MedicalTerm,bmi,4928,548,32.9,kg/m38,1,10,50,1,32.9,32.9,32.9,32.9,0
+MedicalTerm,bmi,5175,449,26.9,kg/m39,1,10,50,1,26.9,26.9,26.9,26.9,0
+MedicalTerm,bmi,41,/min,27.4,kg/m40,1,10,50,1,27.4,27.4,27.4,27.4,0
+MedicalTerm,bmi,5600,1554,34.9,kg/m41,1,10,50,1,34.9,34.9,34.9,34.9,0
+MedicalTerm,bmi,2766,O/E - weight within 10% ideal,0,kg/m42,1,10,50,1,0,0,0,0,0
+MedicalTerm,bmi,7805,O/E - height 10-20% < average,0,kg/m43,1,10,50,1,0,0,0,0,0
+MedicalTerm,bmi,4445,114,27.9,kg/m44,1,10,50,1,27.9,27.9,27.9,27.9,0
+MedicalTerm,bmi,5449,593,34.2,kg/m45,1,10,50,1,34.2,34.2,34.2,34.2,0
+MedicalTerm,bmi,4657,279,38.5,kg/m46,1,10,50,1,38.5,38.5,38.5,38.5,0
+MedicalTerm,bmi,4915,734,24.8,kg/m47,1,10,50,1,24.8,24.8,24.8,24.8,0
+MedicalTerm,bmi,4612,196,29.4,kg/m48,1,10,50,1,29.4,29.4,29.4,29.4,0
+MedicalTerm,bmi,3822,62,31,kg/m49,1,10,50,1,31,31,31,31,0
+MedicalTerm,bmi,7028,2094,32.9,kg/m50,1,10,50,1,32.9,32.9,32.9,32.9,0
+MedicalTerm,bmi,22120,,34.81,kg/m51,1,10,50,1,34.81,34.81,34.81,34.81,0
+MedicalTerm,bmi,2724,106,26.6,kg/m52,1,10,50,1,26.6,26.6,26.6,26.6,0
+MedicalTerm,bmi,216,mmHg,37.4,kg/m53,1,10,50,1,37.4,37.4,37.4,37.4,0
+MedicalTerm,bmi,625,O/E - overweight,0,kg/m54,1,10,50,1,0,0,0,0,0
+MedicalTerm,bmi,4708,451,36.8,kg/m55,1,10,50,1,36.8,36.8,36.8,36.8,0
+MedicalTerm,bmi,3078,88,36.8,kg/m56,1,10,50,1,36.8,36.8,36.8,36.8,0
+MedicalTerm,bmi,2345,19,25.3,kg/m57,1,10,50,1,25.3,25.3,25.3,25.3,0
+MedicalTerm,bmi,4843,105,28.3,kg/m58,1,10,50,1,28.3,28.3,28.3,28.3,0
+MedicalTerm,bmi,4901,995,28.8,kg/m59,1,10,50,1,28.8,28.8,28.8,28.8,0
+MedicalTerm,bmi,3498,O/E -weight 10-20% below ideal,0,kg/m60,1,10,50,1,0,0,0,0,0
+MedicalTerm,bmi,6913,799,38.9,kg/m61,1,10,50,1,38.9,38.9,38.9,38.9,0
+MedicalTerm,bmi,1155,(Unknown),25,kg/m62,1,10,50,1,25,25,25,25,0
+MedicalTerm,bmi,1366,550,20.6,kg/m63,1,10,50,1,20.6,20.6,20.6,20.6,0
+MedicalTerm,calcium_serum,218,mmol/L,2.3539693,mmol/L,1,1,6,176753,0,418,2.2,2.49,0
+MedicalTerm,calcium_serum,150,Hrs,15.933167,mmol/L,1,1,6,256,8,1111.54,8.37,16.31,0
+MedicalTerm,calcium_serum,182,MG/DL,2.3462505,mmol/L,1,1,6,40,2.08,2.6,2.16,2.45,0
+MedicalTerm,calcium_serum,1155,(Unknown),2.3626666,mmol/L,1,1,6,15,2.26,2.54,2.26,2.48,0
+MedicalTerm,calcium_serum,986,Not given,2.2075,mmol/L,1,1,6,4,1.91,2.33,1.91,2.33,0
+MedicalTerm,calcium_serum,923,Unknown,2.425,mmol/L,1,1,6,2,2.36,2.49,2.36,2.49,0
+MedicalTerm,calcium_serum,235,nmol/L,2.4699998,mmol/L,1,1,6,2,2.35,2.59,2.35,2.59,0
+MedicalTerm,calcium_serum,1145,mmolL,2.26,mmol/L,1,1,6,1,2.26,2.26,2.26,2.26,0
+MedicalTerm,calcium_serum,6116,Corrected serum calcium level,2.34,mmol/L,1,1,6,1,2.34,2.34,2.34,2.34,0
+MedicalTerm,calcium_serum,405,UNKNOWN UNITS,2.36,mmol/L,1,1,6,1,2.36,2.36,2.36,2.36,0
+MedicalTerm,calcium_serum,219,mmol/mmol,2.3,mmol/L,1,1,6,1,2.3,2.3,2.3,2.3,0
+MedicalTerm,calcium_serum,202,ml/min,61.1,mmol/L,1,1,6,1,61.1,61.1,61.1,61.1,0
+MedicalTerm,cholesterol_triglycerides,218,mmol/L,3.6483428,mmol/L,1,0.0001,20,445513,0,605,1.02,6,0
+MedicalTerm,cholesterol_triglycerides,139,g/L,2.00793,mmol/L,1,0.0001,20,904,0,32.5,0.8,3.4,0
+MedicalTerm,cholesterol_triglycerides,180,mg/100 ml,5.674416,mmol/L,1,0.0001,20,884,1.1,10.2,4.1,7.2,0
+MedicalTerm,cholesterol_triglycerides,679,g,1.9057148,mmol/L,1,0.0001,20,147,0.4,9.5,0.7,3.3,0
+MedicalTerm,cholesterol_triglycerides,1155,(Unknown),4.7313404,mmol/L,1,0.0001,20,97,1,9,1.6,6.6,0
+MedicalTerm,cholesterol_triglycerides,483,Serum cholesterol normal,0,mmol/L,1,0.0001,20,45,0,0,0,0,0
+MedicalTerm,cholesterol_triglycerides,1145,mmolL,2.580345,mmol/L,1,0.0001,20,29,0.64,5.17,1.19,4.22,0
+MedicalTerm,cholesterol_triglycerides,285,umol/L,5.415385,mmol/L,1,0.0001,20,26,2.5,7.8,4.3,7.2,0
+MedicalTerm,cholesterol_triglycerides,1595,mmmol/l,5.1275,mmol/L,1,0.0001,20,24,3.2,6.7,3.7,6.4,0
+MedicalTerm,cholesterol_triglycerides,717,Serum cholesterol raised,0,mmol/L,1,0.0001,20,23,0,0,0,0,0
+MedicalTerm,cholesterol_triglycerides,4348,mmol/l...,5.4,mmol/L,1,0.0001,20,22,3.6,7.3,4.2,6.8,0
+MedicalTerm,cholesterol_triglycerides,332,mmol,4.6785,mmol/L,1,0.0001,20,20,3.08,6.66,3.12,6.09,0
+MedicalTerm,cholesterol_triglycerides,2693,mm/l,5.831053,mmol/L,1,0.0001,20,19,4.09,7.1,4.7,6.7,0
+MedicalTerm,cholesterol_triglycerides,1679,Serum cholesterol borderline,0,mmol/L,1,0.0001,20,12,0,0,0,0,0
+MedicalTerm,cholesterol_triglycerides,63,0,1.1272727,mmol/L,1,0.0001,20,11,0,5.3,0,2.3,0
+MedicalTerm,cholesterol_triglycerides,5740,mmol/l pre statin,6.1375,mmol/L,1,0.0001,20,8,4.6,7.9,5.5,7.1,0
+MedicalTerm,cholesterol_triglycerides,3648,Serum triglycerides normal,0,mmol/L,1,0.0001,20,8,0,0,0,0,0
+MedicalTerm,cholesterol_triglycerides,923,Unknown,13,mmol/L,1,0.0001,20,8,8,16,10,16,0
+MedicalTerm,cholesterol_triglycerides,260,ratio,3.4433336,mmol/L,1,0.0001,20,6,2.04,5.64,3.05,5.64,0
+MedicalTerm,cholesterol_triglycerides,2619,Serum cholesterol NOS,0,mmol/L,1,0.0001,20,6,0,0,0,0,0
+MedicalTerm,cholesterol_triglycerides,1613,mmo1/1,3.9800003,mmol/L,1,0.0001,20,5,2.4,7.3,2.4,7.3,0
+MedicalTerm,cholesterol_triglycerides,182,MG/DL,4.65,mmol/L,1,0.0001,20,4,3.1,6.1,3.1,6.1,0
+MedicalTerm,cholesterol_triglycerides,269,Tgt chol,5.1,mmol/L,1,0.0001,20,3,5,5.3,5,5.3,0
+MedicalTerm,cholesterol_triglycerides,2297,umol/2,3,mmol/L,1,0.0001,20,2,2.8,3.2,2.8,3.2,0
+MedicalTerm,cholesterol_triglycerides,1,%,3.9499998,mmol/L,1,0.0001,20,2,3.8,4.1,3.8,4.1,0
+MedicalTerm,cholesterol_triglycerides,7843,mmol /L,2.3,mmol/L,1,0.0001,20,2,0,4.6,0,4.6,0
+MedicalTerm,cholesterol_triglycerides,672,mmols,3.75,mmol/L,1,0.0001,20,2,3,4.5,3,4.5,0
+MedicalTerm,cholesterol_triglycerides,6618,1.3-5.2,6,mmol/L,1,0.0001,20,2,5.7,6.3,5.7,6.3,0
+MedicalTerm,cholesterol_triglycerides,3714,Serum cholesterol studies,0,mmol/L,1,0.0001,20,2,0,0,0,0,0
+MedicalTerm,cholesterol_triglycerides,3706,Serum cholesterol very high,0,mmol/L,1,0.0001,20,2,0,0,0,0,0
+MedicalTerm,cholesterol_triglycerides,153,IU,7,mmol/L,1,0.0001,20,1,7,7,7,7,0
+MedicalTerm,cholesterol_triglycerides,2395,mmol/litre,1.11,mmol/L,1,0.0001,20,1,1.11,1.11,1.11,1.11,0
+MedicalTerm,cholesterol_triglycerides,1621,(knk u),3.1,mmol/L,1,0.0001,20,1,3.1,3.1,3.1,3.1,0
+MedicalTerm,cholesterol_triglycerides,229,mu/L,4.8,mmol/L,1,0.0001,20,1,4.8,4.8,4.8,4.8,0
+MedicalTerm,cholesterol_triglycerides,1619,6,5.4,mmol/L,1,0.0001,20,1,5.4,5.4,5.4,5.4,0
+MedicalTerm,cholesterol_triglycerides,288,units,1.01,mmol/L,1,0.0001,20,1,1.01,1.01,1.01,1.01,0
+MedicalTerm,cholesterol_triglycerides,4445,114,3.7,mmol/L,1,0.0001,20,1,3.7,3.7,3.7,3.7,0
+MedicalTerm,cholesterol_triglycerides,9945,(mmol/L),4.34,mmol/L,1,0.0001,20,1,4.34,4.34,4.34,4.34,0
+MedicalTerm,cholesterol_triglycerides,22120,,1.8,mmol/L,1,0.0001,20,1,1.8,1.8,1.8,1.8,0
+MedicalTerm,cholesterol_triglycerides,219,mmol/mmol,5.2,mmol/L,1,0.0001,20,1,5.2,5.2,5.2,5.2,0
+MedicalTerm,creatinine_serum,285,umol/L,229.14256,umol/L,1,30,4000,693353,-59,85000000,64,132,0
+MedicalTerm,creatinine_serum,191,micmol/l,104.670135,umol/L,1,30,4000,5090,0,1200,69,144,0
+MedicalTerm,creatinine_serum,197,micromol/L,99.17431,umol/L,1,30,4000,2456,0,396,74,124,0
+MedicalTerm,creatinine_serum,218,mmol/L,95.02297,umol/L,1,30,4000,2027,0,816,65,129,0
+MedicalTerm,creatinine_serum,816,mol/L,91.97469,umol/L,1,30,4000,1897,36,625,62,121,0
+MedicalTerm,creatinine_serum,182,MG/DL,94.77467,umol/L,1,30,4000,259,0.08,234,72,123,0
+MedicalTerm,creatinine_serum,820,umol//l,108.82269,umol/L,1,30,4000,100,1.77,255,70,160,0
+MedicalTerm,creatinine_serum,22106,µmol/L,143.14433,umol/L,1,30,4000,97,66,1110,86,161,0
+MedicalTerm,creatinine_serum,1155,(Unknown),98.41111,umol/L,1,30,4000,90,58,176,71,122,0
+MedicalTerm,creatinine_serum,2245,Âµmol/L,74.42857,umol/L,1,30,4000,49,48,102,60,91,0
+MedicalTerm,creatinine_serum,202,ml/min,141.83333,umol/L,1,30,4000,42,46,2701,59,101,0
+MedicalTerm,creatinine_serum,176,MCMOL/L,218.34483,umol/L,1,30,4000,29,84,360,98,336,0
+MedicalTerm,creatinine_serum,44,/uL,84.24138,umol/L,1,30,4000,29,55,141,61,119,0
+MedicalTerm,creatinine_serum,848,aemol/l,93.42857,umol/L,1,30,4000,28,74,121,80,115,0
+MedicalTerm,creatinine_serum,22103,æmol/l,91.391304,umol/L,1,30,4000,23,66,120,75,108,0
+MedicalTerm,creatinine_serum,1223,umol,134.85,umol/L,1,30,4000,20,48,391,75,280,0
+MedicalTerm,creatinine_serum,4179,microl/L,87,umol/L,1,30,4000,19,70,101,72,100,0
+MedicalTerm,creatinine_serum,1865,ummol/L,120.55556,umol/L,1,30,4000,18,62,206,80,169,0
+MedicalTerm,creatinine_serum,4026,UMOL.L,190.375,umol/L,1,30,4000,16,69,350,93,317,0
+MedicalTerm,creatinine_serum,6709,Serum creatinine normal,0,umol/L,1,30,4000,16,0,0,0,0,0
+MedicalTerm,creatinine_serum,256,pmol/L,71.5,umol/L,1,30,4000,16,51,99,60,90,0
+MedicalTerm,creatinine_serum,154,iu/L,85.35714,umol/L,1,30,4000,14,59,168,65,100,0
+MedicalTerm,creatinine_serum,332,mmol,105.8,umol/L,1,30,4000,10,92,115,100,115,0
+MedicalTerm,creatinine_serum,4470,UMOLL,109.111115,umol/L,1,30,4000,9,91,144,92,134,0
+MedicalTerm,creatinine_serum,421,.,68.625,umol/L,1,30,4000,8,51,90,58,82,0
+MedicalTerm,creatinine_serum,1595,mmmol/l,82.57143,umol/L,1,30,4000,7,71,91,78,86,0
+MedicalTerm,creatinine_serum,3398,38-819,93.166664,umol/L,1,30,4000,6,67,112,70,112,0
+MedicalTerm,creatinine_serum,348,MicroU/L,106.2,umol/L,1,30,4000,5,97,114,97,114,0
+MedicalTerm,creatinine_serum,349,ml/s/m^2,0,umol/L,1,30,4000,2,0,0,0,0,0
+MedicalTerm,creatinine_serum,1545,fmol/l,116,umol/L,1,30,4000,2,116,116,116,116,0
+MedicalTerm,creatinine_serum,923,Unknown,108.5,umol/L,1,30,4000,2,95,122,95,122,0
+MedicalTerm,creatinine_serum,186,mg/mmol,35.75,umol/L,1,30,4000,2,0.5,71,0.5,71,0
+MedicalTerm,creatinine_serum,65,01-Jan,141,umol/L,1,30,4000,1,141,141,141,141,0
+MedicalTerm,creatinine_serum,7916,mmol/lge,39,umol/L,1,30,4000,1,39,39,39,39,0
+MedicalTerm,creatinine_serum,15832,ummol,88,umol/L,1,30,4000,1,88,88,88,88,0
+MedicalTerm,creatinine_serum,229,mu/L,84,umol/L,1,30,4000,1,84,84,84,84,0
+MedicalTerm,creatinine_serum,6715,Serum creatinine raised,0,umol/L,1,30,4000,1,0,0,0,0,0
+MedicalTerm,creatinine_serum,2280,mmol/mmol(creat),8.9,umol/L,1,30,4000,1,8.9,8.9,8.9,8.9,0
+MedicalTerm,creatinine_serum,160,l,83,umol/L,1,30,4000,1,83,83,83,83,0
+MedicalTerm,creatinine_serum,14032,50-120,102,umol/L,1,30,4000,1,102,102,102,102,0
+MedicalTerm,creatinine_serum,183,mg/L,10,umol/L,1,30,4000,1,10,10,10,10,0
+MedicalTerm,creatinine_serum,12262,62-258,134,umol/L,1,30,4000,1,134,134,134,134,0
+MedicalTerm,creatinine_serum,4203,umol/Le,51,umol/L,1,30,4000,1,51,51,51,51,0
+MedicalTerm,creatinine_serum,22256,#Ñ mol/L,75,umol/L,1,30,4000,1,75,75,75,75,0
+MedicalTerm,creatinine_serum,16105,ummo/l,82,umol/L,1,30,4000,1,82,82,82,82,0
+MedicalTerm,creatinine_urine,218,mmol/L,8.685978,mmol/L,1,0.5,70,98242,0,14676,3.16,14.7,0
+MedicalTerm,creatinine_urine,285,umol/L,8085.559,mmol/L,0.001,0.5,70,11008,0,49951,2950,14451,0
+MedicalTerm,creatinine_urine,405,UNKNOWN UNITS,8.888135,mmol/L,1,0.5,70,59,2.3,31.8,4.1,14.4,0
+MedicalTerm,creatinine_urine,3142,mmols/L,8.633335,mmol/L,1,0.5,70,42,2,19.3,4.4,14.8,0
+MedicalTerm,creatinine_urine,288,units,203.37303,mmol/L,1,0.5,70,33,1.1,6053,1.93,66,0
+MedicalTerm,creatinine_urine,217,mmol/24h,13.986666,mmol/L,1,0.5,70,15,4.4,26.5,4.4,26.5,0
+MedicalTerm,creatinine_urine,5910,Urine creatinine,0.41666666,mmol/L,1,0.5,70,12,0,5,0,0,0
+MedicalTerm,creatinine_urine,376,mmo/L,7.681818,mmol/L,1,0.5,70,11,3.1,19.3,3.2,11.6,0
+MedicalTerm,creatinine_urine,317,mmol/d,8.3875,mmol/L,1,0.5,70,8,3.9,13.8,5.8,13.6,0
+MedicalTerm,creatinine_urine,342,mmol/24hr,10.7,mmol/L,1,0.5,70,5,3.1,19.8,3.1,19.8,0
+MedicalTerm,creatinine_urine,140,g/mol,1.925,mmol/L,1,0.5,70,4,1.2,2.7,1.2,2.7,0
+MedicalTerm,creatinine_urine,816,mol/L,9337.5,mmol/L,0.001,0.5,70,4,3488,14418,3488,14418,0
+MedicalTerm,creatinine_urine,332,mmol,6.76,mmol/L,1,0.5,70,3,2.68,11.1,2.68,11.1,0
+MedicalTerm,creatinine_urine,4059,mg/mM,4,mmol/L,1,0.5,70,3,2,6.1,2,6.1,0
+MedicalTerm,creatinine_urine,1145,mmolL,10.4235,mmol/L,1,0.5,70,2,9.467,11.38,9.467,11.38,0
+MedicalTerm,creatinine_urine,923,Unknown,16.535,mmol/L,1,0.5,70,2,9.4,23.67,9.4,23.67,0
+MedicalTerm,creatinine_urine,183,mg/L,8.55,mmol/L,1,0.5,70,2,8.5,8.6,8.5,8.6,0
+MedicalTerm,creatinine_urine,6887,mmol/V,6.7,mmol/L,1,0.5,70,1,6.7,6.7,6.7,6.7,0
+MedicalTerm,creatinine_urine,209,mm,10.3,mmol/L,1,0.5,70,1,10.3,10.3,10.3,10.3,0
+MedicalTerm,creatinine_urine,919,mmol/24,12.3,mmol/L,1,0.5,70,1,12.3,12.3,12.3,12.3,0
+MedicalTerm,creatinine_urine,334,/L,14.5,mmol/L,1,0.5,70,1,14.5,14.5,14.5,14.5,0
+MedicalTerm,creatinine_urine,139,g/L,0.17,mmol/L,10,0.5,70,1,0.17,0.17,0.17,0.17,0
+MedicalTerm,ferritin,283,ug/L,138.11732,ug/L,1,0.1,600,756,0.5,2830,13,284,0
+MedicalTerm,ferritin,233,ng/mL,160.1623,ug/L,1,0.1,600,61,5,1359,14,304,0
+MedicalTerm,ferritin,288,units,228.11429,ug/L,1,0.1,600,7,12,917,28.8,223,0
+MedicalTerm,ferritin,139,g/L,3.2599998,ug/L,10,0.1,600,4,2.33,4.1,2.33,4.1,0
+MedicalTerm,ferritin,183,mg/L,412,ug/L,0.01,0.1,600,1,412,412,412,412,0
+MedicalTerm,ferritin,276,u/L,375,ug/L,0.01,0.1,600,1,375,375,375,375,0
+MedicalTerm,ferritin,666,mcg/l,118,ug/L,0.1,0.1,600,1,118,118,118,118,0
+MedicalTerm,glucose,218,mmol/L,7.454604,mmol/L,1,0.5,40,256395,0,203234,4.5,10.2,0
+MedicalTerm,glucose,154,iu/L,7.262323,mmol/L,1,0.5,40,767,3.3,106,4.7,10.5,0
+MedicalTerm,glucose,182,MG/DL,9.729236,mmol/L,1,0.5,40,485,2.1,185,4.4,15.5,0
+MedicalTerm,glucose,332,mmol,9.589689,mmol/L,1,0.5,40,256,0,39.5,5.5,14.4,0
+MedicalTerm,glucose,288,units,7.434593,mmol/L,1,0.5,40,159,0,28.9,4.7,10.8,0
+MedicalTerm,glucose,1155,(Unknown),7.293151,mmol/L,1,0.5,40,73,3.6,21,4.6,12,0
+MedicalTerm,glucose,1145,mmolL,7.8666663,mmol/L,1,0.5,40,39,0,17.3,5,11.3,0
+MedicalTerm,glucose,672,mmols,7.8971877,mmol/L,1,0.5,40,32,3.1,14.5,4.7,13.1,0
+MedicalTerm,glucose,3659,Blood glucose 5-6.9 mmol/L,2.6391304,mmol/L,1,0.5,40,23,0,6.9,0,6.7,0
+MedicalTerm,glucose,3671,Blood glucose 2.5-4.9 mmol/L,1.8866668,mmol/L,1,0.5,40,15,0,4.9,0,4.6,0
+MedicalTerm,glucose,220,mmol/mol,45.733334,mmol/L,1,0.5,40,15,31,76,41,51,0
+MedicalTerm,glucose,1,%,6.193333,mmol/L,1,0.5,40,15,4.5,11.6,4.6,8.1,0
+MedicalTerm,glucose,3645,Blood glucose 7-9.9 mmol/L,3.1538463,mmol/L,1,0.5,40,13,0,9.2,0,8.8,0
+MedicalTerm,glucose,3437,Glucometer blood sugar,4.8692307,mmol/L,1,0.5,40,13,0,13.3,0,11.3,0
+MedicalTerm,glucose,160,l,2.6133335,mmol/L,1,0.5,40,12,2.16,3.19,2.38,3.14,0
+MedicalTerm,glucose,6407,mmom/l,7.2,mmol/L,1,0.5,40,7,4.3,11.7,4.8,10,0
+MedicalTerm,glucose,133,fasting mmol/l,6.6666665,mmol/L,1,0.5,40,6,5.3,8.9,6,8.9,0
+MedicalTerm,glucose,3436,Blood glucose 14+ mmol/L,10.816667,mmol/L,1,0.5,40,6,0,17.2,0,17.2,0
+MedicalTerm,glucose,679,g,75,mmol/L,0.1,0.5,40,6,75,75,75,75,0
+MedicalTerm,glucose,3494,Blood glucose 10-13.9 mmol/L,4.7599998,mmol/L,1,0.5,40,5,0,12.2,0,12.2,0
+MedicalTerm,glucose,49,[iU]/L,4.9,mmol/L,1,0.5,40,5,3.8,5.6,3.8,5.6,0
+MedicalTerm,glucose,847,mmol/1,6.6225004,mmol/L,1,0.5,40,4,4.4,12.3,4.4,12.3,0
+MedicalTerm,glucose,3223,random,5.566667,mmol/L,1,0.5,40,3,5.2,5.8,5.2,5.8,0
+MedicalTerm,glucose,1087,Fasting,7.2999997,mmol/L,1,0.5,40,3,4.9,11.4,4.9,11.4,0
+MedicalTerm,glucose,373,minutes,0,mmol/L,1,0.5,40,3,0,0,0,0,0
+MedicalTerm,glucose,382,Undefined,8.25,mmol/L,1,0.5,40,2,7.8,8.7,7.8,8.7,0
+MedicalTerm,glucose,3142,mmols/L,4.45,mmol/L,1,0.5,40,2,4.4,4.5,4.4,4.5,0
+MedicalTerm,glucose,923,Unknown,8.35,mmol/L,1,0.5,40,2,4.9,11.8,4.9,11.8,0
+MedicalTerm,glucose,235,nmol/L,11.049999,mmol/L,1,0.5,40,2,10.9,11.2,10.9,11.2,0
+MedicalTerm,glucose,9590,(mmol/:,6.65,mmol/L,1,0.5,40,2,5.9,7.4,5.9,7.4,0
+MedicalTerm,glucose,816,mol/L,7.3,mmol/L,1,0.5,40,2,5.3,9.3,5.3,9.3,0
+MedicalTerm,glucose,186,mg/mmol,6.05,mmol/L,1,0.5,40,2,4.9,7.2,4.9,7.2,0
+MedicalTerm,glucose,1595,mmmol/l,6.8,mmol/L,1,0.5,40,1,6.8,6.8,6.8,6.8,0
+MedicalTerm,glucose,3083,126,4.8,mmol/L,1,0.5,40,1,4.8,4.8,4.8,4.8,0
+MedicalTerm,glucose,3550,Blood glucose raised NOS,0,mmol/L,1,0.5,40,1,0,0,0,0,0
+MedicalTerm,glucose,2386,hours fasting,17,mmol/L,1,0.5,40,1,17,17,17,17,0
+MedicalTerm,glucose,276,u/L,10.2,mmol/L,1,0.5,40,1,10.2,10.2,10.2,10.2,0
+MedicalTerm,glucose,376,mmo/L,14.6,mmol/L,1,0.5,40,1,14.6,14.6,14.6,14.6,0
+MedicalTerm,glucose,259,random mmol/l,14.7,mmol/L,1,0.5,40,1,14.7,14.7,14.7,14.7,0
+MedicalTerm,glucose,104,beats/min,11.5,mmol/L,1,0.5,40,1,11.5,11.5,11.5,11.5,0
+MedicalTerm,glucose,9042,5,5,mmol/L,1,0.5,40,1,5,5,5,5,0
+MedicalTerm,glucose,721,min,0,mmol/L,1,0.5,40,1,0,0,0,0,0
+MedicalTerm,glucose,13810,17.9,17.9,mmol/L,1,0.5,40,1,17.9,17.9,17.9,17.9,0
+MedicalTerm,glucose,3239,mml/L,6.7,mmol/L,1,0.5,40,1,6.7,6.7,6.7,6.7,0
+MedicalTerm,glucose,4218,Blood glucose 0-1.4 mmol/L,12.2,mmol/L,1,0.5,40,1,12.2,12.2,12.2,12.2,0
+MedicalTerm,glucose,10261,mm0l/l,4.59,mmol/L,1,0.5,40,1,4.59,4.59,4.59,4.59,0
+MedicalTerm,glucose,219,mmol/mmol,5.2,mmol/L,1,0.5,40,1,5.2,5.2,5.2,5.2,0
+MedicalTerm,glucose,13809,11.9,11.9,mmol/L,1,0.5,40,1,11.9,11.9,11.9,11.9,0
+MedicalTerm,glucose,1498,/hour,9.3,mmol/L,1,0.5,40,1,9.3,9.3,9.3,9.3,0
+MedicalTerm,glucose,835,Hours,12,mmol/L,1,0.5,40,1,12,12,12,12,0
+MedicalTerm,glucose,1726,MMOL/L.,5.09,mmol/L,1,0.5,40,1,5.09,5.09,5.09,5.09,0
+MedicalTerm,height,122,cm,176.1366,cm,1,120,230,272717,0,177135,155,180.8,0
+MedicalTerm,height,173,m,5.259787,cm,10,120,230,1833,0,188,1.57,1.83,0
+MedicalTerm,height,408,cms,168.75426,cm,1,120,230,438,70,190.5,155,180,0
+MedicalTerm,height,4445,114,174,cm,1,120,230,1,174,174,174,174,0
+MedicalTerm,height,432,metres,1.68,cm,10,120,230,1,1.68,1.68,1.68,1.68,0
+MedicalTerm,iron,285,umol/L,14.404688,umol/L,1,0.5,70,11832,0,89,5.9,23.7,0
+MedicalTerm,iron,197,micromol/L,13.812093,umol/L,1,0.5,70,1291,1,51,6,22.1,0
+MedicalTerm,iron,218,mmol/L,14.106249,umol/L,1,0.5,70,112,1.7,48,5.1,21.8,0
+MedicalTerm,iron,348,MicroU/L,14.68108,umol/L,1,0.5,70,37,5,47.5,6.4,19.7,0
+MedicalTerm,iron,1,%,20.741667,umol/L,1,0.5,70,36,3,52,8,38,0
+MedicalTerm,iron,288,units,15.641176,umol/L,1,0.5,70,17,4.9,36.5,9,19.9,0
+MedicalTerm,iron,411,mU/mL,15.825001,umol/L,1,0.5,70,8,14.1,20,14.3,17.5,0
+MedicalTerm,iron,816,mol/L,15.942857,umol/L,1,0.5,70,7,8.3,26.5,9.4,22,0
+MedicalTerm,iron,139,g/L,2.81,umol/L,1,0.5,70,5,2.27,3.69,2.27,3.69,0
+MedicalTerm,iron,283,ug/L,54.75,umol/L,1,0.5,70,4,0,219,0,219,0
+MedicalTerm,iron,1108,ug/dL,8.900001,umol/L,1,0.5,70,3,3.7,17,3.7,17,0
+MedicalTerm,iron,405,UNKNOWN UNITS,21.5,umol/L,1,0.5,70,2,15,28,15,28,0
+MedicalTerm,iron,4178,microm/L,11.049999,umol/L,1,0.5,70,2,1.3,20.8,1.3,20.8,0
+MedicalTerm,iron,783,Serum iron tests,0,umol/L,1,0.5,70,2,0,0,0,0,0
+MedicalTerm,iron,160,l,8,umol/L,1,0.5,70,1,8,8,8,8,0
+MedicalTerm,iron,233,ng/mL,138,umol/L,0.1,0.5,70,1,138,138,138,138,0
+MedicalTerm,iron,1155,(Unknown),4,umol/L,1,0.5,70,1,4,4,4,4,0
+MedicalTerm,iron,246,per cent,22.1,umol/L,1,0.5,70,1,22.1,22.1,22.1,22.1,0
+MedicalTerm,lymphocyte,77,10*9/L,1.9375792,10*9/L,1,0.01,12,408861,0,249.4,1.02,2.9,0
+MedicalTerm,lymphocyte,307,x10^9/l,2.0272374,10*9/L,1,0.01,12,25002,0,76.19,1.1,2.91,0
+MedicalTerm,lymphocyte,82,10^9/l,1.9790715,10*9/L,1,0.01,12,20805,0.27,43,1.1,2.9,0
+MedicalTerm,lymphocyte,305,x10*9/L,1.7826606,10*9/L,1,0.01,12,19171,0.1,15.52,1,2.7,0
+MedicalTerm,lymphocyte,321,x 10*9/L,2.0940266,10*9/L,1,0.01,12,5112,0.3,6.8,1.2,3.1,0
+MedicalTerm,lymphocyte,69,10 9/L,1.9051508,10*9/L,1,0.01,12,5086,0.25,23.3,1.01,2.83,0
+MedicalTerm,lymphocyte,884,x10\S\9l,2.0396395,10*9/L,1,0.01,12,3830,0.28,5.16,1.21,2.94,0
+MedicalTerm,lymphocyte,6,*10^9/l,3.521314,10*9/L,1,0.01,12,2074,0,81.1,1.16,3.35,0
+MedicalTerm,lymphocyte,431,x10^9,2.0718992,10*9/L,1,0.01,12,1574,0,28,1.2,3,0
+MedicalTerm,lymphocyte,76,10*9 cells/L,2.4593422,10*9/L,1,0.01,12,1507,0.06,202,0.76,3,0
+MedicalTerm,lymphocyte,1,%,23.233263,10*9/L,0.1,0.01,12,1452,0,87,2,38.4,0
+MedicalTerm,lymphocyte,335,x 10^9/litre,2.175379,10*9/L,1,0.01,12,1166,0.5,20.4,1.2,3.2,0
+MedicalTerm,lymphocyte,1250,10**9/L,2.0953517,10*9/L,1,0.01,12,1054,0.5,6.8,1,3.2,0
+MedicalTerm,lymphocyte,1224,10*3/uL,2.1603785,10*9/L,1,0.01,12,954,0.56,5.47,1.31,3.1,0
+MedicalTerm,lymphocyte,323,10^9,2.0630414,10*9/L,1,0.01,12,858,0.41,22.4,1.08,3.2,0
+MedicalTerm,lymphocyte,433,x10e9/l,2.000146,10*9/L,1,0.01,12,549,0.2,7.09,1.1,2.9,0
+MedicalTerm,lymphocyte,862,10*9,2.1354063,10*9/L,1,0.01,12,505,0.57,7.54,1.21,3.16,0
+MedicalTerm,lymphocyte,585,x 10^9/l,2.1128953,10*9/L,1,0.01,12,366,0.68,6.98,1.38,2.9,0
+MedicalTerm,lymphocyte,1243,x10^9l,2.1193244,10*9/L,1,0.01,12,355,0.68,20.6,1.32,2.86,0
+MedicalTerm,lymphocyte,160,l,1.8538316,10*9/L,1,0.01,12,321,0.42,4.53,1,2.72,0
+MedicalTerm,lymphocyte,986,Not given,1.9884869,10*9/L,1,0.01,12,304,0.45,5.45,1.14,2.95,0
+MedicalTerm,lymphocyte,392,x10 9/,2.3452096,10*9/L,1,0.01,12,263,0.52,19.2,1.22,3.46,0
+MedicalTerm,lymphocyte,1640,X 10 9/L,2.359135,10*9/L,1,0.01,12,208,1.03,5.04,1.51,3.37,0
+MedicalTerm,lymphocyte,821,X10*9,2.9517171,10*9/L,1,0.01,12,198,0.57,166,1.4,3.1,0
+MedicalTerm,lymphocyte,1681,X 10-9/l,1.9286009,10*9/L,1,0.01,12,193,0.69,3.62,1.29,2.81,0
+MedicalTerm,lymphocyte,334,/L,2.3379254,10*9/L,1,0.01,12,188,0.8,41.5,1.2,2.9,0
+MedicalTerm,lymphocyte,74,10*12/L,2.090774,10*9/L,1,0.01,12,142,1.03,5.08,1.37,3,0
+MedicalTerm,lymphocyte,1045,10/9 l,2.0107913,10*9/L,1,0.01,12,139,0.9,4.5,1.4,2.9,0
+MedicalTerm,lymphocyte,416,10^3/uL,2.0108275,10*9/L,1,0.01,12,133,0.83,4.6,1.29,2.83,0
+MedicalTerm,lymphocyte,1354,x109/l,2.2362876,10*9/L,1,0.01,12,132,0.4,5.07,1.21,3.32,0
+MedicalTerm,lymphocyte,1388,10 ^9/L,2.1300976,10*9/L,1,0.01,12,103,0.7,5.3,1.3,3,0
+MedicalTerm,lymphocyte,368,x10,2.1649513,10*9/L,1,0.01,12,103,0.7,4.54,1.32,2.98,0
+MedicalTerm,lymphocyte,933,*10 9/l,2.0041664,10*9/L,1,0.01,12,96,0.5,3.6,1.1,2.9,0
+MedicalTerm,lymphocyte,79,10/9L,1.9000002,10*9/L,1,0.01,12,95,0.5,4.3,1.1,2.6,0
+MedicalTerm,lymphocyte,1103,x 10e9/litre,2.11948,10*9/L,1,0.01,12,77,0.8,5.2,1.2,3.1,0
+MedicalTerm,lymphocyte,923,Unknown,2.0783563,10*9/L,1,0.01,12,73,0.9,4.2,1.2,3,0
+MedicalTerm,lymphocyte,7048,x 10?'9/l,1.9620637,10*9/L,1,0.01,12,63,0.54,4.02,1.12,3.16,0
+MedicalTerm,lymphocyte,303,x10'9/l,1.9835997,10*9/L,1,0.01,12,50,0.7,3.78,1.23,2.7,0
+MedicalTerm,lymphocyte,1256,10*9/mL,2.5000002,10*9/L,1,0.01,12,46,1.2,5.5,1.5,4.5,0
+MedicalTerm,lymphocyte,1581,x10/9 l,1.9500002,10*9/L,1,0.01,12,36,1.3,4.1,1.3,2.9,0
+MedicalTerm,lymphocyte,1133,x10**9/l,1.9785712,10*9/L,1,0.01,12,35,0.9,3.2,1.1,2.8,0
+MedicalTerm,lymphocyte,246,per cent,25.68138,10*9/L,1,0.01,12,29,1.11,63,1.8,54.4,0
+MedicalTerm,lymphocyte,1034,x10 9/l,1.88,10*9/L,1,0.01,12,25,1.1,3.6,1.1,2.9,0
+MedicalTerm,lymphocyte,1113,x 109/l,2.1041667,10*9/L,1,0.01,12,24,0,10.2,1,2.9,0
+MedicalTerm,lymphocyte,1194,10/9/l,2.4190474,10*9/L,1,0.01,12,21,1.1,5.9,1.3,3.7,0
+MedicalTerm,lymphocyte,138,g/dL,1.9650002,10*9/L,1,0.01,12,20,1.2,2.8,1.5,2.7,0
+MedicalTerm,lymphocyte,347,10*-2,5.760526,10*9/L,1,0.01,12,19,1.09,20.24,1.19,14.39,0
+MedicalTerm,lymphocyte,405,UNKNOWN UNITS,1.6872221,10*9/L,1,0.01,12,18,1,2.84,1.05,2.23,0
+MedicalTerm,lymphocyte,254,pH,2.115,10*9/L,1,0.01,12,18,1,3.63,1.6,2.7,0
+MedicalTerm,lymphocyte,75,10*6/L,2.1073334,10*9/L,1,0.01,12,15,1.1,3.2,1.13,2.7,0
+MedicalTerm,lymphocyte,1271,x10\S\9/L,2.3454547,10*9/L,1,0.01,12,11,1.5,4.6,1.6,3.7,0
+MedicalTerm,lymphocyte,67,10,1.8975,10*9/L,1,0.01,12,8,1.15,3.2,1.35,2.59,0
+MedicalTerm,lymphocyte,2994,*10^9/1,2.2433336,10*9/L,1,0.01,12,6,1.69,3.26,1.69,3.26,0
+MedicalTerm,lymphocyte,1155,(Unknown),1.626,10*9/L,1,0.01,12,5,1.2,1.76,1.2,1.76,0
+MedicalTerm,lymphocyte,3405,12.85,1.825,10*9/L,1,0.01,12,4,1.4,2.3,1.4,2.3,0
+MedicalTerm,lymphocyte,3733,x10x9l,2.225,10*9/L,1,0.01,12,4,1.41,2.97,1.41,2.97,0
+MedicalTerm,lymphocyte,1949,fg,2.4499998,10*9/L,1,0.01,12,4,1.8,3.4,1.8,3.4,0
+MedicalTerm,lymphocyte,64,1,1.9000001,10*9/L,1,0.01,12,4,1.4,2.3,1.4,2.3,0
+MedicalTerm,lymphocyte,1245,10*/L,2.7,10*9/L,1,0.01,12,3,1.7,4.1,1.7,4.1,0
+MedicalTerm,lymphocyte,407,10*3/mL,2.45,10*9/L,1,0.01,12,2,2.2,2.7,2.2,2.7,0
+MedicalTerm,lymphocyte,1196,(ph),2.1,10*9/L,1,0.01,12,2,1.8,2.4,1.8,2.4,0
+MedicalTerm,lymphocyte,1047,-,1.2,10*9/L,1,0.01,12,2,1.1,1.3,1.1,1.3,0
+MedicalTerm,lymphocyte,22121,%  x10^9/l,393.3,10*9/L,0.01,0.01,12,1,393.3,393.3,393.3,393.3,0
+MedicalTerm,lymphocyte,2691,ZZ,2.8,10*9/L,1,0.01,12,1,2.8,2.8,2.8,2.8,0
+MedicalTerm,lymphocyte,8642,10/9 l(36%),2,10*9/L,1,0.01,12,1,2,2,2,2,0
+MedicalTerm,lymphocyte,3376,#M ( )/L,1.6,10*9/L,1,0.01,12,1,1.6,1.6,1.6,1.6,0
+MedicalTerm,lymphocyte,8637,10/9 l(43%),2.4,10*9/L,1,0.01,12,1,2.4,2.4,2.4,2.4,0
+MedicalTerm,lymphocyte,8655,10/9 l(28),2,10*9/L,1,0.01,12,1,2,2,2,2,0
+MedicalTerm,lymphocyte,8624,10/9 l(30%),2.3,10*9/L,1,0.01,12,1,2.3,2.3,2.3,2.3,0
+MedicalTerm,lymphocyte,358,/100(WBC),1.28,10*9/L,1,0.01,12,1,1.28,1.28,1.28,1.28,0
+MedicalTerm,lymphocyte,8718,10/9 l(35%),2,10*9/L,1,0.01,12,1,2,2,2,2,0
+MedicalTerm,lymphocyte,8598,10/9 l(35),1.9,10*9/L,1,0.01,12,1,1.9,1.9,1.9,1.9,0
+MedicalTerm,lymphocyte,11991,10/9LLO,1.1,10*9/L,1,0.01,12,1,1.1,1.1,1.1,1.1,0
+MedicalTerm,neutrophils,77,10*9/L,4.4790697,10*9/L,1,0.5,50,399766,0,621,2.5,6.7,0
+MedicalTerm,neutrophils,307,x10^9/l,4.485451,10*9/L,1,0.5,50,21300,0,75.2,2.5,6.6,0
+MedicalTerm,neutrophils,82,10^9/l,4.80684,10*9/L,1,0.5,50,20249,0,11300,2.4,6.4,0
+MedicalTerm,neutrophils,305,x10*9/L,4.53157,10*9/L,1,0.5,50,19081,0.29,33.01,2.6,6.9,0
+MedicalTerm,neutrophils,1,%,57.98464,10*9/L,0.1,0.5,50,16320,0,95.3,44.6,72,0
+MedicalTerm,neutrophils,321,x 10*9/L,4.368446,10*9/L,1,0.5,50,5111,0.3,29.5,2.4,6.5,0
+MedicalTerm,neutrophils,69,10 9/L,4.5956254,10*9/L,1,0.5,50,5066,0.69,27.6,2.81,6.67,0
+MedicalTerm,neutrophils,884,x10\S\9l,4.062133,10*9/L,1,0.5,50,3829,0,19.8,2.14,6.13,0
+MedicalTerm,neutrophils,6,*10^9/l,6.9097786,10*9/L,1,0.5,50,2436,0,82.9,2.3,8.79,0
+MedicalTerm,neutrophils,76,10*9 cells/L,6.9922514,10*9/L,1,0.5,50,2243,0,639,2.3,9.97,0
+MedicalTerm,neutrophils,431,x10^9,4.2656507,10*9/L,1,0.5,50,1450,0,87,2.1,6.5,0
+MedicalTerm,neutrophils,335,x 10^9/litre,3.972309,10*9/L,1,0.5,50,1166,0.7,14.6,2.3,5.8,0
+MedicalTerm,neutrophils,1250,10**9/L,4.1148243,10*9/L,1,0.5,50,1066,1.2,18.1,2.4,6.3,0
+MedicalTerm,neutrophils,1224,10*3/uL,4.851355,10*9/L,1,0.5,50,952,1.22,15.3,2.76,7.59,0
+MedicalTerm,neutrophils,323,10^9,4.9980555,10*9/L,1,0.5,50,834,1.07,65.9,2.46,7.88,0
+MedicalTerm,neutrophils,433,x10e9/l,4.515908,10*9/L,1,0.5,50,552,1.4,16.7,2.8,6.4,0
+MedicalTerm,neutrophils,862,10*9,4.036316,10*9/L,1,0.5,50,445,1.09,10.13,2.29,6.14,0
+MedicalTerm,neutrophils,1243,x10^9l,4.0523953,10*9/L,1,0.5,50,355,1.1,70.3,2.03,6.18,0
+MedicalTerm,neutrophils,585,x 10^9/l,3.7592936,10*9/L,1,0.5,50,339,0.91,10.24,2.31,5.52,0
+MedicalTerm,neutrophils,160,l,4.353388,10*9/L,1,0.5,50,310,1.9,11.8,2.8,6.08,0
+MedicalTerm,neutrophils,986,Not given,4.6477604,10*9/L,1,0.5,50,308,1.55,12.18,2.76,6.82,0
+MedicalTerm,neutrophils,392,x10 9/,4.4365144,10*9/L,1,0.5,50,261,0.86,59.9,2.44,6.61,0
+MedicalTerm,neutrophils,246,per cent,44.87489,10*9/L,1,0.5,50,244,1.5,87,2.5,69.8,0
+MedicalTerm,neutrophils,821,X10*9,4.0465217,10*9/L,1,0.5,50,210,1.51,11.4,2.3,6.1,0
+MedicalTerm,neutrophils,1681,X 10-9/l,4.3485994,10*9/L,1,0.5,50,200,0.69,9.04,2.13,6.6,0
+MedicalTerm,neutrophils,74,10*12/L,4.1162677,10*9/L,1,0.5,50,142,1,9.59,2.31,6.3,0
+MedicalTerm,neutrophils,1045,10/9 l,4.1093526,10*9/L,1,0.5,50,139,1.6,17.8,2.2,6.1,0
+MedicalTerm,neutrophils,416,10^3/uL,4.7042856,10*9/L,1,0.5,50,133,1.48,11.31,2.35,7.52,0
+MedicalTerm,neutrophils,1354,x109/l,4.398046,10*9/L,1,0.5,50,133,2.01,10.6,2.57,6.9,0
+MedicalTerm,neutrophils,1094,% WBC,57.50259,10*9/L,0.1,0.5,50,116,0,95,46,71,0
+MedicalTerm,neutrophils,1640,X 10 9/L,4.4309444,10*9/L,1,0.5,50,106,0.96,9.98,2.92,6.04,0
+MedicalTerm,neutrophils,368,x10,4.4465046,10*9/L,1,0.5,50,103,1.94,7.86,2.54,6.84,0
+MedicalTerm,neutrophils,933,*10 9/l,4.0402064,10*9/L,1,0.5,50,97,1.3,11,2.4,5.6,0
+MedicalTerm,neutrophils,334,/L,4.5313535,10*9/L,1,0.5,50,96,0.9,10.4,2.5,7,0
+MedicalTerm,neutrophils,79,10/9L,4.394791,10*9/L,1,0.5,50,96,1.3,13.7,2.9,6.7,0
+MedicalTerm,neutrophils,1034,x10 9/l,4.008,10*9/L,1,0.5,50,85,1.7,11.16,2.17,6.21,0
+MedicalTerm,neutrophils,1103,x 10e9/litre,4.1389604,10*9/L,1,0.5,50,77,1.3,10.5,2.5,5.9,0
+MedicalTerm,neutrophils,923,Unknown,4.185277,10*9/L,1,0.5,50,72,1.8,9.2,2.3,6.2,0
+MedicalTerm,neutrophils,7048,x 10?'9/l,3.97127,10*9/L,1,0.5,50,63,0.63,10,1.5,6.05,0
+MedicalTerm,neutrophils,405,UNKNOWN UNITS,48.468395,10*9/L,1,0.5,50,56,3.05,72.1,4.75,65.5,0
+MedicalTerm,neutrophils,1256,10*9/mL,4.0531254,10*9/L,1,0.5,50,48,2.1,14.65,2.5,5.7,0
+MedicalTerm,neutrophils,303,x10'9/l,3.934468,10*9/L,1,0.5,50,47,0.95,6.5,2.4,5.56,0
+MedicalTerm,neutrophils,1581,x10/9 l,3.8944445,10*9/L,1,0.5,50,36,1.8,6,2.4,5.7,0
+MedicalTerm,neutrophils,1133,x10**9/l,3.8978784,10*9/L,1,0.5,50,33,1.8,9.93,2.6,5.9,0
+MedicalTerm,neutrophils,254,pH,4.4492593,10*9/L,1,0.5,50,27,2.21,10.89,2.85,5.9,0
+MedicalTerm,neutrophils,347,10*-2,4.162632,10*9/L,1,0.5,50,19,1.66,6.24,3.01,5.64,0
+MedicalTerm,neutrophils,1194,10/9/l,4.0722218,10*9/L,1,0.5,50,18,2.3,6.5,2.9,5.4,0
+MedicalTerm,neutrophils,6635,x 10 ^9/l,3.8588238,10*9/L,1,0.5,50,17,1.5,6.6,2.7,5.9,0
+MedicalTerm,neutrophils,75,10*6/L,4.012,10*9/L,1,0.5,50,15,1.9,7.4,2.6,6.61,0
+MedicalTerm,neutrophils,1271,x10\S\9/L,4.9500003,10*9/L,1,0.5,50,12,1.9,8.3,2.7,8,0
+MedicalTerm,neutrophils,1113,x 109/l,5.608332,10*9/L,1,0.5,50,12,1,20.8,2.8,6.4,0
+MedicalTerm,neutrophils,67,10,5.025,10*9/L,1,0.5,50,8,2.99,7.54,4.16,6.88,0
+MedicalTerm,neutrophils,1155,(Unknown),3.3133335,10*9/L,1,0.5,50,6,2.14,5.6,2.5,5.6,0
+MedicalTerm,neutrophils,1949,fg,3.8500001,10*9/L,1,0.5,50,4,2.7,5.4,2.7,5.4,0
+MedicalTerm,neutrophils,2994,*10^9/1,3.26,10*9/L,1,0.5,50,3,1.94,5.89,1.94,5.89,0
+MedicalTerm,neutrophils,64,1,3.0333335,10*9/L,1,0.5,50,3,2.8,3.5,2.8,3.5,0
+MedicalTerm,neutrophils,391,x10^6/L,6.85,10*9/L,1,0.5,50,3,6.22,7.8,6.22,7.8,0
+MedicalTerm,neutrophils,1196,(ph),3.45,10*9/L,1,0.5,50,2,3.4,3.5,3.4,3.5,0
+MedicalTerm,neutrophils,407,10*3/mL,4.8500004,10*9/L,1,0.5,50,2,4.8,4.9,4.8,4.9,0
+MedicalTerm,neutrophils,134,fL,6.8999996,10*9/L,1,0.5,50,2,2.4,11.4,2.4,11.4,0
+MedicalTerm,neutrophils,22121,%  x10^9/l,529.44995,10*9/L,0.01,0.5,50,2,514.3,544.6,514.3,544.6,0
+MedicalTerm,neutrophils,3376,#M ( )/L,6.5,10*9/L,1,0.5,50,1,6.5,6.5,6.5,6.5,0
+MedicalTerm,neutrophils,8658,10/9 l(42%),2.4,10*9/L,1,0.5,50,1,2.4,2.4,2.4,2.4,0
+MedicalTerm,neutrophils,8589,10/9 l(58%),4.5,10*9/L,1,0.5,50,1,4.5,4.5,4.5,4.5,0
+MedicalTerm,neutrophils,8722,10/9 l(51%),3,10*9/L,1,0.5,50,1,3,3,3,3,0
+MedicalTerm,neutrophils,2691,ZZ,3.6,10*9/L,1,0.5,50,1,3.6,3.6,3.6,3.6,0
+MedicalTerm,neutrophils,8703,10/9 l(56),4.1,10*9/L,1,0.5,50,1,4.1,4.1,4.1,4.1,0
+MedicalTerm,neutrophils,138,g/dL,3.4,10*9/L,1,0.5,50,1,3.4,3.4,3.4,3.4,0
+MedicalTerm,neutrophils,8637,10/9 l(43%),2.4,10*9/L,1,0.5,50,1,2.4,2.4,2.4,2.4,0
+MedicalTerm,neutrophils,358,/100(WBC),2.12,10*9/L,1,0.5,50,1,2.12,2.12,2.12,2.12,0
+MedicalTerm,neutrophils,8689,10/9 l(53),2.9,10*9/L,1,0.5,50,1,2.9,2.9,2.9,2.9,0
+MedicalTerm,plasma_proteins,139,g/L,70.74832,g/L,1,1,400,340481,0,174,65,77,0
+MedicalTerm,plasma_proteins,1155,(Unknown),72,g/L,1,1,400,56,64,81,67,77,0
+MedicalTerm,plasma_proteins,183,mg/L,63.294117,g/L,1,1,400,17,28,82,61,69,0
+MedicalTerm,plasma_proteins,3700,Serum proteins normal,68.75,g/L,1,1,400,16,0,81,68,79,0
+MedicalTerm,plasma_proteins,138,g/dL,72.61539,g/L,1,1,400,13,64,84,66,83,0
+MedicalTerm,plasma_proteins,3549,Serum / plasma proteins,18.75,g/L,1,1,400,4,0,75,0,75,0
+MedicalTerm,plasma_proteins,521,R,71.5,g/L,1,1,400,4,68,77,68,77,0
+MedicalTerm,plasma_proteins,285,umol/L,78,g/L,1,1,400,4,75,83,75,83,0
+MedicalTerm,plasma_proteins,3861,GL,75.25,g/L,1,1,400,4,71,78,71,78,0
+MedicalTerm,plasma_proteins,9634,Plasma total protein,49,g/L,1,1,400,3,0,77,0,77,0
+MedicalTerm,plasma_proteins,218,mmol/L,65.5,g/L,1,1,400,2,65,66,65,66,0
+MedicalTerm,plasma_proteins,288,units,74,g/L,1,1,400,2,72,76,72,76,0
+MedicalTerm,plasma_viscosity,226,mPa.s,1.7044874,g/L,1,0.001,5,10088,0.11,3.53,1.55,1.89,0
+MedicalTerm,plasma_viscosity,124,cp,1.701621,g/L,1,0.001,5,2340,0,2.82,1.56,1.9,0
+MedicalTerm,plasma_viscosity,384,mPa/s,1.701289,g/L,1,0.001,5,1085,1.41,2.92,1.55,1.88,0
+MedicalTerm,plasma_viscosity,1049,mPas,10.5347185,g/L,1,0.001,5,705,1.4,209,1.56,1.97,0
+MedicalTerm,plasma_viscosity,225,mPa's,1.6818398,g/L,1,0.001,5,212,1.48,2.27,1.55,1.82,0
+MedicalTerm,plasma_viscosity,1344,mPa,2.6009285,g/L,1,0.001,5,140,1.45,58,1.56,1.98,0
+MedicalTerm,plasma_viscosity,923,Unknown,1.7724735,g/L,1,0.001,5,93,1.53,2.13,1.61,1.96,0
+MedicalTerm,plasma_viscosity,22120,,5.919,g/L,1,0.001,5,90,0,74,1.48,17,0
+MedicalTerm,plasma_viscosity,405,UNKNOWN UNITS,1.2402664,g/L,1,0.001,5,75,0.23,2.04,0.35,1.73,0
+MedicalTerm,plasma_viscosity,1230,mPa.s.,1.6527025,g/L,1,0.001,5,74,1.47,1.99,1.55,1.79,0
+MedicalTerm,plasma_viscosity,1061,mPA @ 25C.,1.662,g/L,1,0.001,5,70,1.47,2.15,1.49,2.05,0
+MedicalTerm,plasma_viscosity,986,Not given,1.6545457,g/L,1,0.001,5,44,1.46,2.13,1.52,1.85,0
+MedicalTerm,plasma_viscosity,385,mosmol/L,19.16,g/L,1,0.001,5,20,1.54,181,1.56,1.79,0
+MedicalTerm,plasma_viscosity,288,units,18.78222,g/L,1,0.001,5,18,1.53,156,1.6,2,0
+MedicalTerm,plasma_viscosity,2687,mpa/sec,1.7921429,g/L,1,0.001,5,14,1.59,2,1.63,1.95,0
+MedicalTerm,plasma_viscosity,1027,cp @25 deg.C,1.7377776,g/L,1,0.001,5,9,1.6,1.99,1.61,1.82,0
+MedicalTerm,plasma_viscosity,1404,cps,1.8575001,g/L,1,0.001,5,4,1.32,2.31,1.32,2.31,0
+MedicalTerm,plasma_viscosity,214,mm/hr,14,g/L,0.1,0.001,5,4,6,23,6,23,0
+MedicalTerm,plasma_viscosity,4165,mPas 25C.,1.6,g/L,1,0.001,5,3,1.56,1.65,1.56,1.65,0
+MedicalTerm,plasma_viscosity,3533,Plasma viscosity raised,0,g/L,1,0.001,5,3,0,0,0,0,0
+MedicalTerm,plasma_viscosity,577,Plasma viscosity normal,0,g/L,1,0.001,5,2,0,0,0,0,0
+MedicalTerm,plasma_viscosity,1155,(Unknown),1.8399999,g/L,1,0.001,5,2,1.67,2.01,1.67,2.01,0
+MedicalTerm,plasma_viscosity,213,mm/hour,26.5,g/L,0.1,0.001,5,2,11,42,11,42,0
+MedicalTerm,plasma_viscosity,153,IU,1.595,g/L,1,0.001,5,2,1.56,1.63,1.56,1.63,0
+MedicalTerm,plasma_viscosity,65,01-Jan,1.79,g/L,1,0.001,5,1,1.79,1.79,1.79,1.79,0
+MedicalTerm,plasma_viscosity,1821,Pa,1.49,g/L,1,0.001,5,1,1.49,1.49,1.49,1.49,0
+MedicalTerm,platelets,77,10*9/L,1353.156,10*9/L,1,5,2000,410878,0,307000000,153,346,0
+MedicalTerm,platelets,307,x10^9/l,247.20703,10*9/L,1,5,2000,29295,0,2515,157,345,0
+MedicalTerm,platelets,305,x10*9/L,246.70901,10*9/L,1,5,2000,20992,6,1693,156,344,0
+MedicalTerm,platelets,82,10^9/l,202596.77,10*9/L,1,5,2000,20886,0,424000000,152,339,0
+MedicalTerm,platelets,321,x 10*9/L,254.17691,10*9/L,1,5,2000,5110,22,932,167,347,0
+MedicalTerm,platelets,69,10 9/L,245.79082,10*9/L,1,5,2000,5029,1,692,164,337,0
+MedicalTerm,platelets,884,x10\S\9l,233.54831,10*9/L,1,5,2000,3830,32,808,144,327,0
+MedicalTerm,platelets,76,10*9 cells/L,233.12067,10*9/L,1,5,2000,3675,0,2921,97,364,0
+MedicalTerm,platelets,5,*10^9/cumm,252.39136,10*9/L,1,5,2000,3491,0,17110,144,358,0
+MedicalTerm,platelets,323,10^9,268.48602,10*9/L,1,5,2000,1980,24,885,174,373,0
+MedicalTerm,platelets,431,x10^9,234.07962,10*9/L,1,5,2000,1855,13,732,142,329,0
+MedicalTerm,platelets,585,x 10^9/l,229.46443,10*9/L,1,5,2000,1462,26,608,136,324,0
+MedicalTerm,platelets,1250,10**9/L,253.84753,10*9/L,1,5,2000,1033,8.8,666,162,355,0
+MedicalTerm,platelets,1224,10*3/uL,294.14554,10*9/L,1,5,2000,962,83,1067,183,402,0
+MedicalTerm,platelets,79,10/9L,272.95517,10*9/L,1,5,2000,669,83,600,188,375,0
+MedicalTerm,platelets,433,x10e9/l,244.93701,10*9/L,1,5,2000,635,33,562,158,333,0
+MedicalTerm,platelets,862,10*9,217.92802,10*9/L,1,5,2000,528,29,523,130,313,0
+MedicalTerm,platelets,6,*10^9/l,248.48026,10*9/L,1,5,2000,481,41,660,160,342,0
+MedicalTerm,platelets,1243,x10^9l,232.11406,10*9/L,1,5,2000,377,21,565,149,314,0
+MedicalTerm,platelets,160,l,246.00623,10*9/L,1,5,2000,321,60,458,147,372,0
+MedicalTerm,platelets,1113,x 109/l,261.709,10*9/L,1,5,2000,299,44,859,169,351,0
+MedicalTerm,platelets,392,x10 9/,253.65329,10*9/L,1,5,2000,274,31,682,168,357,0
+MedicalTerm,platelets,821,X10*9,234.17592,10*9/L,1,5,2000,245,13.1,723,155,311,0
+MedicalTerm,platelets,334,/L,238.82912,10*9/L,1,5,2000,237,8.5,739,94,360,0
+MedicalTerm,platelets,1640,X 10 9/L,250.14285,10*9/L,1,5,2000,210,81,458,164,348,0
+MedicalTerm,platelets,1354,x109/l,285.24872,10*9/L,1,5,2000,197,86,643,180,391,0
+MedicalTerm,platelets,1045,10/9 l,273.9565,10*9/L,1,5,2000,184,115,881,191,355,0
+MedicalTerm,platelets,416,10^3/uL,266.1978,10*9/L,1,5,2000,182,125,753,168,398,0
+MedicalTerm,platelets,1681,X 10-9/l,236.49721,10*9/L,1,5,2000,179,52,586,95,349,0
+MedicalTerm,platelets,1197,x10^9/1,240.32051,10*9/L,1,5,2000,156,110,551,163,313,0
+MedicalTerm,platelets,74,10*12/L,274.5102,10*9/L,1,5,2000,147,130,475,191,369,0
+MedicalTerm,platelets,1426,109l,276.53958,10*9/L,1,5,2000,139,159,683,181,366,0
+MedicalTerm,platelets,368,x10,260.0098,10*9/L,1,5,2000,102,75,627,141,375,0
+MedicalTerm,platelets,933,*10 9/l,259.41415,10*9/L,1,5,2000,99,116,556,183,343,0
+MedicalTerm,platelets,923,Unknown,255.4,10*9/L,1,5,2000,85,106,434,186,346,0
+MedicalTerm,platelets,1034,x10 9/l,261.29486,10*9/L,1,5,2000,78,90,548,168,370,0
+MedicalTerm,platelets,303,x10'9/l,252.4026,10*9/L,1,5,2000,77,110,473,179,337,0
+MedicalTerm,platelets,1155,(Unknown),282.27274,10*9/L,1,5,2000,66,156,595,205,382,0
+MedicalTerm,platelets,1133,x10**9/l,278.19696,10*9/L,1,5,2000,66,160,477,190,389,0
+MedicalTerm,platelets,7048,x 10?'9/l,270.15872,10*9/L,1,5,2000,63,50,520,179,380,0
+MedicalTerm,platelets,1626,10e9/l,266.13794,10*9/L,1,5,2000,58,64,469,88,422,0
+MedicalTerm,platelets,1256,10*9/mL,235.17392,10*9/L,1,5,2000,46,54,485,155,366,0
+MedicalTerm,platelets,134,fL,18.235714,10*9/L,1,5,2000,42,7.2,272,8.7,14.8,0
+MedicalTerm,platelets,254,pH,242.23077,10*9/L,1,5,2000,39,125,404,179,340,0
+MedicalTerm,platelets,1581,x10/9 l,238.89473,10*9/L,1,5,2000,38,160,411,176,282,0
+MedicalTerm,platelets,65,01-Jan,239.41176,10*9/L,1,5,2000,34,78,406,113,329,0
+MedicalTerm,platelets,81,10^12/l,299.6,10*9/L,1,5,2000,25,90,447,98,426,0
+MedicalTerm,platelets,1194,10/9/l,215.52,10*9/L,1,5,2000,25,140,263,175,257,0
+MedicalTerm,platelets,2976,x10 9,215.5,10*9/L,1,5,2000,24,155,353,164,325,0
+MedicalTerm,platelets,421,.,340.83334,10*9/L,1,5,2000,24,134,643,235,415,0
+MedicalTerm,platelets,6580,x10 9/1,273.83334,10*9/L,1,5,2000,24,192,369,223,315,0
+MedicalTerm,platelets,347,10*-2,211.73685,10*9/L,1,5,2000,19,41,392,52,344,0
+MedicalTerm,platelets,67,10,257.1111,10*9/L,1,5,2000,18,60,572,136,291,0
+MedicalTerm,platelets,75,10*6/L,226.4,10*9/L,1,5,2000,15,144,309,161,287,0
+MedicalTerm,platelets,1271,x10\S\9/L,235.91667,10*9/L,1,5,2000,12,132,339,140,333,0
+MedicalTerm,platelets,826,10*3/L,320.9091,10*9/L,1,5,2000,11,188,655,201,440,0
+MedicalTerm,platelets,64,1,274.9,10*9/L,1,5,2000,10,130,470,147,434,0
+MedicalTerm,platelets,1,%,255.7375,10*9/L,1,5,2000,8,9.9,417,206,349,0
+MedicalTerm,platelets,2994,*10^9/1,249.71428,10*9/L,1,5,2000,7,177,311,190,303,0
+MedicalTerm,platelets,72,10'9/l,226.28572,10*9/L,1,5,2000,7,129,395,140,281,0
+MedicalTerm,platelets,407,10*3/mL,288.42856,10*9/L,1,5,2000,7,100,401,238,391,0
+MedicalTerm,platelets,2429,H x10*9/L,233,10*9/L,1,5,2000,5,161,321,161,321,0
+MedicalTerm,platelets,2421,/cmm,237.5,10*9/L,1,5,2000,4,182,295,182,295,0
+MedicalTerm,platelets,138,g/dL,22.825,10*9/L,10,5,2000,4,12.8,33.1,12.8,33.1,0
+MedicalTerm,platelets,1949,fg,294.5,10*9/L,1,5,2000,4,272,327,272,327,0
+MedicalTerm,platelets,218,mmol/L,5.366667,10*9/L,10,5,2000,3,3.6,7.2,3.6,7.2,0
+MedicalTerm,platelets,986,Not given,277,10*9/L,1,5,2000,2,223,331,223,331,0
+MedicalTerm,platelets,1196,(ph),197.5,10*9/L,1,5,2000,2,165,230,165,230,0
+MedicalTerm,platelets,4217,1000million/l,160,10*9/L,1,5,2000,1,160,160,160,160,0
+MedicalTerm,platelets,3376,#M ( )/L,306,10*9/L,1,5,2000,1,306,306,306,306,0
+MedicalTerm,platelets,1961,cm(H2O),213,10*9/L,1,5,2000,1,213,213,213,213,0
+MedicalTerm,platelets,2691,ZZ,232,10*9/L,1,5,2000,1,232,232,232,232,0
+MedicalTerm,platelets,1943,x10/l,219,10*9/L,1,5,2000,1,219,219,219,219,0
+MedicalTerm,platelets,1204,109/l,9,10*9/L,1,5,2000,1,9,9,9,9,0
+MedicalTerm,platelets,358,/100(WBC),55,10*9/L,1,5,2000,1,55,55,55,55,0
+MedicalTerm,urea_serum,218,mmol/L,6.9024925,mmol/L,1,0.2,50,416068,0,11013,4,10.2,0
+MedicalTerm,urea_serum,182,MG/DL,6.076108,mmol/L,1,0.2,50,419,1.4,102,3.9,7.8,0
+MedicalTerm,urea_serum,1155,(Unknown),6.614102,mmol/L,1,0.2,50,78,2.9,12.3,4.2,9.6,0
+MedicalTerm,urea_serum,2395,mmol/litre,5.8785715,mmol/L,1,0.2,50,28,3.4,16.5,3.9,6.9,0
+MedicalTerm,urea_serum,405,UNKNOWN UNITS,5.0307693,mmol/L,1,0.2,50,26,2.4,7.8,2.9,7.2,0
+MedicalTerm,urea_serum,609,Urea - blood,0,mmol/L,1,0.2,50,9,0,0,0,0,0
+MedicalTerm,urea_serum,285,umol/L,75.42857,mmol/L,0.1,0.2,50,7,13,97,73,91,0
+MedicalTerm,urea_serum,293,Urea and electrolytes,0,mmol/L,1,0.2,50,6,0,0,0,0,0
+MedicalTerm,urea_serum,4311,mM/day,5.466667,mmol/L,1,0.2,50,3,4.9,6.2,4.9,6.2,0
+MedicalTerm,urea_serum,1145,mmolL,5.466667,mmol/L,1,0.2,50,3,4.1,7.5,4.1,7.5,0
+MedicalTerm,urea_serum,9144,(N),5.3,mmol/L,1,0.2,50,2,5.2,5.4,5.2,5.4,0
+MedicalTerm,urea_serum,789,Blood urea normal,0,mmol/L,1,0.2,50,2,0,0,0,0,0
+MedicalTerm,urea_serum,284,umol/24h,35,mmol/L,1,0.2,50,1,35,35,35,35,0
+MedicalTerm,urea_serum,2045,ng,8.8,mmol/L,1,0.2,50,1,8.8,8.8,8.8,8.8,0
+MedicalTerm,urea_serum,332,mmol,4.7,mmol/L,1,0.2,50,1,4.7,4.7,4.7,4.7,0
+MedicalTerm,urea_serum,64,1,333.6,mmol/L,1,0.2,50,1,333.6,333.6,333.6,333.6,0
+MedicalTerm,urea_serum,139,g/L,4.5,mmol/L,1,0.2,50,1,4.5,4.5,4.5,4.5,0
+MedicalTerm,urea_serum,288,units,4.2,mmol/L,1,0.2,50,1,4.2,4.2,4.2,4.2,0
+MedicalTerm,urea_serum,923,Unknown,3.6,mmol/L,1,0.2,50,1,3.6,3.6,3.6,3.6,0
+MedicalTerm,weight,156,kg,1827.138,Kg,1,20,300,530620,-6.82,926494300,58.4,106,0
+MedicalTerm,weight,827,Kgs,82.22862,Kg,1,20,300,250,37,130.91,65,108,0
+MedicalTerm,weight,3283,kilograms,77.893425,Kg,1,20,300,76,54,101,62,89,0
+MedicalTerm,weight,6265,decimal stones,13.029548,Kg,6.35029,20,300,44,8.9,18,10.6,15.1,0
+MedicalTerm,weight,18741,137L,58,Kg,1,20,300,1,58,58,58,58,0
+MedicalTerm,weight,22120,,74,Kg,1,20,300,1,74,74,74,74,0
+MedicalTerm,weight,1788,/kg(body wt),79,Kg,1,20,300,1,79,79,79,79,0
+MedicalTerm,weight,4445,114,84.5,Kg,1,20,300,1,84.5,84.5,84.5,84.5,0
+MedicalTerm,weight,218,mmol/L,5.7,Kg,1,20,300,1,5.7,5.7,5.7,5.7,0

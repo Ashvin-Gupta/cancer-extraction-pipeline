@@ -1,0 +1,73 @@
+--- Running Final Stage: Clean & Standardize Events ---
+Step 1: Loading configuration, sharded events, and cleaning rules...
+Step 2: Partitioning event stream into LAB, MEASUREMENT, and OTHER...
+Step 3: Applying curated rules to LAB tests...
+Step 4: Applying automated outlier detection to MEASUREMENT tests...
+Step 5: Recombining all streams and saving final output...
+['subject_id', 'time', 'code', 'numeric_value', 'text_value', 'numunitid']
+['subject_id', 'time', 'code', 'numeric_value', 'text_value', 'numunitid']
+['subject_id', 'time', 'code', 'numeric_value', 'text_value', 'numunitid']
+['subject_id', 'time', 'code', 'numeric_value', 'text_value', 'numunitid']
+Processing 'test' split...
+  -> Saving cleaned shard 0 to /data/scratch/qc25022/liver/final_cleaned_events/held_out/shard_0.parquet
+  -> Saving cleaned shard 1 to /data/scratch/qc25022/liver/final_cleaned_events/held_out/shard_1.parquet
+  -> Saving cleaned shard 2 to /data/scratch/qc25022/liver/final_cleaned_events/held_out/shard_2.parquet
+  -> Saving cleaned shard 3 to /data/scratch/qc25022/liver/final_cleaned_events/held_out/shard_3.parquet
+  -> Saving cleaned shard 4 to /data/scratch/qc25022/liver/final_cleaned_events/held_out/shard_4.parquet
+  -> Saving cleaned shard 5 to /data/scratch/qc25022/liver/final_cleaned_events/held_out/shard_5.parquet
+Processing 'val' split...
+  -> Saving cleaned shard 0 to /data/scratch/qc25022/liver/final_cleaned_events/tuning/shard_0.parquet
+  -> Saving cleaned shard 1 to /data/scratch/qc25022/liver/final_cleaned_events/tuning/shard_1.parquet
+  -> Saving cleaned shard 2 to /data/scratch/qc25022/liver/final_cleaned_events/tuning/shard_2.parquet
+  -> Saving cleaned shard 3 to /data/scratch/qc25022/liver/final_cleaned_events/tuning/shard_3.parquet
+  -> Saving cleaned shard 4 to /data/scratch/qc25022/liver/final_cleaned_events/tuning/shard_4.parquet
+  -> Saving cleaned shard 5 to /data/scratch/qc25022/liver/final_cleaned_events/tuning/shard_5.parquet
+Processing 'train' split...
+  -> Saving cleaned shard 0 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_0.parquet
+  -> Saving cleaned shard 1 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_1.parquet
+  -> Saving cleaned shard 2 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_2.parquet
+  -> Saving cleaned shard 3 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_3.parquet
+  -> Saving cleaned shard 4 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_4.parquet
+  -> Saving cleaned shard 5 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_5.parquet
+  -> Saving cleaned shard 6 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_6.parquet
+  -> Saving cleaned shard 7 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_7.parquet
+  -> Saving cleaned shard 8 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_8.parquet
+  -> Saving cleaned shard 9 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_9.parquet
+  -> Saving cleaned shard 10 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_10.parquet
+  -> Saving cleaned shard 11 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_11.parquet
+  -> Saving cleaned shard 12 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_12.parquet
+  -> Saving cleaned shard 13 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_13.parquet
+  -> Saving cleaned shard 14 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_14.parquet
+  -> Saving cleaned shard 15 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_15.parquet
+  -> Saving cleaned shard 16 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_16.parquet
+  -> Saving cleaned shard 17 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_17.parquet
+  -> Saving cleaned shard 18 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_18.parquet
+  -> Saving cleaned shard 19 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_19.parquet
+  -> Saving cleaned shard 20 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_20.parquet
+  -> Saving cleaned shard 21 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_21.parquet
+  -> Saving cleaned shard 22 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_22.parquet
+  -> Saving cleaned shard 23 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_23.parquet
+  -> Saving cleaned shard 24 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_24.parquet
+  -> Saving cleaned shard 25 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_25.parquet
+  -> Saving cleaned shard 26 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_26.parquet
+  -> Saving cleaned shard 27 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_27.parquet
+  -> Saving cleaned shard 28 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_28.parquet
+  -> Saving cleaned shard 29 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_29.parquet
+  -> Saving cleaned shard 30 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_30.parquet
+  -> Saving cleaned shard 31 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_31.parquet
+  -> Saving cleaned shard 32 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_32.parquet
+  -> Saving cleaned shard 33 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_33.parquet
+  -> Saving cleaned shard 34 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_34.parquet
+  -> Saving cleaned shard 35 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_35.parquet
+  -> Saving cleaned shard 36 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_36.parquet
+  -> Saving cleaned shard 37 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_37.parquet
+  -> Saving cleaned shard 38 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_38.parquet
+  -> Saving cleaned shard 39 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_39.parquet
+  -> Saving cleaned shard 40 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_40.parquet
+  -> Saving cleaned shard 41 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_41.parquet
+  -> Saving cleaned shard 42 to /data/scratch/qc25022/liver/final_cleaned_events/train/shard_42.parquet
+
+Final cleaned event stream files saved to: /data/scratch/qc25022/liver/final_cleaned_events/
+--------------------------------------------------
+Cleaning and Standardization COMPLETE ✅
+--------------------------------------------------

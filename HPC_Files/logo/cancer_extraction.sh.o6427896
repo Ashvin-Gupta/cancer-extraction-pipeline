@@ -1,0 +1,75 @@
+--- Running Final Stage: Map & Save Events ---
+Step 1: Loading configuration and pre-sorted events...
+Step 2: Isolating BIRTH events and preparing other events for mapping...
+Step 3: Mapping all non-BIRTH event codes...
+Mapping raw codes using multi-level fallback strategy...
+Step 3: Deduplicating lifestyle events (keeping first instance of each term)...
+Step 4: Adding split information and collecting events...
+['subject_id', 'split', 'cancerdate', 'site']
+['subject_id', 'time', 'code', 'numeric_value']
+Step 5: Adding final cancer diagnosis events...
+Step 6: Performing final sort...
+Step 7: Saving final event stream files in shards...
+Processing 'train' split...
+  -> Saving shard 0 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_0.parquet
+  -> Saving shard 1 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_1.parquet
+  -> Saving shard 2 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_2.parquet
+  -> Saving shard 3 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_3.parquet
+  -> Saving shard 4 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_4.parquet
+  -> Saving shard 5 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_5.parquet
+  -> Saving shard 6 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_6.parquet
+  -> Saving shard 7 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_7.parquet
+  -> Saving shard 8 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_8.parquet
+  -> Saving shard 9 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_9.parquet
+  -> Saving shard 10 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_10.parquet
+  -> Saving shard 11 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_11.parquet
+  -> Saving shard 12 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_12.parquet
+  -> Saving shard 13 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_13.parquet
+  -> Saving shard 14 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_14.parquet
+  -> Saving shard 15 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_15.parquet
+  -> Saving shard 16 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_16.parquet
+  -> Saving shard 17 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_17.parquet
+  -> Saving shard 18 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_18.parquet
+  -> Saving shard 19 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_19.parquet
+  -> Saving shard 20 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_20.parquet
+  -> Saving shard 21 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_21.parquet
+  -> Saving shard 22 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_22.parquet
+  -> Saving shard 23 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_23.parquet
+  -> Saving shard 24 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_24.parquet
+  -> Saving shard 25 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_25.parquet
+  -> Saving shard 26 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_26.parquet
+  -> Saving shard 27 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_27.parquet
+  -> Saving shard 28 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_28.parquet
+  -> Saving shard 29 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_29.parquet
+  -> Saving shard 30 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_30.parquet
+  -> Saving shard 31 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_31.parquet
+  -> Saving shard 32 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_32.parquet
+  -> Saving shard 33 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_33.parquet
+  -> Saving shard 34 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_34.parquet
+  -> Saving shard 35 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_35.parquet
+  -> Saving shard 36 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_36.parquet
+  -> Saving shard 37 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_37.parquet
+  -> Saving shard 38 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_38.parquet
+  -> Saving shard 39 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_39.parquet
+  -> Saving shard 40 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_40.parquet
+  -> Saving shard 41 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_41.parquet
+  -> Saving shard 42 with 696 subjects to /data/scratch/qc25022/liver/event_streams/train/shard_42.parquet
+Processing 'test' split...
+  -> Saving shard 0 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/held_out/shard_0.parquet
+  -> Saving shard 1 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/held_out/shard_1.parquet
+  -> Saving shard 2 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/held_out/shard_2.parquet
+  -> Saving shard 3 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/held_out/shard_3.parquet
+  -> Saving shard 4 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/held_out/shard_4.parquet
+  -> Saving shard 5 with 435 subjects to /data/scratch/qc25022/liver/event_streams/held_out/shard_5.parquet
+Processing 'val' split...
+  -> Saving shard 0 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/tuning/shard_0.parquet
+  -> Saving shard 1 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/tuning/shard_1.parquet
+  -> Saving shard 2 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/tuning/shard_2.parquet
+  -> Saving shard 3 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/tuning/shard_3.parquet
+  -> Saving shard 4 with 1000 subjects to /data/scratch/qc25022/liver/event_streams/tuning/shard_4.parquet
+  -> Saving shard 5 with 425 subjects to /data/scratch/qc25022/liver/event_streams/tuning/shard_5.parquet
+
+Final event stream files saved to: /data/scratch/qc25022/liver/event_streams/
+--------------------------------------------------
+Pipeline COMPLETE ✅
+--------------------------------------------------
