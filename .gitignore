@@ -6,4 +6,6 @@ __pycahce/
 .ipynb_checkpoints/
 
 HPC_FILES/
+logo/
+loge/
 src/resources/snomed_to_ICD.txt

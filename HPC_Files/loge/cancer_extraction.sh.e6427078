@@ -1,41 +1,0 @@
-Variable OMP_NUM_THREADS has been set to 12
-
-Loading python/3.11.7-gcc-12.2.0
-  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
-Traceback (most recent call last):
-  File "/data/home/qc25022/cancer-extraction-pipeline/main.py", line 32, in <module>
-    map_and_save_events('config.yaml')
-  File "/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_03c_process_events.py", line 40, in map_and_save_events
-    mapped_lf = map_all_codes(events_to_map_lf, config)
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/home/qc25022/cancer-extraction-pipeline/src/utils/mapping_setup.py", line 24, in map_all_codes
-    codelist_cols = pl.read_csv(PATHS['cleaned_codelists'], n_rows=0, separator=',').columns
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 119, in wrapper
-    return function(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 119, in wrapper
-    return function(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 119, in wrapper
-    return function(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/io/csv/functions.py", line 539, in read_csv
-    df = _read_csv_impl(
-         ^^^^^^^^^^^^^^^
-  File "/data/home/qc25022/CancEHR-Tokenisation/env/lib/python3.11/site-packages/polars/io/csv/functions.py", line 687, in _read_csv_impl
-    pydf = PyDataFrame.read_csv(
-           ^^^^^^^^^^^^^^^^^^^^^
-polars.exceptions.ComputeError: could not parse `"['D410000', 'D410011', 'D410100', 'D410200', 'D410300', 'D410400', 'D410.00', 'D410z00']"` as dtype `str` at column 'ReadcodeList' (column number 5)
-
-The current offset in the file is 107 bytes.
-
-You might want to try:
-- increasing `infer_schema_length` (e.g. `infer_schema_length=10000`),
-- specifying correct dtype with the `schema_overrides` argument
-- setting `ignore_errors` to `True`,
-- adding `"['D410000', 'D410011', 'D410100', 'D410200', 'D410300', 'D410400', 'D410.00', 'D410z00']"` to the `null_values` list.
-
-Original error: ```invalid csv file
-
-Field `"['D410000', 'D410011', 'D410100', 'D410200', 'D410300', 'D410400', 'D410.00', 'D410z00']"` is not properly escaped.```

@@ -1,8 +1,0 @@
-Variable OMP_NUM_THREADS has been set to 12
-
-Loading python/3.11.7-gcc-12.2.0
-  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
-Traceback (most recent call last):
-  File "/data/home/qc25022/cancer-extraction-pipeline/main.py", line 9, in <module>
-    from src.pipeline.step_05a_clean_events.py import clean_events
-ModuleNotFoundError: No module named 'src.pipeline.step_05a_clean_events.py'; 'src.pipeline.step_05a_clean_events' is not a package

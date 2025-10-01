@@ -1,7 +1,0 @@
---- Creating Template for cleaning_rules.csv ---
-Step 1: Filtering for specified lab tests and joining unit names...
-Step 2: Preparing the template file with blank columns for manual input...
-
---- Template Creation COMPLETE ---
-✅ Template file saved to: ./output/liver_study/cleaning_rules_template.csv
-You can now open this CSV in a spreadsheet editor to fill in the blank columns.

@@ -1,8 +1,0 @@
-Variable OMP_NUM_THREADS has been set to 8
-
-Loading python/3.11.7-gcc-12.2.0
-  Loading requirement: openssl/3.3.0-gcc-12.2.0 sqlite/3.43.2-gcc-12.2.0
-/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_03c_process_events.py:73: PerformanceWarning: Determining the column names of a LazyFrame requires resolving its schema, which is a potentially expensive operation. Use `LazyFrame.collect_schema().names()` to get the column names without this warning.
-  print(subjects_lf.columns)
-/data/home/qc25022/cancer-extraction-pipeline/src/pipeline/step_03c_process_events.py:74: PerformanceWarning: Determining the column names of a LazyFrame requires resolving its schema, which is a potentially expensive operation. Use `LazyFrame.collect_schema().names()` to get the column names without this warning.
-  print(final_cleaned_lf.columns)
