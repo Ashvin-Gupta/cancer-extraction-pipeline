@@ -49,6 +49,12 @@ def map_and_save_events(config_path: str):
     LIFESTYLE_TERMS = ["Non-drinker", "Drinker - unspecified", "Drinker - within limits", "Drinker - excess/disorder", "current or ex-smoker", "current smoker", "ex-smoker", "nicotine or tobacco use", "non-smoker"]
     lifestyle_regex = "|".join(LIFESTYLE_TERMS)
 
+    combined_events_lf = combined_events_lf.with_columns(
+        numeric_value=pl.when(pl.col('code').str.contains(lifestyle_regex))
+                      .then(pl.lit(None, dtype=pl.Float64))
+                      .otherwise(pl.col('numeric_value'))
+    )
+
     # Add a temporary column to identify the specific lifestyle term
     events_with_shortcode_lf = combined_events_lf.with_columns(
         _short_code=pl.col('code').str.extract(r"//(.*?//)", 1).fill_null("")

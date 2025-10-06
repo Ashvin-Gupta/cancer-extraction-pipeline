@@ -1,0 +1,382 @@
+﻿code,term
+secondary_polycythaemia,Secondary polycythaemia
+ADHD,ADHD
+Benign_Prostatic_Hyperplasia,Benign prostatic hyperplasia
+Bipolar_Affective_Disorder,Bipolar affective disorder
+Bisphosphonates,Bisphosphonates
+Black,Black
+COPD,COPD
+Cervical_Intraepithelial_Neoplasia,Cervical intraepithelial neoplasia
+Chronic_Cystitis,Chronic cystitis
+Chronic_Hepatitis,Chronic hepatitis
+Chronic_Kidney_Disease,Chronic kidney disease
+Cleidocranial_Dysplasia,Cleidocranial dysplasia
+Coronary_Heart_Disease,Coronary heart disease
+Covid2,Covid2
+Diabetes,Diabetes
+Drinker - excess/disorder,Drinker - excess/disorder
+Drinker - unspecified,Drinker - unspecified
+Drinker - within limits,Drinker - within limits
+End-Stage_Renal_Disease,End-Stage renal disease
+Epsstein-Barr_virus,Epsstein-Barr virus
+Gastro-Oesophageal_Reflux,Gastro-oesophageal reflux
+Giant_Cell_Arteritis,Giant cell arteritis
+Glomeruonephritis,Glomeruonephritis
+High_birth_weight,High birth weight
+HPV,HPV
+IBD,IBD
+IBS,IBS
+IBS_Med,IBS_Med
+Ischaemic_stroke,Ischaemic stroke
+left_bundle_branch_block,Left bundle branch block
+low_birth_weight,Low birth weight
+Myelodysplastic_syndrome,Myelodysplastic syndrome
+Monoclonal_gammopathy_undetermined_significance,Monoclonal gammopathy undetermined significance
+MND,MND
+Non-Hodgkin_Lymphoma,Non-Hodgkin lymphoma
+Non-Alcoholic_Fatty_Liver_Disease,Non-Alcoholic fatty liver disease
+Non-drinker,Non-drinker
+Oesteoarthritis,Oesteoarthritis
+Postcoital_and_contact_bleeding,Postcoital and contact bleeding
+PCOS,PCOS
+Polycythaemia_vera,Polycythaemia vera
+Patent_ductus_arteriousus,Patent ductus arteriousus
+Pulmonary_embolism,Pulmonary embolism
+Postmenopausal_bleeding,Postmenopausal bleeding
+Polymyalgia_rheumatica,Polymyalgia rheumatica
+Psoriatic_arthropathy,Psoriatic arthropathy
+PTSD,PTSD
+Personality_Disorder,Personality disorder
+Right_bundle_branch_block,Right bundle branch block
+Respiratory_distress_of_newborn,Respiratory distress of newborn
+Rheumatic_Valve_Disease,Rheumaticn valve disease
+Rheumatoid_Arthritis,Rheumatoid arthritis
+Lupus_erythematosus,Lupus erythematosus
+Supraventricular_tachycardia,Supraventricular tachycardia
+Stroke_NOS,Stroke NOS
+Subarachnoid_haemorrhage,Subarachnoid haemorrhage
+Tuberculosis,Tuberculosis
+Transient_ischaemic_attack,Transient ischaemic attack
+Tubulo-interstitial_nephritis,Tubulo-interstitial nephritis
+Ventricular_tachycardia,Ventricular tachycardia
+Venous_Thromboembolism,Venous thromboembolism
+abdo_mass,Abdominal mass
+achalasia,Achalasia
+acne,Acne
+actinic_keratosis,Actinic keratosis
+adrenal_insufficiency,Adrenal insufficiency
+agranulocytosis,Agranulocytosis
+albumin_serum,
+alcohol_problems,Alcohol problems
+alcohol_dependy,Alcohol Dependency
+allergic_rhinitis,Allergic rhinitis
+alopecia_areata,Alopecia areata
+amylase,Amylase
+anal_fissure,Anal fissure
+angiodysplasia_colon,Angiodysplasia colon
+ankylosing_spondylitus,Ankylosing spondylitus
+anorectal_fistula,Anorectal fistula
+anorectal_prolapse,Anorectal prolapse
+anterior_uveitis,Anterior uveitis
+anxiety_or_phobia,Anxiety or phobia
+aortic_aneurysm,Aortic aneurysm
+aplastic,Aplastic
+appendicitis,Appendicitis
+appetite_loss,Appetite loss
+arthritis,Arthritis
+asbestosis,Asbestosis
+aspiration_pneumo,Aspiration pneumonia
+asthma,Asthma
+atrial_fibrilation,Atrial fibrilation
+autism,Autism
+autoimmune_liver_disease,Autoimmune liver disease
+autoimmune_skin_disease,Autoimmune skin disease
+autonomic_nervous_system,Autonomic nervous system
+atrioventricular_block_first_degree,Atrioventricular block first degree
+atrioventricular_block_second_degree,Atrioventricular block second degree
+atrioventricular_block_third_degree,Atrioventricular block third degree
+backpain,Back pain
+bariatric_surgery,Bariatric surgery
+barretts,Barretts
+bells's_palsy,Bells's palsy
+benign_brain_neoplasm,Benign brain neoplasm
+benign_colon_neoplasm,Benign colon neoplasm
+benign_ovary_neoplasm,Benign ovary neoplasm
+benign_stomach_neoplasm,Benign stomach neoplasm
+benign_uterus_neoplasm,Benign uterus neoplasm
+bifascicular_block,Bifascicular block
+biliary cancer,Biliary cancer
+bilirubin,Bilirubin
+bladder cancer,Bladder cancer
+blindness,Blindness
+bloating_distension,Bloating distension
+blood_pressure,Blood pressure
+bmi,BMI
+bone cancer,Bone cancer
+bp_diastolic,BP diastolic
+bp_systolic,BP systolic
+brain cancer,Brain cancer
+breast cancer,Breast cancer
+bronchiectasis,Bronchiectasis
+cardiomyopathy,Cardiomyopathy
+carpal_tunnel,Carpal tunnel
+cataract,Cataract
+cerebral_palsy,Cerebral palsy
+cerebrovascular_disease,Cerebrovascular disease
+cervix cancer,Cervix cancer
+change_in_bowel_habit,Change in bowel habit
+chest_pain,Chest pain
+cholangitis,Cholangitis
+cholecystectomy,Cholecystectomy
+cholecystitis,Cholecystitis
+cholelithiasis,Cholelithiasis
+cholesterol_triglycerides,Cholesterol triglycerides
+cholesterolaemia,Cholesterolaemia
+chronic_fatigue,Chronic fatigue
+carcinoma_in_cervical,Carcinoma in cervical
+cirrhosis,Cirrhosis
+coeliac,Coeliac
+collapsed_vertabrae,Collapsed vertabrae
+colorectal cancer,Colorectal cancer
+congenital_cardiac,Congenital cardiac
+constipation,Constipation
+creatinine_serum,Creatinine serum
+creatinine_urine,Creatinine urine
+crohns,Crohn's
+current or ex-smoker,Current or ex-smoker
+current smoker,Current smoker
+cystic_fibrosis,Cystic fibrosis
+cystic_renal,Cystic renal
+dilated_cardiomyopathy,Dilated cardiomyopathy
+deaf,Deaf
+delirium,Delirium
+dementia,Dementia
+depression,Depression
+dermatitis,Dermatitis
+diabetes_eye,Diabetes eye
+diabetes,Diabetes
+diabetes_neuro,Diabetes neuro
+diabetes_type1,Diabetes type1
+diabetes_type2,Diabetes type2
+diabetic_retinopathy,Diabetic retinopathy
+diarrhoea,Diarrhoea
+diverticular,Diverticular
+diabetic_neurological_complications,Diabetic neurological complications
+downsyndrome,Down syndrome
+dysmenorrhoea,Dysmenorrhoea
+dyspepsia,Dyspepsia
+dysphagia,Dysphagia
+eating_disorder,Eating disorder
+endometrial_hyper,Endometrial hyper
+endometriosis,Endometriosis
+endoscopy,Endoscopy
+enteropathic_arthropathy,Enteropathic arthropathy
+enthesopathy,Enthesopathy
+epigastric_pain,Epigastric pain
+epilepsy,Epilepsy
+erectile_dysfunction,Erectile dysfunction
+esophagus cancer,Esophagus cancer
+essential_tremor,Essential tremor
+ex-smoker,Ex-smoker
+family history of colon cancer,Family history of colon cancer
+family history of esophagus cancer,Family history of esophagus cancer
+family history of git cancer,Family history of git cancer
+family history of liver cancer,Family history of liver cancer
+family history of other cancer,Family history of other cancer
+family history of pancreas cancer,Family history of pancreas cancer
+family history of stomach cancer,Family history of stomach cancer
+fatigue_malaise,Fatigue malaise
+fatty_liver,Fatty liver
+female_genital_prolapse,Female genital prolapse
+female_infertility,Female infertility
+ferritin,Ferritin
+fibromatosis,Fibromatosis
+fibromyalgia,Fibromyalgia
+folate_deficiency,Folate deficiency
+folatedef,Folate deficiency
+fracture_hip,Fracture hip
+fracture_wrist,Fracture wrist
+gallbladder_disease,Gallbladder disease
+gallbladder_disease_without_psc,Gallbladder disease without PSC
+gastrectomy,Gastrectomy
+gastritis_duodenitis,Gastritis duodenitis
+gastrointestinal_angiodysplasia,Gastrointestinal angiodysplasia
+git_bleed,GIT bleed
+glaucoma,Glaucoma
+glucose,Glucose
+gord_pud_barrets,GORD PUDB Barrets
+gout,Gout
+haemangioma,Haemangioma
+hayfever,Hayfever
+headneck cancer,Headneck cancer
+hearing_loss,Hearing loss
+heart_failure,Heart failure
+heart_valve_dz,Heart valve dz
+heartburn,Heartburn
+height,Height
+hep_b_vaccine,Hep B vaccine
+hepatitis_b,Hepatitis B
+hepatitis_c,Hepatitis C
+hernia_abdominal,Hernia abdominal
+hernia_diaphragm,Hernia diaphragm
+hidradenitis,Hidradenitis
+hiv,HIV
+hoarseness,Hoarseness
+hypertrophic_cardiomyopathy,Hypertrophic cardiomyopathy
+hodgkins,Hodgkins
+hydrocele,Hydrocele
+hyperparathyroidism,Hyperparathyroidism
+hyper_nasal_turbs,Hyper nasal turbs
+hyperprolactinaemia,Hyperprolactinaemia
+hypertension,Hypertension
+hypertension,Hypertension
+hypopituitarism,Hypopituitarism
+hyposplenism,Hyposplenism
+immunodef,Immunodef
+infection_bones_joints,Infection bones joints
+intellectual_disability,Intellectual disability
+intervertebral_disc_disorders,Intervertebral disc disorders
+intracerebral_haemorrhage,Intracerebral haemorrhage
+intracranial_hypertension,Intracranial hypertension
+intrauterine_hypoxia,Intrauterine hypoxia
+iron,Iron
+iron_medication,Iron medication
+iron_deficiency_anaemia,Iron deficiency anaemia
+jaundice,Jaundice
+juvenile_arthritis,Juvenile arthritis
+keratitis,Keratitis
+kidney cancer,Kidney cancer
+leiomyoma,Leiomyoma
+leukemia cancer,Leukemia cancer
+lichen_planus,Lichen planus
+liver cancer,Liver cancer
+alcoholic_liver_disease,Alcoholic liver disease
+liver_disease,Liver disease
+liver_disease_with_autoimmune,Liver disease with autoimmune
+liver_failure,Liver failure
+lung cancer,Lung cancer
+lymphocyte,Lymphocyte
+lymphoma cancer,Lymphoma cancer
+macular_degeneration,Macular degeneration
+male_infertility,Male infertility
+melanoma cancer,Melanoma cancer
+meniere,Meniere
+menorrhagia,Menorrhagia
+mesothelioma cancer,Mesothelioma cancer
+migraine,Migraine
+multiple_valve_diseas,Multiple valve diseas
+multiple_sclerosis,Multiple sclerosis
+myasthenia,Myasthenia
+myeloma cancer,Myeloma cancer
+myocardial_infarction,Myocardial infarction
+nasal_polyp,Nasal polyp
+nausea_vomiting,Nausea vomiting
+neonatal_jaundice,Neonatal jaundice
+neuropathic_bladder,Neuropathic bladder
+neutrophils,Neutrophils
+nicotine or tobacco use,Nicotine or tobacco use
+non-smoker,Non-smoker
+nonrheumatic_aortic_valve_disorder,Nonrheumatic aortic valve disorder
+nonrheumatic_mitral_valve_disorder,Nonrheumatic mitral valve disorder
+obesity,Obesity
+obstructive_reflux_uropathy,Obstructive reflux uropathy
+ocd,OCD
+odynophagia,Odynophagia
+oesophagus_ulcer,Oesophagus ulcer
+oral cancer,Oral cancer
+osteoporosis,Osteoporosis
+other cancer,Other cancer
+other_anaemia,Other anaemia
+other_haem_anaemia,Other haem anaemia
+ovary cancer,Ovary cancer
+pancreas cancer,Pancreas cancer
+pancreatitis,Pancreatitis
+parkinsons,Parkinsons
+pericardial_effusion,Pericardial effusion
+peripheral_atrerial_disease,Peripheral atrerial disease
+peripheral_neuropathy,Peripheral neuropathy
+peritonitis,Peritonitis
+phlebitis,Phlebitis
+pilonidal,Pilonidal
+plasma_proteins,Plasma proteins
+plasma_viscosity,Plasma viscosity
+plasmacell,Plasmacell
+platelets,Platelets
+pleural_effusion,Pleural effusion
+pleural_plaque,Pleural plaque
+pneumonia,Pneumonia
+pneumothorax,Pneumothorax
+polyposis,Polyposis
+portal_hypertension,Portal hypertension
+post_term_infant,Post term infant
+posterior_uveitis,Posterior uveitis
+prematurity,Prematurity
+prostate cancer,Prostate cancer
+pruritus,Pruritus
+psoriasis,Psoriasis
+ptosis,Ptosis
+pulmonary_collapse,Pulmonary collapse
+pulmonary_fibrosis,Pulmonary fibrosis
+pulmonary_hypertension,Pulmonary hypertension
+raynauds,raynauds
+reactive_anthropathies,Reactive anthropathies
+respiratory_failure,Respiratory failure
+retinal_detachment,Retinal detachment
+retinal_vasc_occlussion,Retinal vasc occlussion
+retinal_vein_occlusion,Retinal vein occlusion
+rheumatic_fever,Rheumatic fever
+rosacea,Rosacea
+sarcoid,Sarcoid
+schizophrenia,Schizophrenia
+scleritis,Scleritis
+scoliosis,Scoliosis
+seborrhoeic_dermatitis,Seborrhoeic dermatitis
+sepsis_newborn,Sepsis newborn
+sick_sinus,Sick sinus
+sickle_cell,Sickle cell
+sickle_trait,Sickle trait
+sinusitis,Sinusitis
+sjogrens_disease,Sjogrens disease
+skin_ulcer,Skin ulcer
+sleep_apnoea,Sleep apnoea
+sleep_disturbance,Sleep disturbance
+somatoform,Somatoform
+spina_bifida,Spina bifida
+spinal_stenosis,Spinal stenosis
+splenomegaly,Splenomegaly
+spondylolisthesis,Spondylolisthesis
+spondylosis,Spondylosis
+stable_angina,Stable angina
+steatorrhea,Steatorrhea
+stomach cancer,Stomach cancer
+subarach,Subarach
+subdural_haematoma,Subdural haematoma
+substance_misuse,Substance misuse
+systemic_sclerosis,Systemic sclerosis
+testis cancer,Testis cancer
+thalassaemia,Thalassaemia
+thrombocytopaenia,Thrombocytopaenia
+thrombophilia,Thrombophilia
+thyroid,Thyroid
+tinnitus,Tinnitus
+trifascicular_block,Trifascicular block
+trigeminal_neuralgia,Trigeminal neuralgia
+ulcerative_colitis,Ulcerative colitis
+peptic_ulcer_disease,Peptic ulcer disease
+undescended_testis,Undescended testis
+unspecified_rare_diabetes,Unspecified rare diabetes
+unstable_angina,Unstable angina
+uppergit cancer,Uppergit cancer
+urea_serum,Urea serum
+urinary_incontinence,Urinary incontinence
+urolithiasis,Urolithiasis
+urticaria,Urticaria
+uterine cancer,Uterine cancer
+varices_portal_hypertension,Varices portal hypertension
+venous_lymphatic,Venous lymphatic
+venous_thromboembolism,Venous thromboembolism
+vitb12_deficiency,Vitb12 deficiency
+vitiligo,Vitiligo
+volvulus,Volvulus
+weight,Weight
+weightloss,Weightloss
