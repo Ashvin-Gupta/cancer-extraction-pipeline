@@ -25,10 +25,11 @@ if __name__ == "__main__":
     elif args.stage == '2':
         build_subject_info('config.yaml')
     elif args.stage == '3':
-        # Run all parts of stage 3 in order
+        # Run all parts of stage 3 followed by 5 in order
         extract_events('config.yaml')
         sort_events('config.yaml')
-        # map_and_save_events('config.yaml')
+        map_and_save_events('config.yaml')
+        clean_events('config.yaml')
     elif args.stage == '3a':
         extract_events('config.yaml')
     elif args.stage == '3b':

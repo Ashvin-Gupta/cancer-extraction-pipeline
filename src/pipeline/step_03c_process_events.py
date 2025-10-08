@@ -19,9 +19,12 @@ def map_and_save_events(config_path: str):
     print("Step 1: Loading configuration and pre-sorted events...")
     with open(config_path, 'r') as f:
         config = yaml.safe_load(f)
-    PATHS = config['paths']
-    OUTPUTS = config['outputs']
-    CANCER_TYPE = config['study_params']['cancer_type']
+    STUDY_PARAMS = config['study_params']
+    CANCER_TYPE = STUDY_PARAMS['cancer_type']
+    cancer_type = CANCER_TYPE
+    PATHS = {key: val.format(cancer_type=cancer_type) for key, val in config['paths'].items()}
+    OUTPUTS = {key: val.format(cancer_type=cancer_type) for key, val in config['outputs'].items()}
+    
 
     sorted_events_lf = pl.scan_parquet(f"{OUTPUTS['intermediate_sorted_dir']}/*.parquet")
     subjects_lf = pl.scan_csv(OUTPUTS['subject_information_file']).select(["subject_id", "split", "cancerdate", "site"])

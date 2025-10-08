@@ -18,13 +18,23 @@ def sort_events(config_path: str):
     
     with open(config_path, 'r') as f:
         config = yaml.safe_load(f)
-    OUTPUTS = config['outputs']
+    STUDY_PARAMS = config['study_params']
+    cancer_type = STUDY_PARAMS['cancer_type']
+    PATHS = {key: val.format(cancer_type=cancer_type) for key, val in config['paths'].items()}
+    OUTPUTS = {key: val.format(cancer_type=cancer_type) for key, val in config['outputs'].items()}
 
     # --- 1. Load Data Sources ---
     print("Step 1: Loading unsorted events and subject information...")
     # Scan the unsorted medical events from Stage 3a
     unsorted_events_lf = pl.scan_parquet(f"{OUTPUTS['intermediate_unsorted_dir']}/*.parquet") \
-                           .rename({"e_patid": "subject_id"}) # Standardize the ID column name
+                           .rename({"e_patid": "subject_id"}) \
+                           .select([    
+                              "subject_id", 
+                              "time", 
+                              "code", 
+                              "numeric_value", 
+                              "numunitid"
+                           ])
 
     # Scan the subject info file to get the year of birth (yob)
     subjects_lf = pl.scan_csv(OUTPUTS['subject_information_file'])

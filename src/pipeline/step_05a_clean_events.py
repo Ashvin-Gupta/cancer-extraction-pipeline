@@ -16,8 +16,10 @@ def clean_events(config_path: str):
     with open(config_path, 'r') as f:
         config = yaml.safe_load(f)
 
-    PATHS = config['paths']
-    OUTPUTS = config['outputs']
+    STUDY_PARAMS = config['study_params']
+    cancer_type = STUDY_PARAMS['cancer_type']
+    PATHS = {key: val.format(cancer_type=cancer_type) for key, val in config['paths'].items()}
+    OUTPUTS = {key: val.format(cancer_type=cancer_type) for key, val in config['outputs'].items()}
     
     events_lf = pl.scan_parquet(f"{OUTPUTS['event_stream_dir']}/**/*.parquet")
     try:

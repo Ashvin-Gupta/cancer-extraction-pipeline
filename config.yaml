@@ -5,22 +5,23 @@
 
 # Parameters to define the specific study being run.
 study_params:
-  # The cancer type to extract from the registry.
-  # This should match the 'site' column in the raw_cancer_data file.
-  cancer_type: 'liver'
+  cancer_type: 'pancreas'
+
+  cohort_definition_mode: 'predefined'
   
-  # The earliest diagnosis date for cases to be included.
+  
+  # Controls
   start_date: '2011-01-01'
-  
-  # The maximum number of controls to match to each case.
   controls_per_case: 5
-  
-  # The year-of-birth window for matching (e.g., 3 means +/- 3 years).
   yob_window: 3
 
-  map_to_icd10: false # can be false as well
-# Paths to the raw source data.
+  map_to_icd10: false 
+
 paths:
+
+  #Predefined case file
+  predefined_cases_file: '/data/WIPH-CanDetect/clean_data/cohort/cases_all_demographics.csv'
+  
   # Main cancer registry file.
   raw_cancer_data: '/data/WIPH-CanDetect/intermediate_data/ncras/ncras_allcancers.dta'
   
@@ -64,21 +65,21 @@ paths:
 # Using the study name in the path helps keep results organized.
 outputs:
   # The directory to save all outputs for this specific study.
-  output_dir: './output/liver_study/'
+  output_dir: './output/{cancer_type}_study/'
   
   # The final list of subject IDs and their case/control status for this study.
-  cohort_file: './output/liver_study/cohort.csv'
+  cohort_file: './output/{cancer_type}_study/cohort.csv'
 
-  subject_information_file: './output/liver_study/subject_information.csv'
+  subject_information_file: './output/{cancer_type}_study/subject_information.csv'
 
-  intermediate_unsorted_dir: '/data/scratch/qc25022/liver/intermediate_unsorted/'
-  intermediate_sorted_dir: '/data/scratch/qc25022/liver/intermediate_sorted/'
+  intermediate_unsorted_dir: '/data/scratch/qc25022/{cancer_type}/intermediate_unsorted/'
+  intermediate_sorted_dir: '/data/scratch/qc25022/{cancer_type}/intermediate_sorted/'
 
   # The final directory where patient-level Parquet files will be saved
-  event_stream_dir: '/data/scratch/qc25022/liver/event_streams/'
+  event_stream_dir: '/data/scratch/qc25022/{cancer_type}/event_streams/'
 
-  profile_measurement: './output/liver_study/profile_measurements.csv'
-  cleaning_rules_template: './output/liver_study/cleaning_rules_template.csv'
+  profile_measurement: './output/{cancer_type}_study/profile_measurements.csv'
+  cleaning_rules_template: './output/{cancer_type}_study/cleaning_rules_template.csv'
   
 
-  final_cleaned_dir: '/data/scratch/qc25022/liver/final_cleaned_events/'
+  final_cleaned_dir: '/data/scratch/qc25022/{cancer_type}/final_cleaned_events/'
